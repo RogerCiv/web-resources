@@ -1,11 +1,12 @@
 ---
 export interface Props {
-  categorias: string[];
+  categories: string[];
   categoriaLabels: Record<string, string>;
   allResources: any[]; // O el tipo específico de tus recursos
 }
 
-const { categorias, categoriaLabels, allResources } = Astro.props;
+const { categories, categoriaLabels, allResources } = Astro.props;
+
 ---
 
   <section class="bg-white border-b border-gray-200 sticky top-16 z-40">
@@ -20,7 +21,7 @@ const { categorias, categoriaLabels, allResources } = Astro.props;
         >
           <option value="">Todas las categorías</option>
           {
-            categorias.map((categoria) => (
+            categories.map((categoria) => (
               <option value={categoria}>{categoriaLabels[categoria]}</option>
             ))
           }

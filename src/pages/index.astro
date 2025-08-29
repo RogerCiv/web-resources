@@ -5,7 +5,7 @@ import Layout from "../layouts/Layout.astro";
 import { getTodosLosRecursos, categoriaLabels } from "../lib/resources";
 
 const allResources = await getTodosLosRecursos();
-const categorias = Object.keys(categoriaLabels);
+const categories = Object.keys(categoriaLabels);
 ---
 
 <Layout
@@ -17,7 +17,7 @@ const categorias = Object.keys(categoriaLabels);
 
   <!-- Filters Section -->
   <FilterSection 
-    categorias={categorias}
+    categories={categories}
     categoriaLabels={categoriaLabels}
     allResources={allResources}
   />
