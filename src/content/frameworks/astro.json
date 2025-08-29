@@ -1,0 +1,11 @@
+{
+  "id": "astro",
+  "name": "Astro",
+  "description": "Framework moderno para construir sitios web rápidos y orientados al contenido con hidratación parcial y componentes de múltiples frameworks.",
+  "categories": "frameworks",
+  "tags": ["static-site-generator", "performance", "components", "partial-hydration"],
+  "image": "https://astro.build/favicon.svg",
+  "github": "https://github.com/withastro/astro",
+  "documentation": "https://docs.astro.build",
+  "price": "free"
+}

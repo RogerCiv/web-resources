@@ -1,0 +1,11 @@
+{
+  "id": "chakra-ui",
+  "name": "Chakra UI",
+  "description": "Biblioteca modular y accesible de componentes para React. Fácil de usar, personalizable y enfocada en la experiencia del desarrollador.",
+  "categories": "ui-libraries",
+  "tags": ["react", "modular", "accessibility", "typescript", "styled-system"],
+  "image": "https://chakra-ui.com/favicon.png",
+  "github": "https://github.com/chakra-ui/chakra-ui",
+  "documentation": "https://chakra-ui.com",
+  "price": "free"
+}

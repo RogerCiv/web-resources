@@ -1,16 +1,238 @@
 ---
+import Layout from "../layouts/Layout.astro";
+import { getTodosLosRecursos, categoriaLabels } from "../lib/resources";
 
+const allResources = await getTodosLosRecursos();
+const categorias = Object.keys(categoriaLabels);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout
+  title="DevResources - Directorio de recursos para desarrolladores web"
+  description="Descubre los mejores frameworks, librerías UI, herramientas y recursos para desarrolladores web. Todo en un solo lugar, organizado y fácil de encontrar."
+>
+  <!-- Hero Section -->
+  <section
+    class="bg-gradient-to-br from-blue-50 via-white to-purple-50 pt-20 pb-16"
+  >
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+        Recursos para <span
+          class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+          >Desarrolladores</span
+        >
+      </h1>
+      <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+        Descubre los mejores frameworks, librerías UI, herramientas y recursos
+        para desarrollo web. Todo organizado y fácil de encontrar.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div class="relative w-full max-w-md">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Buscar recursos..."
+            class="w-full px-4 py-3 pl-12 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+          />
+          <svg
+            class="absolute left-4 top-3.5 h-5 w-5 text-gray-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filters Section -->
+  <section class="bg-white border-b border-gray-200 sticky top-16 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="flex flex-col sm:flex-row gap-4 items-center">
+        <label class="text-sm font-medium text-gray-700"
+          >Filtrar por categoría:</label
+        >
+        <select
+          id="category-filter"
+          class="px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        >
+          <option value="">Todas las categorías</option>
+          {
+            categorias.map((categoria) => (
+              <option value={categoria}>{categoriaLabels[categoria]}</option>
+            ))
+          }
+        </select>
+        <div class="ml-auto text-sm text-gray-500">
+          <span id="results-count">{allResources.length}</span> recursos encontrados
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources Grid -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div
+      id="resource-list"
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+    >
+      {
+        allResources.map((resource) => (
+          <article
+            class="resource-card bg-white rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all duration-200 p-6"
+            data-category={resource.categoria}
+            data-tags={resource.data.tags.join(",")}
+            data-name={resource.data.name.toLowerCase()}
+            data-description={resource.data.description.toLowerCase()}
+          >
+            <div class="flex items-start justify-between mb-4">
+              <div class="flex items-center space-x-3">
+                {resource.data.image && (
+                  <img
+                    src={resource.data.image}
+                    alt={resource.data.name}
+                    class="w-10 h-10 rounded-lg object-cover"
+                    loading="lazy"
+                  />
+                )}
+                <div>
+                  <h3 class="text-lg font-semibold text-gray-900 mb-1">
+                    {resource.data.name}
+                  </h3>
+                  <span class="inline-block px-2 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full">
+                    {categoriaLabels[resource.categoria]}
+                  </span>
+                </div>
+              </div>
+              <span class="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded">
+                {resource.data.price === "free"
+                  ? "Gratis"
+                  : resource.data.price === "freemium"
+                    ? "Freemium"
+                    : "Pago"}
+              </span>
+            </div>
+
+            <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+              {resource.data.description}
+            </p>
+
+            <div class="flex flex-wrap gap-1 mb-4">
+              {resource.data.tags.slice(0, 3).map((tag) => (
+                <span class="inline-block px-2 py-1 text-xs bg-gray-100 text-gray-700 rounded">
+                  {tag}
+                </span>
+              ))}
+              {resource.data.tags.length > 3 && (
+                <span class="inline-block px-2 py-1 text-xs text-gray-500">
+                  +{resource.data.tags.length - 3} más
+                </span>
+              )}
+            </div>
+
+            <div class="flex space-x-2">
+              {resource.data.documentation && (
+                <a
+                  href={resource.data.documentation}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex-1 bg-blue-600 text-white text-center py-2 px-3 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
+                >
+                  Ver Docs
+                </a>
+              )}
+              {resource.data.github && (
+                <a
+                  href={resource.data.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex-1 bg-gray-800 text-white text-center py-2 px-3 rounded-md text-sm font-medium hover:bg-gray-900 transition-colors"
+                >
+                  GitHub
+                </a>
+              )}
+            </div>
+          </article>
+        ))
+      }
+    </div>
+
+    <!-- No results message -->
+    <div id="no-results" class="text-center py-12 hidden">
+      <div class="text-gray-400 mb-4">
+        <svg
+          class="mx-auto h-12 w-12"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.47-.881-6.071-2.33"
+          ></path>
+        </svg>
+      </div>
+      <p class="text-lg text-gray-500">
+        No se encontraron recursos que coincidan con tu búsqueda.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+<script>
+  const searchInput = document.getElementById(
+    "search-input"
+  ) as HTMLInputElement;
+  const categoryFilter = document.getElementById(
+    "category-filter"
+  ) as HTMLSelectElement;
+  const resourceList = document.getElementById("resource-list") as HTMLElement;
+  const resultsCount = document.getElementById("results-count") as HTMLElement;
+  const noResults = document.getElementById("no-results") as HTMLElement;
+
+  function filterResources() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const selectedCategory = categoryFilter.value;
+    const cards = resourceList.querySelectorAll(
+      ".resource-card"
+    ) as NodeListOf<HTMLElement>;
+
+    let visibleCount = 0;
+
+    cards.forEach((card) => {
+      const category = card.dataset.category || "";
+      const name = card.dataset.name || "";
+      const description = card.dataset.description || "";
+      const tags = card.dataset.tags || "";
+
+      const matchesCategory =
+        !selectedCategory || category === selectedCategory;
+      const matchesSearch =
+        !searchTerm ||
+        name.includes(searchTerm) ||
+        description.includes(searchTerm) ||
+        tags.includes(searchTerm);
+
+      if (matchesCategory && matchesSearch) {
+        card.style.display = "block";
+        visibleCount++;
+      } else {
+        card.style.display = "none";
+      }
+    });
+
+    resultsCount.textContent = visibleCount.toString();
+    noResults.style.display = visibleCount === 0 ? "block" : "none";
+    resourceList.style.display = visibleCount === 0 ? "none" : "grid";
+  }
+
+  searchInput.addEventListener("input", filterResources);
+  categoryFilter.addEventListener("change", filterResources);
+</script>

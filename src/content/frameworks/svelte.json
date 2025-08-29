@@ -1,0 +1,11 @@
+{
+  "id": "svelte",
+  "name": "Svelte",
+  "description": "Framework moderno que compila tus componentes a JavaScript vanilla eficiente, eliminando la necesidad de un virtual DOM.",
+  "categories": "frameworks",
+  "tags": ["javascript", "compiler", "performance", "reactive", "components"],
+  "image": "https://svelte.dev/favicon.png",
+  "github": "https://github.com/sveltejs/svelte",
+  "documentation": "https://svelte.dev",
+  "price": "free"
+}

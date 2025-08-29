@@ -1,0 +1,11 @@
+{
+  "id": "react",
+  "name": "React",
+  "description": "Biblioteca de JavaScript para construir interfaces de usuario interactivas con componentes reutilizables y estado declarativo.",
+  "categories": "frameworks",
+  "tags": ["javascript", "library", "components", "jsx", "virtual-dom"],
+  "image": "https://react.dev/favicon-32x32.png",
+  "github": "https://github.com/facebook/react",
+  "documentation": "https://react.dev",
+  "price": "free"
+}

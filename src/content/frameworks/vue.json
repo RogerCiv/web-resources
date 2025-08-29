@@ -1,0 +1,11 @@
+{
+  "id": "vue",
+  "name": "Vue.js",
+  "description": "Framework progresivo de JavaScript para construir interfaces de usuario. Fácil de adoptar, potente y mantenible.",
+  "categories": "frameworks",
+  "tags": ["javascript", "framework", "progressive", "reactive", "components"],
+  "image": "https://vuejs.org/logo.svg",
+  "github": "https://github.com/vuejs/core",
+  "documentation": "https://vuejs.org",
+  "price": "free"
+}

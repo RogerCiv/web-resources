@@ -1,0 +1,11 @@
+{
+  "id": "angular",
+  "name": "Angular",
+  "description": "Plataforma de desarrollo para construir aplicaciones web, móviles y de escritorio usando TypeScript y HTML.",
+  "categories": "frameworks",
+  "tags": ["typescript", "framework", "spa", "google", "rxjs"],
+  "image": "https://angular.io/assets/images/favicons/favicon-32x32.png",
+  "github": "https://github.com/angular/angular",
+  "documentation": "https://angular.io",
+  "price": "free"
+}

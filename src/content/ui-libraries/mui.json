@@ -1,0 +1,11 @@
+{
+  "id": "mui",
+  "name": "Material-UI (MUI)",
+  "description": "Biblioteca de componentes de React que implementa Google's Material Design. Incluye componentes pre-construidos y sistema de temas.",
+  "categories": "ui-libraries",
+  "tags": ["react", "material-design", "components", "typescript", "themes"],
+  "image": "https://mui.com/static/favicon.ico",
+  "github": "https://github.com/mui/material-ui",
+  "documentation": "https://mui.com",
+  "price": "freemium"
+}

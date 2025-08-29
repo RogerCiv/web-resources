@@ -1,0 +1,11 @@
+{
+  "id": "mantine",
+  "name": "Mantine",
+  "description": "Biblioteca moderna de componentes React con más de 100 componentes personalizables. Incluye hooks útiles y sistema de temas.",
+  "categories": "ui-libraries",
+  "tags": ["react", "typescript", "hooks", "components", "modern"],
+  "image": "https://mantine.dev/favicon.svg",
+  "github": "https://github.com/mantinedev/mantine",
+  "documentation": "https://mantine.dev",
+  "price": "free"
+}

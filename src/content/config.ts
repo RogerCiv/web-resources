@@ -25,29 +25,36 @@ const resourceSchema = z.object({
   github: z.string().url().optional(),
   documentation: z.string().url().optional(),
   price: z.enum(['free', 'freemium', 'paid']).default('free'),
-
 })
-
 
 const frameworksCollection = defineCollection({ type: "data", schema: resourceSchema })
 const uiLibrariesCollection = defineCollection({ type: "data", schema: resourceSchema })
+const cssFrameworksCollection = defineCollection({ type: "data", schema: resourceSchema })
 const typographyCollection = defineCollection({ type: "data", schema: resourceSchema })
 const iconsCollection = defineCollection({ type: "data", schema: resourceSchema })
-const devToolsCollection = defineCollection({ type: "data", schema: resourceSchema })
-const hostingDeploymentCollection = defineCollection({ type: "data", schema: resourceSchema })
+const toolsCollection = defineCollection({ type: "data", schema: resourceSchema })
+const hostingCollection = defineCollection({ type: "data", schema: resourceSchema })
 const databasesCollection = defineCollection({ type: "data", schema: resourceSchema })
-const apiServicesCollection = defineCollection({ type: "data", schema: resourceSchema })
+const apisCollection = defineCollection({ type: "data", schema: resourceSchema })
 const testingCollection = defineCollection({ type: "data", schema: resourceSchema })
-
+const performanceCollection = defineCollection({ type: "data", schema: resourceSchema })
+const analyticsCollection = defineCollection({ type: "data", schema: resourceSchema })
+const designCollection = defineCollection({ type: "data", schema: resourceSchema })
+const learningCollection = defineCollection({ type: "data", schema: resourceSchema })
 
 export const collections = {
   frameworks: frameworksCollection,
   "ui-libraries": uiLibrariesCollection,
+  "css-frameworks": cssFrameworksCollection,
   typography: typographyCollection,
   icons: iconsCollection,
-  "dev-tools": devToolsCollection,
-  "hosting-deployment": hostingDeploymentCollection,
+  tools: toolsCollection,
+  hosting: hostingCollection,
   databases: databasesCollection,
-  "api-services": apiServicesCollection,
-  testing: testingCollection
+  apis: apisCollection,
+  testing: testingCollection,
+  performance: performanceCollection,
+  analytics: analyticsCollection,
+  design: designCollection,
+  learning: learningCollection
 }

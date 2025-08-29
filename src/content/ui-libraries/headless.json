@@ -1,0 +1,11 @@
+{
+  "id": "headlessui",
+  "name": "Headless UI",
+  "description": "Componentes de UI completamente sin estilos y accesibles, diseñados para integrarse perfectamente con Tailwind CSS.",
+  "categories": "ui-libraries",
+  "tags": ["react", "vue", "headless", "accessibility", "tailwind", "unstyled"],
+  "image": "https://headlessui.com/favicon.ico",
+  "github": "https://github.com/tailwindlabs/headlessui",
+  "documentation": "https://headlessui.com",
+  "price": "free"
+}

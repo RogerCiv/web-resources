@@ -1,0 +1,11 @@
+{
+  "id": "remix",
+  "name": "Remix",
+  "description": "Framework full-stack de React enfocado en estándares web, datos del servidor y experiencia de usuario moderna.",
+  "categories": "frameworks",
+  "tags": ["react", "full-stack", "ssr", "web-standards", "performance"],
+  "image": "https://remix.run/favicon-32x32.png",
+  "github": "https://github.com/remix-run/remix",
+  "documentation": "https://remix.run/docs",
+  "price": "free"
+}

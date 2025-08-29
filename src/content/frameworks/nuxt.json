@@ -1,0 +1,11 @@
+{
+  "id": "nuxt",
+  "name": "Nuxt.js",
+  "description": "Framework de Vue.js para crear aplicaciones web universales con SSR, SSG, y muchas características integradas para desarrollo moderno.",
+  "categories": "frameworks",
+  "tags": ["vue", "ssr", "ssg", "framework", "universal", "typescript"],
+  "image": "https://nuxt.com/icon.png",
+  "github": "https://github.com/nuxt/nuxt",
+  "documentation": "https://nuxt.com",
+  "price": "free"
+}

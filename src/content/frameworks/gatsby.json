@@ -1,0 +1,11 @@
+{
+  "id": "gatsby",
+  "name": "Gatsby",
+  "description": "Framework de React para crear sitios web y aplicaciones rápidas con generación estática y GraphQL integrado.",
+  "categories": "frameworks",
+  "tags": ["react", "static-site-generator", "graphql", "performance", "pwa"],
+  "image": "https://www.gatsbyjs.com/icons/icon-32x32.png",
+  "github": "https://github.com/gatsbyjs/gatsby",
+  "documentation": "https://www.gatsbyjs.com/docs",
+  "price": "free"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "antd",
+  "name": "Ant Design",
+  "description": "Biblioteca de componentes de React con un lenguaje de diseño empresarial. Incluye más de 50 componentes de alta calidad.",
+  "categories": "ui-libraries",
+  "tags": ["react", "enterprise", "components", "typescript", "design-system"],
+  "image": "https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg",
+  "github": "https://github.com/ant-design/ant-design",
+  "documentation": "https://ant.design",
+  "price": "free"
+}
