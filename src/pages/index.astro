@@ -1,6 +1,7 @@
 ---
 import FilterSection from "../components/FilterSection.astro";
 import HeroSection from "../components/HeroSection.astro";
+import ResourcesGrid from "../components/ResourcesGrid.astro";
 import Layout from "../layouts/Layout.astro";
 import { getTodosLosRecursos, categoriaLabels } from "../lib/resources";
 
@@ -16,122 +17,17 @@ const categories = Object.keys(categoriaLabels);
   <HeroSection />
 
   <!-- Filters Section -->
-  <FilterSection 
+  <FilterSection
     categories={categories}
     categoriaLabels={categoriaLabels}
     allResources={allResources}
   />
 
-
   <!-- Resources Grid -->
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <div
-      id="resource-list"
-      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-    >
-      {
-        allResources.map((resource) => (
-          <article
-            class="resource-card bg-white rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all duration-200 p-6"
-            data-category={resource.categoria}
-            data-tags={resource.data.tags.join(",")}
-            data-name={resource.data.name.toLowerCase()}
-            data-description={resource.data.description.toLowerCase()}
-          >
-            <div class="flex items-start justify-between mb-4">
-              <div class="flex items-center space-x-3">
-                {resource.data.image && (
-                  <img
-                    src={resource.data.image}
-                    alt={resource.data.name}
-                    class="w-10 h-10 rounded-lg object-cover"
-                    loading="lazy"
-                  />
-                )}
-                <div>
-                  <h3 class="text-lg font-semibold text-gray-900 mb-1">
-                    {resource.data.name}
-                  </h3>
-                  <span class="inline-block px-2 py-1 text-xs font-medium bg-blue-100 text-blue-800 rounded-full">
-                    {categoriaLabels[resource.categoria]}
-                  </span>
-                </div>
-              </div>
-              <span class="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded">
-                {resource.data.price === "free"
-                  ? "Gratis"
-                  : resource.data.price === "freemium"
-                    ? "Freemium"
-                    : "Pago"}
-              </span>
-            </div>
-
-            <p class="text-gray-600 mb-4 text-sm leading-relaxed">
-              {resource.data.description}
-            </p>
-
-            <div class="flex flex-wrap gap-1 mb-4">
-              {resource.data.tags.slice(0, 3).map((tag) => (
-                <span class="inline-block px-2 py-1 text-xs bg-gray-100 text-gray-700 rounded">
-                  {tag}
-                </span>
-              ))}
-              {resource.data.tags.length > 3 && (
-                <span class="inline-block px-2 py-1 text-xs text-gray-500">
-                  +{resource.data.tags.length - 3} más
-                </span>
-              )}
-            </div>
-
-            <div class="flex space-x-2">
-              {resource.data.documentation && (
-                <a
-                  href={resource.data.documentation}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="flex-1 bg-blue-600 text-white text-center py-2 px-3 rounded-md text-sm font-medium hover:bg-blue-700 transition-colors"
-                >
-                  Ver Docs
-                </a>
-              )}
-              {resource.data.github && (
-                <a
-                  href={resource.data.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="flex-1 bg-gray-800 text-white text-center py-2 px-3 rounded-md text-sm font-medium hover:bg-gray-900 transition-colors"
-                >
-                  GitHub
-                </a>
-              )}
-            </div>
-          </article>
-        ))
-      }
-    </div>
-
-    <!-- No results message -->
-    <div id="no-results" class="text-center py-12 hidden">
-      <div class="text-gray-400 mb-4">
-        <svg
-          class="mx-auto h-12 w-12"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.47-.881-6.071-2.33"
-          ></path>
-        </svg>
-      </div>
-      <p class="text-lg text-gray-500">
-        No se encontraron recursos que coincidan con tu búsqueda.
-      </p>
-    </div>
-  </section>
+  <ResourcesGrid
+    categoriaLabels={categoriaLabels}
+    allResources={allResources}
+  />
 </Layout>
 
 <script>

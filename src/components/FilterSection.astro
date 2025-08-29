@@ -1,8 +1,10 @@
 ---
+import type { RecursoCompleto } from '../lib/resources';
+
 export interface Props {
   categories: string[];
   categoriaLabels: Record<string, string>;
-  allResources: any[]; // O el tipo específico de tus recursos
+  allResources: RecursoCompleto[];
 }
 
 const { categories, categoriaLabels, allResources } = Astro.props;
