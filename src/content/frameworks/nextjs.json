@@ -1,0 +1,11 @@
+{
+  "id": "nextjs",
+  "name": "Next.js",
+  "description": "Framework de React para aplicaciones web modernas con renderizado del lado del servidor (SSR), generación estática (SSG) y muchas características optimizadas para producción.",
+  "categories": "frameworks",
+  "tags": ["react", "ssr", "ssg", "framework", "typescript", "vercel"],
+  "image": "https://nextjs.org/static/favicon/favicon-32x32.png",
+  "github": "https://github.com/vercel/next.js",
+  "documentation": "https://nextjs.org/docs",
+  "price": "free"
+}
