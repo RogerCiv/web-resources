@@ -1,0 +1,33 @@
+---
+export interface Props {
+  categorias: string[];
+  categoriaLabels: Record<string, string>;
+  allResources: any[]; // O el tipo específico de tus recursos
+}
+
+const { categorias, categoriaLabels, allResources } = Astro.props;
+---
+
+  <section class="bg-white border-b border-gray-200 sticky top-16 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="flex flex-col sm:flex-row gap-4 items-center">
+        <label class="text-sm font-medium text-gray-700"
+          >Filtrar por categoría:</label
+        >
+        <select
+          id="category-filter"
+          class="px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        >
+          <option value="">Todas las categorías</option>
+          {
+            categorias.map((categoria) => (
+              <option value={categoria}>{categoriaLabels[categoria]}</option>
+            ))
+          }
+        </select>
+        <div class="ml-auto text-sm text-gray-500">
+          <span id="results-count">{allResources.length}</span> recursos encontrados
+        </div>
+      </div>
+    </div>
+  </section>
