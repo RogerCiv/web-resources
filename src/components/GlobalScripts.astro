@@ -1,11 +1,13 @@
 <script>
   import { initMobileMenu } from '../scripts/navigation.ts';
   import { initThemeToggle } from '../scripts/theme.ts';
+  import { initFilterSystem } from '../scripts/filter.ts';
 
   // Inicializar cuando el DOM esté listo
   document.addEventListener('DOMContentLoaded', () => {
     initMobileMenu();
     initThemeToggle();
+    initFilterSystem();
     
     // Smooth scrolling para enlaces internos
     document.querySelectorAll('a[href^="#"]').forEach((anchor: Element) => {
