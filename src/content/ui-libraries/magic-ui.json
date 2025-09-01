@@ -1,0 +1,10 @@
+{
+"id": "magic-ui",
+"name": "Magic UI",
+"description": "Biblioteca de más de 150 componentes y efectos animados gratuitos y de código abierto, construida con React, Typescript, Tailwind CSS y Motion. Compañera ideal para shadcn/ui.",
+"categories": "ui-libraries",
+"tags": ["react", "typescript", "tailwind", "components", "animation"],
+"github": "https://github.com/magicuidesign/magicui",
+"documentation": "https://magicui.design/",
+"price": "free"
+}
