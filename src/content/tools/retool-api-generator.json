@@ -1,0 +1,10 @@
+{
+  "id": "retool-api-generator",
+  "name": "Retool API Generator",
+  "description": "Generador automático de APIs REST a partir de bases de datos. Conecta tu base de datos y obtén una API completa con endpoints CRUD, autenticación y documentación automática.",
+  "categories": "tools",
+  "tags": ["api", "generator", "database", "crud", "rest", "automation", "backend"],
+  "image": "https://retool.com/favicon.ico",
+  "documentation": "https://retool.com/api-generator",
+  "price": "freemium"
+}

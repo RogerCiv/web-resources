@@ -1,0 +1,10 @@
+{
+  "id": "starter-dev",
+  "name": "Starter.dev",
+  "description": "Generador de proyectos starter con stacks tecnológicos modernos. Crea aplicaciones full-stack con Next.js, React, TypeScript, bases de datos y autenticación preconfiguradas.",
+  "categories": "tools",
+  "tags": ["starter-kit", "nextjs", "react", "typescript", "full-stack", "boilerplate", "generator"],
+  "image": "https://starter.dev/favicon.ico",
+  "documentation": "https://starter.dev/",
+  "price": "freemium"
+}
