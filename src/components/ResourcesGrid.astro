@@ -17,7 +17,7 @@ const { categoriaLabels, allResources } = Astro.props;
     {
       allResources.map((resource) => (
         <article
-          class="resource-card bg-white rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all duration-200 p-6"
+          class="resource-card bg-white rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all duration-200 p-6 flex flex-col h-full"
           data-category={resource.categoria}
           data-tags={resource.data.tags.join(",")}
           data-name={resource.data.name.toLowerCase()}
@@ -70,7 +70,9 @@ const { categoriaLabels, allResources } = Astro.props;
                 </span>
               </div>
             </div>
-            <span class={`text-xs font-semibold text-gray-500 bg-gray-100 px-2 py-1 rounded ${resource.data.price === "free" ? "text-green-600 bg-green-100" : resource.data.price === "freemium" ? "text-yellow-600 bg-yellow-100" : "text-red-600 bg-red-100"}`}>
+            <span
+              class={`text-xs font-semibold text-gray-500 bg-gray-100 px-2 py-1 rounded ${resource.data.price === "free" ? "text-green-600 bg-green-100" : resource.data.price === "freemium" ? "text-yellow-600 bg-yellow-100" : "text-red-600 bg-red-100"}`}
+            >
               {resource.data.price === "free"
                 ? "Gratis"
                 : resource.data.price === "freemium"
@@ -79,24 +81,26 @@ const { categoriaLabels, allResources } = Astro.props;
             </span>
           </div>
 
-          <p class="text-gray-600 mb-4 text-sm leading-relaxed">
-            {resource.data.description}
-          </p>
+          <div class="flex-grow">
+            <p class="text-gray-600 mb-4 text-sm leading-relaxed">
+              {resource.data.description}
+            </p>
 
-          <div class="flex flex-wrap gap-1 mb-4">
-            {resource.data.tags.slice(0, 3).map((tag) => (
-              <span class="inline-block px-2 py-1 text-xs bg-gray-100 text-gray-700 rounded">
-                {tag}
-              </span>
-            ))}
-            {resource.data.tags.length > 3 && (
-              <span class="inline-block px-2 py-1 text-xs text-gray-500">
-                +{resource.data.tags.length - 3} más
-              </span>
-            )}
+            <div class="flex flex-wrap gap-1 mb-4">
+              {resource.data.tags.slice(0, 3).map((tag) => (
+                <span class="inline-block px-2 py-1 text-xs bg-gray-100 text-gray-700 rounded">
+                  {tag}
+                </span>
+              ))}
+              {resource.data.tags.length > 3 && (
+                <span class="inline-block px-2 py-1 text-xs text-gray-500">
+                  +{resource.data.tags.length - 3} más
+                </span>
+              )}
+            </div>
           </div>
 
-          <div class="flex space-x-2">
+          <div class="flex space-x-2 mt-auto">
             {resource.data.documentation && (
               <a
                 href={resource.data.documentation}
