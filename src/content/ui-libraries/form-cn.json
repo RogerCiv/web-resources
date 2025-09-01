@@ -1,0 +1,10 @@
+{
+  "id": "formcn",
+  "name": "Form.cn",
+  "description": "Biblioteca de formularios para React construida sobre React Hook Form y Zod, perfectamente integrada con shadcn/ui. Validación de esquemas, manejo de errores y componentes de formulario reutilizables.",
+  "categories": "ui-libraries",
+  "tags": ["react", "forms", "react-hook-form", "zod", "shadcn-ui", "validation", "typescript"],
+  "github": "https://github.com/remcostoeten/react-hook-form-generator",
+  "documentation": "https://formcn.dev/",
+  "price": "free"
+}
