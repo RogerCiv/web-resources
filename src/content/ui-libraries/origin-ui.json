@@ -1,0 +1,10 @@
+{
+"id": "origin-ui",
+"name": "Origin UI",
+"description": "Colección extensa de componentes UI hermosos construidos con Tailwind CSS y React, listos para copiar y pegar para construir interfaces de aplicaciones rápidamente.",
+"categories": "ui-libraries",
+"tags": ["tailwind", "react", "components", "ui"],
+"github": "https://github.com/origin-space/originui",
+"documentation": "https://originui.com/",
+"price": "free"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "shadcn-blocks",
+  "name": "Shadcn Blocks",
+  "description": "Colección de más de 780 bloques y componentes pre-construidos con shadcn/ui, React y Tailwind CSS. Incluye hero sections, features, footers y más componentes listos para copiar y pegar.",
+  "categories": "ui-libraries",
+  "tags": ["shadcn-ui", "react", "tailwind", "components", "blocks", "copy-paste", "ui-kit"],
+  "image": "https://deifkwefumgah.cloudfront.net/shadcnblocks/images/logo/shadcnblocks-logo.svg",
+  "github": "https://github.com/ausrobdev/shadcn-blocks",
+  "documentation": "https://www.shadcnblocks.com/blocks",
+  "price": "freemium"
+}

@@ -1,0 +1,10 @@
+{
+"id": "preline-ui",
+"name": "Preline UI",
+"description": "Biblioteca de componentes de Tailwind CSS de código abierto para cualquier necesidad. Incluye ejemplos de UI, bloques, plantillas, plugins, sistema de diseño Figma y más.",
+"categories": "ui-libraries",
+"tags": ["tailwind", "components", "html", "react", "vue", "figma", "dark-mode"],
+"github": "https://github.com/htmlstreamofficial/preline",
+"documentation": "https://preline.co/docs/index.html",
+"price": "free"
+}
