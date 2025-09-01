@@ -1,0 +1,10 @@
+{
+  "id": "sequelize",
+  "name": "Sequelize",
+  "description": "ORM basado en promesas para Node.js con soporte para PostgreSQL, MySQL, MariaDB, SQLite y Microsoft SQL Server. Incluye transacciones, relaciones y validaciones.",
+  "categories": "tools",
+  "tags": ["orm", "nodejs", "promises", "postgresql", "mysql", "sqlite", "mssql", "validations"],
+  "github": "https://github.com/sequelize/sequelize",
+  "documentation": "https://sequelize.org/",
+  "price": "free"
+}

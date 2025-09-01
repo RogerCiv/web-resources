@@ -1,0 +1,10 @@
+{
+  "id": "kysely",
+  "name": "Kysely",
+  "description": "Query builder type-safe para TypeScript que genera SQL. Sin magia, solo SQL puro con excelente experiencia de desarrollo y autocompletado.",
+  "categories": "tools",
+  "tags": ["query-builder", "typescript", "type-safe", "sql", "no-magic", "autocomplete"],
+  "github": "https://github.com/kysely-org/kysely",
+  "documentation": "https://kysely.dev/",
+  "price": "free"
+}

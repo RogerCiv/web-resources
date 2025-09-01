@@ -1,0 +1,10 @@
+{
+  "id": "knex",
+  "name": "Knex.js",
+  "description": "Query builder SQL flexible para PostgreSQL, MySQL, CockroachDB, SQL Server, SQLite3 y Oracle. Incluye pooling de conexiones, callbacks y promesas.",
+  "categories": "tools",
+  "tags": ["query-builder", "sql", "postgresql", "mysql", "sqlite", "migrations", "connection-pooling"],
+  "github": "https://github.com/knex/knex",
+  "documentation": "https://knexjs.org/",
+  "price": "free"
+}

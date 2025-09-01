@@ -1,0 +1,11 @@
+{
+  "id": "prisma",
+  "name": "Prisma",
+  "description": "ORM de próxima generación para Node.js y TypeScript. Proporciona un query builder type-safe, migraciones automáticas y un studio visual para gestionar bases de datos.",
+  "categories": "tools",
+  "tags": ["orm", "typescript", "database", "migrations", "type-safe", "postgresql", "mysql", "sqlite"],
+  "image": "https://www.prisma.io/favicon.ico",
+  "github": "https://github.com/prisma/prisma",
+  "documentation": "https://www.prisma.io/docs",
+  "price": "freemium"
+}

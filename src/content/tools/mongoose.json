@@ -1,0 +1,11 @@
+{
+  "id": "mongoose",
+  "name": "Mongoose",
+  "description": "ODM (Object Document Mapper) elegante para MongoDB y Node.js. Proporciona esquemas, validaciones, middleware y una API expresiva para trabajar con MongoDB.",
+  "categories": "tools",
+  "tags": ["odm", "mongodb", "nodejs", "schemas", "validation", "middleware", "nosql"],
+  "image": "https://mongoosejs.com/docs/images/favicon/favicon-32x32.png",
+  "github": "https://github.com/Automattic/mongoose",
+  "documentation": "https://mongoosejs.com/",
+  "price": "free"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "drizzle-orm",
+  "name": "Drizzle ORM",
+  "description": "ORM TypeScript ligero y performante con SQL-like syntax. Zero runtime overhead, migraciones automáticas y soporte completo para edge runtimes.",
+  "categories": "tools",
+  "tags": ["orm", "typescript", "lightweight", "sql", "edge", "zero-overhead", "migrations"],
+  "image": "https://orm.drizzle.team/favicon.ico",
+  "github": "https://github.com/drizzle-team/drizzle-orm",
+  "documentation": "https://orm.drizzle.team/",
+  "price": "free"
+}

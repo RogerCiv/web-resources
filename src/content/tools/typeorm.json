@@ -1,0 +1,11 @@
+{
+  "id": "typeorm",
+  "name": "TypeORM",
+  "description": "ORM maduro para TypeScript y JavaScript que soporta Active Record y Data Mapper patterns. Compatible con múltiples bases de datos y plataformas.",
+  "categories": "tools",
+  "tags": ["orm", "typescript", "javascript", "active-record", "data-mapper", "decorators", "migrations"],
+  "image": "https://typeorm.io/image/logo-small.png",
+  "github": "https://github.com/typeorm/typeorm",
+  "documentation": "https://typeorm.io/",
+  "price": "free"
+}
