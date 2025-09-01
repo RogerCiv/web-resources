@@ -1,0 +1,10 @@
+{
+  "id": "dotui",
+  "name": "DotUI",
+  "description": "Biblioteca de componentes de React construida sobre Radix UI y estilizada con Tailwind CSS. Componentes accesibles, personalizables y listos para usar.",
+  "categories": "ui-libraries",
+  "tags": ["react", "radix-ui", "tailwind", "accessible", "components", "typescript"],
+  "github": "https://github.com/mehdibha/dotui",
+  "documentation": "https://dotui.org/",
+  "price": "free"
+}
