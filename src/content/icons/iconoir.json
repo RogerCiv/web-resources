@@ -1,0 +1,11 @@
+{
+  "id": "iconoir",
+  "name": "Iconoir",
+  "description": "Biblioteca de iconos SVG de código abierto con más de 1,300 iconos elegantes y minimalistas. Disponible para React, React Native, Flutter, Figma y más.",
+  "categories": "icons",
+  "tags": ["svg", "icons", "open-source", "react", "figma", "minimalist"],
+  "image": "https://iconoir.com/favicon.ico",
+  "github": "https://github.com/iconoir-icons/iconoir",
+  "documentation": "https://iconoir.com/",
+  "price": "free"
+}

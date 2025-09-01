@@ -1,0 +1,9 @@
+{
+  "id": "ui-colorful-gradient",
+  "name": "UI Colorful - Gradient Generator",
+  "description": "Generador online de gradientes CSS con interfaz intuitiva. Crea fondos degradados personalizados y obtén el código CSS listo para usar en tus proyectos.",
+  "categories": "tools",
+  "tags": ["gradient", "css", "generator", "design", "colors", "background"],
+  "documentation": "https://uicolorful.com/tool/gradient-background",
+  "price": "free"
+}

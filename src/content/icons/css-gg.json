@@ -1,0 +1,11 @@
+{
+  "id": "css-gg",
+  "name": "css.gg",
+  "description": "Colección de más de 700 iconos SVG y CSS puros, minimalistas y de código abierto. Disponibles como CSS, SVG, React, Vue y más formatos.",
+  "categories": "icons",
+  "tags": ["css", "svg", "icons", "minimalist", "react", "vue", "open-source"],
+  "image": "https://css.gg/fav/favicon-96x96.png",
+  "github": "https://github.com/astrit/css.gg",
+  "documentation": "https://css.gg/",
+  "price": "free"
+}

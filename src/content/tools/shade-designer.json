@@ -1,0 +1,9 @@
+{
+  "id": "shade-designer",
+  "name": "Shade Designer",
+  "description": "Herramienta para generar paletas de colores y sombras (shades) perfectas para sistemas de diseño. Crea escalas de color consistentes y accesibles.",
+  "categories": "tools",
+  "tags": ["colors", "palette", "design-system", "shades", "accessibility", "generator"],
+  "documentation": "https://shadesigner.com/",
+  "price": "free"
+}

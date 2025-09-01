@@ -1,0 +1,11 @@
+{
+  "id": "radix-ui",
+  "name": "Radix UI",
+  "description": "Biblioteca de componentes primitivos de bajo nivel y sin estilos para construir sistemas de diseño accesibles de alta calidad en React.",
+  "categories": "ui-libraries",
+  "tags": ["react", "primitives", "accessibility", "headless", "components", "typescript"],
+  "image": "https://www.radix-ui.com/favicon.ico",
+  "github": "https://github.com/radix-ui/primitives",
+  "documentation": "https://www.radix-ui.com/",
+  "price": "free"
+}

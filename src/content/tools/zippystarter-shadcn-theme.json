@@ -1,0 +1,9 @@
+{
+  "id": "zippystarter-shadcn-theme",
+  "name": "Shadcn UI Theme Generator",
+  "description": "Generador de temas para shadcn/ui que permite crear y personalizar paletas de colores, generar CSS variables y previsualizar componentes en tiempo real.",
+  "categories": "tools",
+  "tags": ["shadcn-ui", "theme", "generator", "css", "customization", "colors"],
+  "documentation": "https://zippystarter.com/tools/shadcn-ui-theme-generator",
+  "price": "free"
+}
