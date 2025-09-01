@@ -70,7 +70,7 @@ const { categoriaLabels, allResources } = Astro.props;
                 </span>
               </div>
             </div>
-            <span class="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded">
+            <span class={`text-xs font-semibold text-gray-500 bg-gray-100 px-2 py-1 rounded ${resource.data.price === "free" ? "text-green-600 bg-green-100" : resource.data.price === "freemium" ? "text-yellow-600 bg-yellow-100" : "text-red-600 bg-red-100"}`}>
               {resource.data.price === "free"
                 ? "Gratis"
                 : resource.data.price === "freemium"
