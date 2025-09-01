@@ -1,6 +1,8 @@
 ---
 import type { RecursoCompleto } from '../lib/resources';
 
+
+
 export interface Props {
   categories: string[];
   categoriaLabels: Record<string, string>;
@@ -8,29 +10,32 @@ export interface Props {
 }
 
 const { categories, categoriaLabels, allResources } = Astro.props;
-
 ---
 
-  <section class="bg-white border-b border-gray-200 sticky top-16 z-40">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-      <div class="flex flex-col sm:flex-row gap-4 items-center">
-        <label class="text-sm font-medium text-gray-700"
-          >Filtrar por categoría:</label
-        >
-        <select
-          id="category-filter"
-          class="px-3 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-        >
-          <option value="">Todas las categorías</option>
-          {
-            categories.map((categoria) => (
-              <option value={categoria}>{categoriaLabels[categoria]}</option>
-            ))
-          }
-        </select>
-        <div class="ml-auto text-sm text-gray-500">
-          <span id="results-count">{allResources.length}</span> recursos encontrados
-        </div>
+<!-- Updated filter section with emerald theme and modern styling -->
+
+<section class="bg-background/80 backdrop-blur-sm border-b border-border sticky top-16 z-40">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div class="flex flex-col sm:flex-row gap-4 items-center">
+      <label class="text-sm font-semibold text-foreground whitespace-nowrap">
+        Filtrar por categoría:
+      </label>
+      <select
+        id="category-filter"
+        class="px-4 py-2.5 border border-border rounded-lg focus:ring-2 focus:ring-ring focus:border-primary transition-colors duration-200 bg-background shadow-sm hover:border-muted-foreground text-foreground "
+      >
+        <option value="">Todas las categorías</option>
+        {
+          categories.map((categoria) => (
+            <option  value={categoria}>{categoriaLabels[categoria]}</option>
+          ))
+        }
+      </select>
+      <div class="ml-auto text-sm text-muted-foreground bg-muted px-3 py-2 rounded-lg border border-border">
+        <span id="results-count" class="font-semibold text-primary">{allResources.length}</span> 
+        <span>recursos encontrados</span>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
