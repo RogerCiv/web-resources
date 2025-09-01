@@ -1,0 +1,11 @@
+{
+"id": "meraki-ui",
+"name": "Meraki UI",
+"description": "Colección premium de componentes Tailwind CSS para construir interfaces modernas, responsivas, con soporte RTL, modo oscuro elegante y atención al detalle.",
+"categories": "ui-libraries",
+"tags": ["tailwind", "components", "rtl", "dark-mode", "responsive"],
+"image": "https://merakiui.com/images/logo.svg",
+"github": "https://github.com/merakiuilabs/merakiui",
+"documentation": "https://merakiui.com/",
+"price": "free"
+}

@@ -1,0 +1,11 @@
+{
+"id": "daisy-ui",
+"name": "daisyUI",
+"description": "Complemento de Tailwind CSS que proporciona nombres de clases semánticas para componentes UI, facilitando el desarrollo más rápido, limpio y fácil de mantener.",
+"categories": "ui-libraries",
+"tags": ["tailwind", "components", "css", "ui"],
+"image": "https://img.daisyui.com/images/daisyui/mark-static.svg",
+"github": "https://github.com/saadeghi/daisyui",
+"documentation": "https://daisyui.com/",
+"price": "free"
+}
