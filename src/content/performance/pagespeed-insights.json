@@ -1,0 +1,9 @@
+{
+  "id": "pagespeed-insights",
+  "name": "PageSpeed Insights",
+  "description": "Herramienta gratuita de Google que analiza el rendimiento de páginas web en dispositivos móviles y desktop con datos reales de usuarios.",
+  "categories": "performance",
+  "tags": ["pagespeed", "google", "mobile", "desktop", "real-user-data", "optimization", "crux"],
+  "documentation": "https://pagespeed.web.dev/",
+  "price": "free"
+}

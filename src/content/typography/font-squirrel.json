@@ -1,0 +1,9 @@
+{
+  "id": "font-squirrel",
+  "name": "Font Squirrel",
+  "description": "Directorio de fuentes gratuitas para uso comercial. Incluye herramientas como el webfont generator para convertir fuentes a formatos web.",
+  "categories": "typography",
+  "tags": ["free", "commercial-use", "webfont-generator", "tools", "conversion", "desktop"],
+  "documentation": "https://www.fontsquirrel.com/",
+  "price": "free"
+}

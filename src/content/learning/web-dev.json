@@ -1,0 +1,9 @@
+{
+  "id": "web-dev",
+  "name": "web.dev",
+  "description": "Recursos de Google para desarrolladores web modernos. Guías, codelabs y herramientas para construir experiencias web de alta calidad.",
+  "categories": "learning",
+  "tags": ["google", "guides", "codelabs", "modern-web", "performance", "best-practices"],
+  "documentation": "https://web.dev/",
+  "price": "free"
+}

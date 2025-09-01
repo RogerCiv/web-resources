@@ -1,0 +1,9 @@
+{
+  "id": "google-analytics",
+  "name": "Google Analytics",
+  "description": "Plataforma de análisis web gratuita que rastrea y reporta el tráfico del sitio web. Insights detallados sobre usuarios, comportamiento y conversiones.",
+  "categories": "analytics",
+  "tags": ["web-analytics", "traffic", "users", "behavior", "conversions", "free", "google"],
+  "documentation": "https://analytics.google.com/",
+  "price": "freemium"
+}

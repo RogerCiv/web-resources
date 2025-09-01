@@ -1,0 +1,10 @@
+{
+  "id": "web-vitals",
+  "name": "Web Vitals",
+  "description": "Biblioteca para medir métricas esenciales de experiencia de usuario como LCP, FID y CLS. Implementación oficial de Google para Core Web Vitals.",
+  "categories": "performance",
+  "tags": ["core-web-vitals", "lcp", "fid", "cls", "user-experience", "metrics", "google"],
+  "github": "https://github.com/GoogleChrome/web-vitals",
+  "documentation": "https://web.dev/vitals/",
+  "price": "free"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "google-fonts",
+  "name": "Google Fonts",
+  "description": "Biblioteca de fuentes web gratuitas y open source. Más de 1,400 familias de fuentes optimizadas para web con carga rápida y múltiples idiomas.",
+  "categories": "typography",
+  "tags": ["web-fonts", "free", "open-source", "multilingual", "optimized", "cdn"],
+  "documentation": "https://fonts.google.com/",
+  "price": "free"
+}

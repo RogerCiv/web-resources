@@ -1,0 +1,10 @@
+{
+  "id": "mdn-web-docs",
+  "name": "MDN Web Docs",
+  "description": "Documentación completa para tecnologías web de Mozilla. Referencias definitivas para HTML, CSS, JavaScript y APIs web con ejemplos prácticos.",
+  "categories": "learning",
+  "tags": ["documentation", "html", "css", "javascript", "web-apis", "mozilla", "reference"],
+  "github": "https://github.com/mdn/content",
+  "documentation": "https://developer.mozilla.org/",
+  "price": "free"
+}

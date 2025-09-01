@@ -1,0 +1,10 @@
+{
+  "id": "clerk",
+  "name": "Clerk",
+  "description": "Servicio de autenticación moderno con UI components listos para usar. Soporte para SSO, MFA, organizaciones y gestión completa de usuarios.",
+  "categories": "apis",
+  "tags": ["authentication", "ui-components", "sso", "mfa", "user-management", "organizations"],
+  "image": "https://clerk.com/favicon.ico",
+  "documentation": "https://clerk.com/docs",
+  "price": "freemium"
+}

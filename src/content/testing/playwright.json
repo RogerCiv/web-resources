@@ -1,0 +1,11 @@
+{
+  "id": "playwright",
+  "name": "Playwright",
+  "description": "Framework de testing end-to-end para aplicaciones web modernas. Soporte multi-browser, auto-wait, screenshots y debugging avanzado.",
+  "categories": "testing",
+  "tags": ["e2e", "multi-browser", "auto-wait", "screenshots", "debugging", "cross-platform"],
+  "image": "https://playwright.dev/img/playwright-logo.svg",
+  "github": "https://github.com/microsoft/playwright",
+  "documentation": "https://playwright.dev/",
+  "price": "free"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "vercel",
+  "name": "Vercel",
+  "description": "Plataforma de deployment para frontend con edge network global. Optimizada para Next.js, React y frameworks modernos con CI/CD automático.",
+  "categories": "hosting",
+  "tags": ["frontend", "edge-network", "nextjs", "react", "cicd", "serverless", "zero-config"],
+  "image": "https://vercel.com/favicon.ico",
+  "github": "https://github.com/vercel/vercel",
+  "documentation": "https://vercel.com/docs",
+  "price": "freemium"
+}

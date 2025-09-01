@@ -1,0 +1,10 @@
+{
+  "id": "freecodecamp",
+  "name": "freeCodeCamp",
+  "description": "Plataforma de aprendizaje gratuita con cursos interactivos de programación. Certificaciones en desarrollo web, ciencia de datos y más.",
+  "categories": "learning",
+  "tags": ["free", "interactive", "certifications", "web-development", "programming", "projects"],
+  "github": "https://github.com/freeCodeCamp/freeCodeCamp",
+  "documentation": "https://www.freecodecamp.org/",
+  "price": "free"
+}

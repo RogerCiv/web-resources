@@ -1,0 +1,9 @@
+{
+  "id": "framer",
+  "name": "Framer",
+  "description": "Herramienta de diseño y prototipado avanzada con componentes interactivos, animaciones complejas y generación de código automática.",
+  "categories": "design",
+  "tags": ["prototyping", "interactive", "animations", "code-generation", "advanced", "components"],
+  "documentation": "https://www.framer.com/docs/",
+  "price": "freemium"
+}

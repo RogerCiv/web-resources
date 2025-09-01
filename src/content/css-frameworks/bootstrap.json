@@ -1,0 +1,11 @@
+{
+  "id": "bootstrap",
+  "name": "Bootstrap",
+  "description": "Framework CSS más popular del mundo para construir sitios web responsive y mobile-first. Incluye componentes, utilities y sistema de grid.",
+  "categories": "css-frameworks",
+  "tags": ["responsive", "mobile-first", "grid-system", "components", "utilities", "sass"],
+  "image": "https://getbootstrap.com/docs/5.3/assets/img/favicons/favicon-32x32.png",
+  "github": "https://github.com/twbs/bootstrap",
+  "documentation": "https://getbootstrap.com/docs",
+  "price": "free"
+}

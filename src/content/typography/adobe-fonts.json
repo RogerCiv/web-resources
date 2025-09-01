@@ -1,0 +1,9 @@
+{
+  "id": "adobe-fonts",
+  "name": "Adobe Fonts",
+  "description": "Servicio de fuentes web premium incluido con Creative Cloud. Miles de fuentes de alta calidad de foundries reconocidas mundialmente.",
+  "categories": "typography",
+  "tags": ["premium", "creative-cloud", "high-quality", "foundries", "web-fonts", "desktop"],
+  "documentation": "https://fonts.adobe.com/",
+  "price": "paid"
+}

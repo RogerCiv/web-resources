@@ -1,0 +1,9 @@
+{
+  "id": "coolors",
+  "name": "Coolors",
+  "description": "Generador de paletas de colores ultrarrápido. Crea, guarda y comparte paletas perfectas en segundos con herramientas avanzadas de color.",
+  "categories": "design",
+  "tags": ["color-palette", "generator", "fast", "color-tools", "sharing", "inspiration"],
+  "documentation": "https://coolors.co/",
+  "price": "freemium"
+}

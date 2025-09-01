@@ -1,0 +1,10 @@
+{
+  "id": "stripe",
+  "name": "Stripe",
+  "description": "Plataforma de pagos online para negocios de todos los tamaños. APIs potentes, checkout optimizado y herramientas para gestionar pagos globalmente.",
+  "categories": "apis",
+  "tags": ["payments", "checkout", "subscriptions", "global", "developer-friendly", "webhooks"],
+  "image": "https://stripe.com/favicon.ico",
+  "documentation": "https://stripe.com/docs",
+  "price": "freemium"
+}

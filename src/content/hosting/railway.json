@@ -1,0 +1,10 @@
+{
+  "id": "railway",
+  "name": "Railway",
+  "description": "Plataforma de deployment que simplifica la infraestructura. Deploy de bases de datos, APIs y aplicaciones full-stack con configuración mínima.",
+  "categories": "hosting",
+  "tags": ["full-stack", "databases", "apis", "infrastructure", "docker", "git-integration"],
+  "image": "https://railway.app/favicon.ico",
+  "documentation": "https://docs.railway.app/",
+  "price": "freemium"
+}

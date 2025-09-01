@@ -1,0 +1,11 @@
+{
+  "id": "tailwindcss",
+  "name": "Tailwind CSS",
+  "description": "Framework CSS utility-first que permite construir diseños personalizados rápidamente. Altamente personalizable y optimizado para producción.",
+  "categories": "css-frameworks",
+  "tags": ["utility-first", "customizable", "responsive", "dark-mode", "purge", "jit"],
+  "image": "https://tailwindcss.com/favicons/favicon-32x32.png",
+  "github": "https://github.com/tailwindlabs/tailwindcss",
+  "documentation": "https://tailwindcss.com/docs",
+  "price": "free"
+}

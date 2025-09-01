@@ -1,0 +1,11 @@
+{
+  "id": "bulma",
+  "name": "Bulma",
+  "description": "Framework CSS moderno basado en Flexbox. Sin JavaScript, fácil de aprender y altamente modular con sintaxis limpia y semántica.",
+  "categories": "css-frameworks",
+  "tags": ["flexbox", "modular", "no-javascript", "semantic", "sass", "responsive"],
+  "image": "https://bulma.io/favicons/favicon-32x32.png",
+  "github": "https://github.com/jgthms/bulma",
+  "documentation": "https://bulma.io/documentation/",
+  "price": "free"
+}

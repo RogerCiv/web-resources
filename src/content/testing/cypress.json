@@ -1,0 +1,11 @@
+{
+  "id": "cypress",
+  "name": "Cypress",
+  "description": "Framework de testing end-to-end con una experiencia de desarrollo excepcional. Time-travel debugging, real-time browser testing y screenshots automáticos.",
+  "categories": "testing",
+  "tags": ["e2e", "time-travel", "debugging", "real-time", "browser-testing", "visual-testing"],
+  "image": "https://cypress.io/favicon.ico",
+  "github": "https://github.com/cypress-io/cypress",
+  "documentation": "https://docs.cypress.io/",
+  "price": "freemium"
+}

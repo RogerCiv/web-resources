@@ -1,0 +1,11 @@
+{
+  "id": "vitest",
+  "name": "Vitest",
+  "description": "Framework de testing ultrarrápido powered by Vite. Compatible con Jest API, hot reload, TypeScript nativo y testing de componentes.",
+  "categories": "testing",
+  "tags": ["vite", "fast", "jest-compatible", "typescript", "hot-reload", "component-testing"],
+  "image": "https://vitest.dev/favicon.ico",
+  "github": "https://github.com/vitest-dev/vitest",
+  "documentation": "https://vitest.dev/",
+  "price": "free"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "umami",
+  "name": "Umami",
+  "description": "Analytics web self-hosted, open source y privacy-focused. Alternativa simple a Google Analytics que respeta la privacidad de los usuarios.",
+  "categories": "analytics",
+  "tags": ["self-hosted", "open-source", "privacy-focused", "simple", "alternative", "lightweight"],
+  "github": "https://github.com/umami-software/umami",
+  "documentation": "https://umami.is/docs",
+  "price": "free"
+}

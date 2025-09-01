@@ -1,0 +1,10 @@
+{
+  "id": "lighthouse",
+  "name": "Lighthouse",
+  "description": "Herramienta automática de Google para auditar performance, accesibilidad, SEO y mejores prácticas de aplicaciones web.",
+  "categories": "performance",
+  "tags": ["audit", "performance", "accessibility", "seo", "best-practices", "google", "pwa"],
+  "github": "https://github.com/GoogleChrome/lighthouse",
+  "documentation": "https://developers.google.com/web/tools/lighthouse",
+  "price": "free"
+}

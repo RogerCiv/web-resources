@@ -1,0 +1,9 @@
+{
+  "id": "figma",
+  "name": "Figma",
+  "description": "Herramienta de diseño colaborativo basada en browser. Prototipado, design systems, comentarios en tiempo real y handoff para desarrolladores.",
+  "categories": "design",
+  "tags": ["collaborative", "prototyping", "design-systems", "real-time", "handoff", "browser-based"],
+  "documentation": "https://help.figma.com/",
+  "price": "freemium"
+}

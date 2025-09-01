@@ -1,0 +1,10 @@
+{
+  "id": "netlify",
+  "name": "Netlify",
+  "description": "Plataforma de desarrollo web que automatiza builds, deployments y serverless functions. Perfecto para sitios estáticos y JAMstack.",
+  "categories": "hosting",
+  "tags": ["jamstack", "static-sites", "serverless-functions", "git-integration", "forms", "analytics"],
+  "image": "https://www.netlify.com/favicon.ico",
+  "documentation": "https://docs.netlify.com/",
+  "price": "freemium"
+}

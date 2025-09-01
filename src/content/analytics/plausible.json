@@ -1,0 +1,10 @@
+{
+  "id": "plausible",
+  "name": "Plausible",
+  "description": "Analytics web simple, liviano y privacy-friendly. Sin cookies, cumple GDPR y proporciona insights esenciales sin complejidad.",
+  "categories": "analytics",
+  "tags": ["privacy-friendly", "lightweight", "gdpr", "no-cookies", "simple", "open-source"],
+  "github": "https://github.com/plausible/analytics",
+  "documentation": "https://plausible.io/docs",
+  "price": "freemium"
+}

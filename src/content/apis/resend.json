@@ -1,0 +1,11 @@
+{
+  "id": "resend",
+  "name": "Resend",
+  "description": "API de email moderna para desarrolladores. Envío de emails transaccionales con alta deliverability, analytics y templates React.",
+  "categories": "apis",
+  "tags": ["email", "transactional", "deliverability", "analytics", "react-templates", "developer-dx"],
+  "image": "https://resend.com/favicon.ico",
+  "github": "https://github.com/resendlabs/resend-node",
+  "documentation": "https://resend.com/docs",
+  "price": "freemium"
+}
