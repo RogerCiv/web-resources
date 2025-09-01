@@ -1,0 +1,11 @@
+{
+  "id": "weaviate",
+  "name": "Weaviate",
+  "description": "Base de datos vectorial open-source con capacidades de búsqueda semántica. Ideal para aplicaciones de AI, RAG y búsqueda inteligente.",
+  "categories": "databases",
+  "tags": ["vector", "open-source", "semantic-search", "ai", "rag", "graphql"],
+  "image": "https://weaviate.io/favicon.ico",
+  "github": "https://github.com/weaviate/weaviate",
+  "documentation": "https://weaviate.io/developers/weaviate",
+  "price": "freemium"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "planetscale",
+  "name": "PlanetScale",
+  "description": "Plataforma de base de datos MySQL serverless con branching como Git. Escalado automático, cero downtime para esquemas y colaboración en equipo.",
+  "categories": "databases",
+  "tags": ["mysql", "serverless", "branching", "scaling", "vitess", "cloud"],
+  "image": "https://planetscale.com/favicon.ico",
+  "documentation": "https://planetscale.com/docs",
+  "price": "freemium"
+}

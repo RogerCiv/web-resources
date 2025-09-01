@@ -1,0 +1,11 @@
+{
+  "id": "redis",
+  "name": "Redis",
+  "description": "Estructura de datos en memoria que funciona como base de datos, cache y message broker. Extremadamente rápido para operaciones en tiempo real.",
+  "categories": "databases",
+  "tags": ["in-memory", "cache", "key-value", "pubsub", "fast", "data-structures"],
+  "image": "https://redis.io/images/favicons/favicon-32x32.png",
+  "github": "https://github.com/redis/redis",
+  "documentation": "https://redis.io/documentation",
+  "price": "freemium"
+}

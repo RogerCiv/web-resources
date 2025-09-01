@@ -1,0 +1,11 @@
+{
+  "id": "mongodb",
+  "name": "MongoDB",
+  "description": "Base de datos NoSQL orientada a documentos. Flexible, escalable y con un ecosistema robusto para aplicaciones modernas que requieren esquemas dinámicos.",
+  "categories": "databases",
+  "tags": ["nosql", "document", "flexible", "scaling", "atlas", "aggregation"],
+  "image": "https://www.mongodb.com/assets/images/global/favicon.ico",
+  "github": "https://github.com/mongodb/mongo",
+  "documentation": "https://docs.mongodb.com/",
+  "price": "freemium"
+}

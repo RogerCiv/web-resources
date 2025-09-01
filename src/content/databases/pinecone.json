@@ -1,0 +1,10 @@
+{
+  "id": "pinecone",
+  "name": "Pinecone",
+  "description": "Base de datos vectorial construida para machine learning. Búsqueda de similitud ultra-rápida y escalable para aplicaciones de AI y LLM.",
+  "categories": "databases",
+  "tags": ["vector", "machine-learning", "ai", "similarity-search", "embeddings", "llm"],
+  "image": "https://www.pinecone.io/favicon.ico",
+  "documentation": "https://docs.pinecone.io/",
+  "price": "freemium"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "supabase",
+  "name": "Supabase",
+  "description": "Alternativa open-source a Firebase. Base de datos PostgreSQL con APIs automáticas, autenticación, storage y real-time subscriptions.",
+  "categories": "databases",
+  "tags": ["postgresql", "open-source", "realtime", "auth", "storage", "firebase-alternative"],
+  "image": "https://supabase.com/favicon.ico",
+  "github": "https://github.com/supabase/supabase",
+  "documentation": "https://supabase.com/docs",
+  "price": "freemium"
+}

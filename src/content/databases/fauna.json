@@ -1,0 +1,10 @@
+{
+  "id": "fauna",
+  "name": "Fauna",
+  "description": "Base de datos serverless y globally distributed con ACID transactions. Combina la flexibilidad de NoSQL con la consistencia de SQL.",
+  "categories": "databases",
+  "tags": ["serverless", "global", "acid-transactions", "nosql", "sql", "distributed"],
+  "image": "https://fauna.com/favicon.ico",
+  "documentation": "https://docs.fauna.com/",
+  "price": "freemium"
+}

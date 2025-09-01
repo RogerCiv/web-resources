@@ -1,0 +1,11 @@
+{
+  "id": "turso",
+  "name": "Turso",
+  "description": "Base de datos SQLite distribuida construida sobre libSQL. Ofrece réplicas globales, baja latencia y escalabilidad automática con la simplicidad de SQLite.",
+  "categories": "databases",
+  "tags": ["sqlite", "distributed", "edge", "serverless", "low-latency", "libsql"],
+  "image": "https://turso.tech/favicon.ico",
+  "github": "https://github.com/tursodatabase/turso-cli",
+  "documentation": "https://docs.turso.tech/",
+  "price": "freemium"
+}

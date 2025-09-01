@@ -1,0 +1,11 @@
+{
+  "id": "neon",
+  "name": "Neon",
+  "description": "Base de datos PostgreSQL serverless que se separa en compute y storage. Auto-scaling, branching de bases de datos y facturación por uso real.",
+  "categories": "databases",
+  "tags": ["postgresql", "serverless", "auto-scaling", "branching", "compute-storage", "cloud"],
+  "image": "https://neon.tech/favicon.ico",
+  "github": "https://github.com/neondatabase/neon",
+  "documentation": "https://neon.tech/docs",
+  "price": "freemium"
+}
