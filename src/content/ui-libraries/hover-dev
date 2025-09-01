@@ -1,0 +1,9 @@
+{
+  "id": "hover-dev",
+  "name": "Hover.dev",
+  "description": "Colección de efectos hover y microinteracciones en CSS y JavaScript. Componentes copy-paste con animaciones elegantes para mejorar la experiencia de usuario.",
+  "categories": "ui-libraries",
+  "tags": ["hover-effects", "css", "animations", "microinteractions", "copy-paste", "ux"],
+  "documentation": "https://www.hover.dev/",
+  "price": "freemium"
+}

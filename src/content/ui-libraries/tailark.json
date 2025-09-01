@@ -1,0 +1,9 @@
+{
+  "id": "tailark",
+  "name": "TailArk",
+  "description": "Biblioteca de componentes premium de Tailwind CSS con más de 200 bloques y elementos listos para usar. Incluye componentes para landing pages, dashboards y aplicaciones.",
+  "categories": "ui-libraries",
+  "tags": ["tailwind-css", "components", "premium", "blocks", "landing-page", "dashboard"],
+  "documentation": "https://tailark.com/",
+  "price": "paid"
+}

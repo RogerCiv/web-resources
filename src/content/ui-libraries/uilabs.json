@@ -1,0 +1,9 @@
+{
+  "id": "uilabs",
+  "name": "UILabs",
+  "description": "Laboratorio de componentes UI experimentales y modernos para React. Explora diseños innovadores y patrones de interfaz de usuario únicos.",
+  "categories": "ui-libraries",
+  "tags": ["react", "experimental", "components", "modern", "innovative", "ui-patterns"],
+  "documentation": "https://www.uilabs.dev/",
+  "price": "free"
+}

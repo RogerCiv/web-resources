@@ -1,0 +1,9 @@
+{
+  "id": "floatui",
+  "name": "FloatUI",
+  "description": "Biblioteca de componentes gratuita de Tailwind CSS con más de 100 componentes responsive. Incluye elementos para marketing, aplicaciones y e-commerce.",
+  "categories": "ui-libraries",
+  "tags": ["tailwind-css", "components", "free", "responsive", "marketing", "ecommerce"],
+  "documentation": "https://floatui.com/",
+  "price": "free"
+}

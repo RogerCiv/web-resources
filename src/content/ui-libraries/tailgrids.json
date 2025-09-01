@@ -1,0 +1,10 @@
+{
+  "id": "tailgrids",
+  "name": "TailGrids",
+  "description": "Colección premium de más de 600 componentes y bloques de Tailwind CSS. Incluye templates, elementos UI y secciones completas para proyectos web modernos.",
+  "categories": "ui-libraries",
+  "tags": ["tailwind-css", "components", "blocks", "templates", "premium", "responsive"],
+  "image": "https://tailgrids.com/favicon.ico",
+  "documentation": "https://tailgrids.com/components",
+  "price": "freemium"
+}

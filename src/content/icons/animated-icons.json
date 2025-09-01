@@ -1,0 +1,9 @@
+{
+  "id": "animated-icons",
+  "name": "Animated Icons",
+  "description": "Colección de iconos animados minimalistas en formato Lottie y SVG. Perfectos para mejorar la experiencia de usuario con microanimaciones elegantes.",
+  "categories": "icons",
+  "tags": ["animated", "lottie", "svg", "minimalistic", "microanimations", "ux"],
+  "documentation": "https://animatedicons.co/icons/minimalistic",
+  "price": "freemium"
+}

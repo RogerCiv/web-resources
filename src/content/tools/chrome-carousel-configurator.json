@@ -1,0 +1,9 @@
+{
+  "id": "chrome-carousel-configurator",
+  "name": "Chrome Carousel Configurator",
+  "description": "Herramienta oficial de Chrome para configurar y optimizar carruseles web. Genera código optimizado para rendimiento y accesibilidad según las mejores prácticas.",
+  "categories": "tools",
+  "tags": ["carousel", "chrome", "performance", "accessibility", "web-standards", "optimization"],
+  "documentation": "https://chrome.dev/carousel-configurator/",
+  "price": "free"
+}

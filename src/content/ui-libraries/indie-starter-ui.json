@@ -1,0 +1,9 @@
+{
+  "id": "indie-starter-ui",
+  "name": "Indie Starter UI",
+  "description": "Componentes UI diseñados específicamente para startups indie y proyectos personales. Interfaz simple, efectiva y fácil de implementar.",
+  "categories": "ui-libraries",
+  "tags": ["startup", "indie", "simple", "components", "personal-projects", "minimalist"],
+  "documentation": "https://ui.indie-starter.dev/",
+  "price": "free"
+}

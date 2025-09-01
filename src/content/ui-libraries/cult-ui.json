@@ -1,0 +1,9 @@
+{
+  "id": "cult-ui",
+  "name": "Cult UI",
+  "description": "Biblioteca de componentes React moderna con diseños únicos y animaciones fluidas. Enfocada en crear interfaces distintivas y memorables.",
+  "categories": "ui-libraries",
+  "tags": ["react", "components", "animations", "modern", "unique-design", "ui-kit"],
+  "documentation": "https://www.cult-ui.com/",
+  "price": "freemium"
+}

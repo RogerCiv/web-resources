@@ -1,0 +1,10 @@
+{
+  "id": "shuffle-dev",
+  "name": "Shuffle.dev",
+  "description": "Editor visual para crear páginas web con frameworks populares como Bootstrap, Tailwind CSS y Bulma. Generador de código con interfaz drag & drop.",
+  "categories": "tools",
+  "tags": ["visual-editor", "bootstrap", "tailwind-css", "bulma", "drag-drop", "page-builder"],
+  "image": "https://shuffle.dev/favicon.ico",
+  "documentation": "https://shuffle.dev/",
+  "price": "freemium"
+}

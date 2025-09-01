@@ -1,0 +1,9 @@
+{
+  "id": "tailwindgen",
+  "name": "TailwindGen",
+  "description": "Generador de componentes Tailwind CSS con interfaz visual. Crea y personaliza componentes mediante drag & drop y obtén el código listo para usar.",
+  "categories": "tools",
+  "tags": ["tailwind-css", "generator", "visual-editor", "drag-drop", "code-generator", "ui-builder"],
+  "documentation": "https://www.tailwindgen.com/",
+  "price": "free"
+}

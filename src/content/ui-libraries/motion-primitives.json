@@ -1,0 +1,9 @@
+{
+  "id": "motion-primitives",
+  "name": "Motion Primitives",
+  "description": "Biblioteca de componentes de React con animaciones predefinidas usando Framer Motion. Componentes listos para usar con transiciones y microinteracciones elegantes.",
+  "categories": "ui-libraries",
+  "tags": ["react", "framer-motion", "animations", "primitives", "microinteractions", "typescript"],
+  "documentation": "https://motion-primitives.com/docs",
+  "price": "free"
+}

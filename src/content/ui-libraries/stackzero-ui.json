@@ -1,0 +1,9 @@
+{
+  "id": "stackzero-ui",
+  "name": "StackZero UI",
+  "description": "Biblioteca de componentes moderna para React con diseño clean y minimalista. Componentes optimizados para rendimiento y accesibilidad.",
+  "categories": "ui-libraries",
+  "tags": ["react", "clean-design", "minimalist", "performance", "accessibility", "modern"],
+  "documentation": "https://ui.stackzero.co/",
+  "price": "free"
+}
