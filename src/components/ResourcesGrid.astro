@@ -1,9 +1,9 @@
 ---
-import type { RecursoCompleto } from '../lib/resources';
+import type { RecursoCompleto } from "../lib/resources";
 
 export interface Props {
   categoriaLabels: Record<string, string>;
-  allResources: RecursoCompleto [];
+  allResources: RecursoCompleto[];
 }
 
 const { categoriaLabels, allResources } = Astro.props;
@@ -25,13 +25,41 @@ const { categoriaLabels, allResources } = Astro.props;
         >
           <div class="flex items-start justify-between mb-4">
             <div class="flex items-center space-x-3">
-              {resource.data.image && (
+              {resource.data.image ? (
                 <img
                   src={resource.data.image}
                   alt={resource.data.name}
                   class="w-10 h-10 rounded-lg object-cover"
                   loading="lazy"
                 />
+              ) : (
+                <div
+                  class={`w-10 h-10 rounded-lg flex items-center justify-center text-white font-bold text-sm ${
+                    resource.categoria === "frameworks"
+                      ? "bg-gradient-to-br from-blue-500 to-blue-600"
+                      : resource.categoria === "ui-libraries"
+                        ? "bg-gradient-to-br from-purple-500 to-purple-600"
+                        : resource.categoria === "tools"
+                          ? "bg-gradient-to-br from-green-500 to-green-600"
+                          : "bg-gradient-to-br from-gray-500 to-gray-600"
+                  }`}
+                >
+                  {(() => {
+                    const words = resource.data.name.split(" ");
+                    const firstWord = words[0] || "";
+                    const secondWord = words[1] || "";
+
+                    if (secondWord) {
+                      // Si hay segunda palabra: 2 letras de la primera + 1 de la segunda
+                      return (
+                        firstWord.slice(0, 2) + secondWord.charAt(0)
+                      ).toUpperCase();
+                    } else {
+                      // Si solo hay una palabra: las primeras 2 letras
+                      return firstWord.slice(0, 2).toUpperCase();
+                    }
+                  })()}
+                </div>
               )}
               <div>
                 <h3 class="text-lg font-semibold text-gray-900 mb-1">
