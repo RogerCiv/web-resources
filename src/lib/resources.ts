@@ -1,21 +1,13 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 
+// Define los nombres de colecciones como un tipo literal
+type CollectionName = 'frameworks' | 'ui-libraries' | 'css-frameworks' | 'typography' | 
+                     'icons' | 'tools' | 'hosting' | 'databases' | 'apis' | 'testing' | 
+                     'performance' | 'analytics' | 'design' | 'learning';
+
 // Tipos para los recursos
-export type RecursoData = CollectionEntry<'frameworks'>['data'] | 
-                         CollectionEntry<'ui-libraries'>['data'] |
-                         CollectionEntry<'css-frameworks'>['data'] |
-                         CollectionEntry<'typography'>['data'] |
-                         CollectionEntry<'icons'>['data'] |
-                         CollectionEntry<'tools'>['data'] |
-                         CollectionEntry<'hosting'>['data'] |
-                         CollectionEntry<'databases'>['data'] |
-                         CollectionEntry<'apis'>['data'] |
-                         CollectionEntry<'testing'>['data'] |
-                         CollectionEntry<'performance'>['data'] |
-                         CollectionEntry<'analytics'>['data'] |
-                         CollectionEntry<'design'>['data'] |
-                         CollectionEntry<'learning'>['data'];
+export type RecursoData = CollectionEntry<CollectionName>['data'];
 
 export interface RecursoCompleto {
   id: string;
@@ -25,7 +17,7 @@ export interface RecursoCompleto {
 
 // Obtener todos los recursos de todas las colecciones
 export async function getTodosLosRecursos(): Promise<RecursoCompleto[]> {
-  const colecciones = [
+  const colecciones: CollectionName[] = [
     'frameworks', 'ui-libraries', 'css-frameworks', 'typography',
     'icons', 'tools', 'hosting', 'databases', 'apis', 'testing',
     'performance', 'analytics', 'design', 'learning'
@@ -35,12 +27,12 @@ export async function getTodosLosRecursos(): Promise<RecursoCompleto[]> {
   
   for (const categoria of colecciones) {
     try {
-      const recursos = await getCollection(categoria as any);
+      const recursos = await getCollection(categoria);
       recursos.forEach(recurso => {
         todosLosRecursos.push({
           id: recurso.id,
           categoria,
-          data: recurso.data as RecursoData
+          data: recurso.data
         });
       });
     } catch (error) {
@@ -52,7 +44,7 @@ export async function getTodosLosRecursos(): Promise<RecursoCompleto[]> {
 }
 
 // Mapeo de categorías a nombres legibles
-export const categoriaLabels: Record<string, string> = {
+export const categoriaLabels: Record<CollectionName, string> = {
   'frameworks': 'Frameworks',
   'ui-libraries': 'Librerías UI',
   'css-frameworks': 'Frameworks CSS',
