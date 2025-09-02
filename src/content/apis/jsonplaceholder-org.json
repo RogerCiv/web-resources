@@ -1,0 +1,9 @@
+{
+  "id": "jsonplaceholder-org",
+  "name": "JSONPlaceholder.org",
+  "description": "Servicio de API REST falsa con múltiples endpoints de prueba. Datos JSON estructurados para desarrollo, testing y aprendizaje de APIs REST.",
+  "categories": "apis",
+  "tags": ["fake-api", "rest", "json", "testing", "learning", "endpoints"],
+  "documentation": "https://jsonplaceholder.org/",
+  "price": "free"
+}

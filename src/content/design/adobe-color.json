@@ -1,0 +1,9 @@
+{
+  "id": "adobe-color",
+  "name": "Adobe Color",
+  "description": "Herramienta profesional de Adobe para crear paletas de colores. Incluye rueda de colores, temas predefinidos e integración con productos de Adobe Creative Suite.",
+  "categories": "design",
+  "tags": ["adobe", "colors", "palette", "professional", "creative-suite", "color-wheel"],
+  "documentation": "https://color.adobe.com/es/create/color-wheel",
+  "price": "freemium"
+}

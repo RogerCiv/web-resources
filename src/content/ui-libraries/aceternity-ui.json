@@ -1,0 +1,10 @@
+{
+  "id": "aceternity-ui",
+  "name": "Aceternity UI",
+  "description": "Biblioteca de componentes de React con animaciones modernas y efectos visuales impresionantes. Componentes copy-paste construidos con Framer Motion y Tailwind CSS.",
+  "categories": "ui-libraries",
+  "tags": ["react", "framer-motion", "tailwind-css", "animations", "modern", "copy-paste"],
+  "image": "https://ui.aceternity.com/logo.png",
+  "documentation": "https://ui.aceternity.com/",
+  "price": "freemium"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "unsplash-api",
+  "name": "Unsplash API",
+  "description": "API gratuita para acceder a millones de fotos de alta calidad de Unsplash. Perfecta para obtener imágenes placeholder o contenido visual para proyectos.",
+  "categories": "apis",
+  "tags": ["images", "photos", "high-quality", "placeholder", "free", "stock"],
+  "documentation": "https://unsplash.com/es",
+  "price": "free"
+}

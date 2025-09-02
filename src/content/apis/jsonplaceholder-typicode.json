@@ -1,0 +1,9 @@
+{
+  "id": "jsonplaceholder-typicode",
+  "name": "JSONPlaceholder",
+  "description": "API REST falsa gratuita para testing y prototipado. Proporciona endpoints con datos de ejemplo para posts, usuarios, comentarios, álbumes y más.",
+  "categories": "apis",
+  "tags": ["fake-api", "testing", "prototyping", "rest", "json", "mock"],
+  "documentation": "https://jsonplaceholder.typicode.com/",
+  "price": "free"
+}

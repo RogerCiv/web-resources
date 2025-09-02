@@ -1,0 +1,9 @@
+{
+  "id": "hue-tools",
+  "name": "Hue Tools",
+  "description": "Suite completa de herramientas para trabajar con colores. Incluye convertidores, generadores de paletas, análisis de contraste y herramientas de accesibilidad.",
+  "categories": "design",
+  "tags": ["colors", "converter", "palette", "accessibility", "contrast", "tools"],
+  "documentation": "https://hue.tools/",
+  "price": "free"
+}

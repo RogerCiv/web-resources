@@ -1,0 +1,9 @@
+{
+  "id": "eva-colors",
+  "name": "Eva Colors",
+  "description": "Sistema de colores semánticos para interfaces de usuario. Genera paletas de colores basadas en Deep Learning para crear interfaces coherentes y accesibles.",
+  "categories": "design",
+  "tags": ["colors", "semantic", "ui-design", "deep-learning", "accessibility", "system"],
+  "documentation": "https://colors.eva.design/",
+  "price": "free"
+}

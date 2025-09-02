@@ -1,0 +1,10 @@
+{
+  "id": "hoppscotch",
+  "name": "Hoppscotch",
+  "description": "Cliente API open-source ligero y rápido. Alternativa moderna a Postman para testing de APIs REST, GraphQL, WebSocket y más protocolos.",
+  "categories": "apis",
+  "tags": ["api-client", "testing", "rest", "graphql", "websocket", "postman-alternative"],
+  "github": "https://github.com/hoppscotch/hoppscotch",
+  "documentation": "https://hoppscotch.io/",
+  "price": "free"
+}

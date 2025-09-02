@@ -1,0 +1,10 @@
+{
+  "id": "tvmaze-api",
+  "name": "TVMaze API",
+  "description": "API completa de información de series de televisión. Accede a datos de shows, episodios, actores, horarios y más información de TV global.",
+  "categories": "apis",
+  "tags": ["tv-shows", "series", "episodes", "entertainment", "television", "actors"],
+  "image": "https://static.tvmaze.com/images/tvm-header-logo.png",
+  "documentation": "https://www.tvmaze.com/api",
+  "price": "free"
+}

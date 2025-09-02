@@ -1,0 +1,9 @@
+{
+  "id": "waifu-it",
+  "name": "Waifu.it API",
+  "description": "API de imágenes anime con múltiples categorías y endpoints. Proporciona imágenes aleatorias de anime, waifus y contenido relacionado para proyectos.",
+  "categories": "apis",
+  "tags": ["anime", "images", "random", "waifu", "entertainment", "japanese"],
+  "documentation": "https://docs.waifu.it/list-of-endpoints",
+  "price": "free"
+}

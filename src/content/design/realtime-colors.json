@@ -1,0 +1,10 @@
+{
+  "id": "realtime-colors",
+  "name": "Realtime Colors",
+  "description": "Herramienta para visualizar paletas de colores en interfaces reales. Ve cómo se ven tus colores en componentes UI antes de implementarlos en tu proyecto.",
+  "categories": "design",
+  "tags": ["colors", "palette", "preview", "ui-design", "visualization", "real-time"],
+  "image": "https://www.realtimecolors.com/favicon.png",
+  "documentation": "https://www.realtimecolors.com/",
+  "price": "free"
+}

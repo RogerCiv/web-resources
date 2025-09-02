@@ -1,0 +1,10 @@
+{
+  "id": "ipinfo",
+  "name": "IPInfo",
+  "description": "API completa de geolocalización IP que proporciona información detallada sobre direcciones IP, incluyendo ubicación, ISP, tipo de conexión y datos de seguridad.",
+  "categories": "apis",
+  "tags": ["ip", "geolocation", "api", "security", "location", "isp"],
+  "image": "https://website-cdn.ipinfo.io/_next/static/media/logo-negative.e34074b5.svg",
+  "documentation": "https://ipinfo.io/",
+  "price": "freemium"
+}

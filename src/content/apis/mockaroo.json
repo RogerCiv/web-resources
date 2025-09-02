@@ -1,0 +1,9 @@
+{
+  "id": "mockaroo",
+  "name": "Mockaroo",
+  "description": "Generador de datos falsos realistas para testing. Crea datasets personalizados con diferentes tipos de datos y formatos de exportación múltiples.",
+  "categories": "apis",
+  "tags": ["fake-data", "generator", "testing", "csv", "json", "custom-data"],
+  "documentation": "https://mockaroo.com/",
+  "price": "freemium"
+}

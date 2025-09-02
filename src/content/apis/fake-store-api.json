@@ -1,0 +1,10 @@
+{
+  "id": "fake-store-api",
+  "name": "Fake Store API",
+  "description": "API REST falsa de e-commerce con productos, usuarios, carritos y categorías. Perfecta para crear proyectos de tienda online y practicar con APIs.",
+  "categories": "apis",
+  "tags": ["ecommerce", "fake-api", "products", "store", "rest", "practice"],
+  "image": "https://fakestoreapi.com/icons/logo.png",
+  "documentation": "https://fakestoreapi.com/docs",
+  "price": "free"
+}

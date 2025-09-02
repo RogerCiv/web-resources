@@ -1,0 +1,9 @@
+{
+  "id": "tomorrow-io",
+  "name": "Tomorrow.io Weather API",
+  "description": "API de clima avanzada con predicciones precisas, datos meteorológicos en tiempo real y alertas. Incluye mapas de clima y análisis predictivos.",
+  "categories": "apis",
+  "tags": ["weather", "forecast", "real-time", "maps", "climate", "predictions"],
+  "documentation": "https://docs.tomorrow.io/reference/welcome",
+  "price": "freemium"
+}

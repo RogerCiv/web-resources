@@ -1,0 +1,9 @@
+{
+  "id": "random-user",
+  "name": "Random User Generator",
+  "description": "API gratuita que genera usuarios aleatorios con datos realistas. Incluye fotos, nombres, direcciones, contactos y más información demográfica ficticia.",
+  "categories": "apis",
+  "tags": ["fake-data", "users", "generator", "testing", "mock", "random"],
+  "documentation": "https://randomuser.me/",
+  "price": "free"
+}
