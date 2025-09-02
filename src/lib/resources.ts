@@ -4,7 +4,7 @@ import type { CollectionEntry } from 'astro:content';
 // Define los nombres de colecciones como un tipo literal
 type CollectionName = 'frameworks' | 'ui-libraries' | 'css-frameworks' | 'typography' | 
                      'icons' | 'tools' | 'hosting' | 'databases' | 'apis' | 'testing' | 
-                     'performance' | 'analytics' | 'design' | 'learning';
+                     'performance' | 'analytics' | 'design' | 'learning' | 'ai';
 
 // Tipos para los recursos
 export type RecursoData = CollectionEntry<CollectionName>['data'];
@@ -20,7 +20,7 @@ export async function getTodosLosRecursos(): Promise<RecursoCompleto[]> {
   const colecciones: CollectionName[] = [
     'frameworks', 'ui-libraries', 'css-frameworks', 'typography',
     'icons', 'tools', 'hosting', 'databases', 'apis', 'testing',
-    'performance', 'analytics', 'design', 'learning'
+    'performance', 'analytics', 'design', 'learning', 'ai'
   ];
   
   const todosLosRecursos: RecursoCompleto[] = [];
@@ -58,5 +58,6 @@ export const categoriaLabels: Record<CollectionName, string> = {
   'performance': 'Performance',
   'analytics': 'Analytics',
   'design': 'Diseño',
-  'learning': 'Aprendizaje'
+  'learning': 'Aprendizaje',
+  'ai': 'Inteligencia Artificial'
 };

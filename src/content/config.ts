@@ -18,7 +18,8 @@ const resourceSchema = z.object({
     'performance',
     'analytics',
     'design',
-    'learning'
+    'learning',
+    'ai'
   ]),
   tags: z.array(z.string()),
   image: z.string().optional(),
@@ -41,6 +42,7 @@ const performanceCollection = defineCollection({ type: "data", schema: resourceS
 const analyticsCollection = defineCollection({ type: "data", schema: resourceSchema })
 const designCollection = defineCollection({ type: "data", schema: resourceSchema })
 const learningCollection = defineCollection({ type: "data", schema: resourceSchema })
+const aiCollection = defineCollection({ type: "data", schema: resourceSchema })
 
 export const collections = {
   frameworks: frameworksCollection,
@@ -56,5 +58,6 @@ export const collections = {
   performance: performanceCollection,
   analytics: analyticsCollection,
   design: designCollection,
-  learning: learningCollection
+  learning: learningCollection,
+  ai: aiCollection
 }
