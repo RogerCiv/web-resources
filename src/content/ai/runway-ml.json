@@ -1,0 +1,9 @@
+{
+  "id": "runway-ml",
+  "name": "Runway ML",
+  "description": "Plataforma de IA creativa para generación y edición de video. Herramientas avanzadas para crear videos, efectos especiales y contenido multimedia con IA.",
+  "categories": "ai",
+  "tags": ["video-generation", "creative", "editing", "multimedia", "effects", "advanced"],
+  "documentation": "https://runwayml.com/",
+  "price": "freemium"
+}

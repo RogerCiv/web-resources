@@ -1,0 +1,9 @@
+{
+  "id": "claude",
+  "name": "Claude",
+  "description": "Asistente de IA de Anthropic enfocado en ser útil, inofensivo y honesto. Excelente para análisis profundo, escritura y tareas que requieren razonamiento complejo.",
+  "categories": "ai",
+  "tags": ["chatbot", "anthropic", "helpful", "reasoning", "analysis", "writing"],
+  "documentation": "https://claude.ai/",
+  "price": "freemium"
+}

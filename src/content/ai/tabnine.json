@@ -1,0 +1,9 @@
+{
+  "id": "tabnine",
+  "name": "Tabnine",
+  "description": "Asistente de código IA que aprende de tu estilo de programación. Ofrece autocompletado inteligente y sugerencias contextuales para múltiples lenguajes.",
+  "categories": "ai",
+  "tags": ["code-completion", "autocomplete", "learning", "contextual", "multi-language", "personalized"],
+  "documentation": "https://www.tabnine.com/",
+  "price": "freemium"
+}

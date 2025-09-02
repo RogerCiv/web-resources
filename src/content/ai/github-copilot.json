@@ -1,0 +1,9 @@
+{
+  "id": "github-copilot",
+  "name": "GitHub Copilot",
+  "description": "Asistente de programación IA que sugiere código en tiempo real. Entrenado en billones de líneas de código público para ayudar a desarrolladores a escribir código más rápido.",
+  "categories": "ai",
+  "tags": ["coding", "github", "autocomplete", "programming", "development", "real-time"],
+  "documentation": "https://github.com/features/copilot",
+  "price": "paid"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "dall-e",
+  "name": "DALL-E",
+  "description": "Generador de imágenes IA de OpenAI que crea imágenes realistas a partir de descripciones en lenguaje natural. Integrado con ChatGPT y otras herramientas de OpenAI.",
+  "categories": "ai",
+  "tags": ["openai", "image-generation", "realistic", "natural-language", "integrated", "creative"],
+  "documentation": "https://openai.com/dall-e-3",
+  "price": "paid"
+}

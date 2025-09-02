@@ -1,0 +1,9 @@
+{
+  "id": "suno-ai",
+  "name": "Suno AI",
+  "description": "Generador de música IA que crea canciones completas con letras y melodías a partir de prompts de texto. Capaz de generar múltiples géneros musicales.",
+  "categories": "ai",
+  "tags": ["music-generation", "songs", "lyrics", "melodies", "genres", "creative"],
+  "documentation": "https://suno.com/",
+  "price": "freemium"
+}

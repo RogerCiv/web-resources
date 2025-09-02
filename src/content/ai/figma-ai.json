@@ -1,0 +1,9 @@
+{
+  "id": "figma-ai",
+  "name": "Figma AI",
+  "description": "Funciones de IA integradas en Figma para acelerar el proceso de diseño. Incluye generación de contenido, autocompletado y asistencia en el flujo de trabajo de diseño.",
+  "categories": "ai",
+  "tags": ["design", "figma", "workflow", "content-generation", "autocomplete", "productivity"],
+  "documentation": "https://www.figma.com/ai/",
+  "price": "freemium"
+}

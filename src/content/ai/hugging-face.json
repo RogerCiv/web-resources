@@ -1,0 +1,10 @@
+{
+  "id": "hugging-face",
+  "name": "Hugging Face",
+  "description": "Plataforma colaborativa para machine learning con miles de modelos pre-entrenados. Hub central para compartir, descubrir y usar modelos de IA de código abierto.",
+  "categories": "ai",
+  "tags": ["machine-learning", "models", "open-source", "collaborative", "hub", "pre-trained"],
+  "github": "https://github.com/huggingface",
+  "documentation": "https://huggingface.co/",
+  "price": "freemium"
+}

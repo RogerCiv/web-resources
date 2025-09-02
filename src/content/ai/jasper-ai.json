@@ -1,0 +1,9 @@
+{
+  "id": "jasper-ai",
+  "name": "Jasper AI",
+  "description": "Plataforma de IA para marketing y creación de contenido. Especializada en copywriting, blogs, redes sociales y campañas publicitarias con múltiples plantillas.",
+  "categories": "ai",
+  "tags": ["marketing", "copywriting", "content-creation", "social-media", "advertising", "templates"],
+  "documentation": "https://www.jasper.ai/",
+  "price": "paid"
+}

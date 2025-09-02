@@ -1,0 +1,9 @@
+{
+  "id": "codeium",
+  "name": "Codeium",
+  "description": "Copiloto de código gratuito con autocompletado de IA, chat y búsqueda. Soporta más de 70 lenguajes de programación con integración en IDEs populares.",
+  "categories": "ai",
+  "tags": ["free", "code-completion", "chat", "search", "70-languages", "ide-integration"],
+  "documentation": "https://codeium.com/",
+  "price": "freemium"
+}

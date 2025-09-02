@@ -1,0 +1,9 @@
+{
+  "id": "perplexity",
+  "name": "Perplexity AI",
+  "description": "Motor de búsqueda conversacional potenciado por IA que proporciona respuestas precisas con fuentes citadas. Ideal para investigación y obtención de información actualizada.",
+  "categories": "ai",
+  "tags": ["search-engine", "research", "citations", "real-time", "conversational", "sources"],
+  "documentation": "https://www.perplexity.ai/",
+  "price": "freemium"
+}

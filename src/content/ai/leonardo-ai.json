@@ -1,0 +1,9 @@
+{
+  "id": "leonardo-ai",
+  "name": "Leonardo AI",
+  "description": "Plataforma de generación de imágenes IA enfocada en creatividad y control. Ofrece múltiples modelos especializados y herramientas avanzadas de edición.",
+  "categories": "ai",
+  "tags": ["image-generation", "creative", "multiple-models", "editing", "specialized", "control"],
+  "documentation": "https://leonardo.ai/",
+  "price": "freemium"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "gemini",
+  "name": "Google Gemini",
+  "description": "Modelo multimodal de Google que puede procesar texto, imágenes, audio y video. Integración profunda con servicios de Google y capacidades avanzadas de razonamiento.",
+  "categories": "ai",
+  "tags": ["google", "multimodal", "gemini", "reasoning", "integration", "versatile"],
+  "documentation": "https://gemini.google.com/",
+  "price": "freemium"
+}

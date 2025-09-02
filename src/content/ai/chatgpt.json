@@ -1,0 +1,9 @@
+{
+  "id": "chatgpt",
+  "name": "ChatGPT",
+  "description": "Modelo de lenguaje conversacional de OpenAI basado en GPT. Capaz de mantener conversaciones naturales, ayudar con código, escritura, análisis y tareas creativas.",
+  "categories": "ai",
+  "tags": ["chatbot", "gpt", "openai", "conversational", "code-assistant", "writing"],
+  "documentation": "https://chat.openai.com/",
+  "price": "freemium"
+}

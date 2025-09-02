@@ -1,0 +1,9 @@
+{
+  "id": "notion-ai",
+  "name": "Notion AI",
+  "description": "Asistente de IA integrado en Notion para escritura, resúmenes, traducción y organización de contenido. Ayuda a optimizar flujos de trabajo y productividad.",
+  "categories": "ai",
+  "tags": ["productivity", "writing", "summaries", "translation", "workflow", "organization"],
+  "documentation": "https://www.notion.so/product/ai",
+  "price": "paid"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "elevenlabs",
+  "name": "ElevenLabs",
+  "description": "Generador de voz IA de alta calidad que puede clonar voces y crear discursos naturales. Ideal para contenido de audio, podcasts y aplicaciones de voz.",
+  "categories": "ai",
+  "tags": ["voice-generation", "speech", "cloning", "natural", "audio", "podcasts"],
+  "documentation": "https://elevenlabs.io/",
+  "price": "freemium"
+}

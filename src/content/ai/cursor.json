@@ -1,0 +1,9 @@
+{
+  "id": "cursor",
+  "name": "Cursor",
+  "description": "Editor de código potenciado por IA construido para la programación en pareja con inteligencia artificial. Basado en VS Code con capacidades avanzadas de IA integradas.",
+  "categories": "ai",
+  "tags": ["code-editor", "ai-powered", "vscode", "pair-programming", "development", "integrated"],
+  "documentation": "https://cursor.sh/",
+  "price": "freemium"
+}

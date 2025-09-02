@@ -1,0 +1,9 @@
+{
+  "id": "grammarly",
+  "name": "Grammarly",
+  "description": "Asistente de escritura IA que corrige gramática, ortografía, estilo y tono. Ofrece sugerencias contextuales para mejorar la claridad y efectividad del texto.",
+  "categories": "ai",
+  "tags": ["writing", "grammar", "spelling", "style", "tone", "contextual"],
+  "documentation": "https://www.grammarly.com/",
+  "price": "freemium"
+}

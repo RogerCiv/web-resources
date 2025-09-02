@@ -1,0 +1,9 @@
+{
+  "id": "canva-ai",
+  "name": "Canva AI",
+  "description": "Suite de herramientas de IA integradas en Canva para diseño gráfico. Incluye Magic Design, generación de texto e imágenes, y automatización de procesos creativos.",
+  "categories": "ai",
+  "tags": ["graphic-design", "magic-design", "automation", "creative", "templates", "generation"],
+  "documentation": "https://www.canva.com/ai-image-generator/",
+  "price": "freemium"
+}

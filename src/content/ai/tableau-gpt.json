@@ -1,0 +1,9 @@
+{
+  "id": "tableau-gpt",
+  "name": "Tableau GPT",
+  "description": "Capacidades de IA generativa integradas en Tableau para análisis de datos conversacional. Permite hacer preguntas en lenguaje natural sobre datos y visualizaciones.",
+  "categories": "ai",
+  "tags": ["data-analysis", "visualization", "conversational", "natural-language", "business-intelligence", "tableau"],
+  "documentation": "https://www.tableau.com/products/tableau-gpt",
+  "price": "paid"
+}

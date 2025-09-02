@@ -1,0 +1,10 @@
+{
+  "id": "stable-diffusion",
+  "name": "Stable Diffusion",
+  "description": "Modelo de generación de imágenes IA de código abierto. Permite crear, editar y extender imágenes con control fino sobre el proceso de generación.",
+  "categories": "ai",
+  "tags": ["open-source", "image-generation", "diffusion", "customizable", "local", "flexible"],
+  "github": "https://github.com/Stability-AI/stablediffusion",
+  "documentation": "https://stability.ai/stable-diffusion",
+  "price": "free"
+}

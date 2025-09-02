@@ -1,0 +1,9 @@
+{
+  "id": "midjourney",
+  "name": "Midjourney",
+  "description": "Generador de imágenes IA que crea arte digital impresionante a partir de descripciones de texto. Conocido por sus resultados artísticos y estilizados de alta calidad.",
+  "categories": "ai",
+  "tags": ["image-generation", "art", "creative", "discord", "stylized", "high-quality"],
+  "documentation": "https://www.midjourney.com/",
+  "price": "paid"
+}
