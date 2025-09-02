@@ -1,0 +1,9 @@
+{
+  "id": "css-peeps",
+  "name": "CSS Peeps",
+  "description": "Biblioteca de ilustraciones de personas creadas completamente con CSS. Personajes modulares y personalizables para usar en interfaces web.",
+  "categories": "design",
+  "tags": ["illustrations", "css", "people", "characters", "modular", "customizable"],
+  "documentation": "https://css-peeps.com/",
+  "price": "free"
+}

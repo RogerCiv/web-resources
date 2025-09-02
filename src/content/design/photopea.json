@@ -1,0 +1,17 @@
+{
+  "id": "photopea",
+  "name": "Photopea",
+  "description": "Editor de imágenes online similar a Photoshop que funciona en el navegador. Soporta PSD, XCF, Sketch, XD y CDR sin necesidad de instalación.",
+  "categories": "design",
+  "tags": [
+    "photo-editor",
+    "online",
+    "photoshop-alternative",
+    "psd",
+    "browser-based",
+    "free"
+  ],
+  "image": "https://www.photopea.com/promo/icon512.png",
+  "documentation": "https://www.photopea.com/",
+  "price": "freemium"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "css-diner",
+  "name": "CSS Diner",
+  "description": "Juego interactivo para aprender selectores CSS de forma divertida. Resuelve 32 niveles progresivos para dominar los selectores CSS más complejos.",
+  "categories": "learning",
+  "tags": ["css", "selectores", "juego", "interactivo", "tutorial", "beginner"],
+  "documentation": "https://flukeout.github.io/",
+  "price": "free"
+}

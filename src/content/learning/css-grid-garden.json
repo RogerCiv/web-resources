@@ -1,0 +1,9 @@
+{
+  "id": "css-grid-garden",
+  "name": "CSS Grid Garden",
+  "description": "Juego para aprender CSS Grid cuidando tu jardín de zanahorias. 28 niveles que enseñan desde conceptos básicos hasta técnicas avanzadas de grid.",
+  "categories": "learning",
+  "tags": ["css", "grid", "juego", "interactivo", "tutorial", "layout"],
+  "documentation": "https://cssgridgarden.com/#es",
+  "price": "free"
+}

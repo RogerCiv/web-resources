@@ -1,0 +1,11 @@
+{
+  "id": "react-magic-motion",
+  "name": "React Magic Motion",
+  "description": "Biblioteca de animaciones para React que hace que las transiciones sean mágicas. Animaciones fluidas entre componentes con una API simple y declarativa.",
+  "categories": "tools",
+  "tags": ["react", "animations", "transitions", "magic", "declarative", "fluidas"],
+  "image": "https://www.react-magic-motion.com/_next/image?url=https%3A%2F%2Freact-magic-motion.nyc3.cdn.digitaloceanspaces.com%2Freact-magic-motion-logo.png&w=48&q=75",
+  "github": "https://github.com/ethanpbrooks/magic-motion",
+  "documentation": "https://www.react-magic-motion.com/",
+  "price": "free"
+}

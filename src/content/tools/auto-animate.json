@@ -1,0 +1,10 @@
+{
+  "id": "auto-animate",
+  "name": "AutoAnimate",
+  "description": "Biblioteca de animaciones automáticas de FormKit. Añade animaciones fluidas a cambios de layout sin configuración manual. Compatible con cualquier framework.",
+  "categories": "tools",
+  "tags": ["animations", "automatic", "layout", "formkit", "zero-config", "universal"],
+  "github": "https://github.com/formkit/auto-animate",
+  "documentation": "https://auto-animate.formkit.com/",
+  "price": "free"
+}

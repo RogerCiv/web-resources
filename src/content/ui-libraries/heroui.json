@@ -1,0 +1,10 @@
+{
+  "id": "heroui",
+  "name": "HeroUI",
+  "description": "Biblioteca moderna de componentes React y React Native. Componentes hermosos, accesibles y altamente personalizables con diseño consistente y API intuitiva.",
+  "categories": "ui-libraries",
+  "tags": ["react", "react-native", "components", "modern", "accessible", "customizable"],
+  "github": "https://github.com/nextui-org/nextui",
+  "documentation": "https://www.heroui.com/",
+  "price": "free"
+}

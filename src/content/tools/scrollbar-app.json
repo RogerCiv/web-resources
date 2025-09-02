@@ -1,0 +1,10 @@
+{
+  "id": "scrollbar-app",
+  "name": "Scrollbar.app",
+  "description": "Generador de scrollbars personalizados para navegadores webkit. Crea estilos de scrollbar únicos con CSS para mejorar la estética de tu sitio web.",
+  "categories": "tools",
+  "tags": ["scrollbar", "css", "webkit", "customization", "styling", "browser"],
+  "image": "https://scrollbar.app/assets/logo-880c6605.png",
+  "documentation": "https://scrollbar.app/",
+  "price": "free"
+}

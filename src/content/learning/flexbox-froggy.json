@@ -1,0 +1,9 @@
+{
+  "id": "flexbox-froggy",
+  "name": "Flexbox Froggy",
+  "description": "Juego interactivo para aprender CSS Flexbox ayudando a las ranas a llegar a sus nenúfares. 24 niveles progresivos que cubren todas las propiedades de flexbox.",
+  "categories": "learning",
+  "tags": ["css", "flexbox", "juego", "interactivo", "tutorial", "layout"],
+  "documentation": "https://flexboxfroggy.com/#es",
+  "price": "free"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "logoipsum",
+  "name": "Logoipsum",
+  "description": "Generador de logos placeholder para mockups y prototipos. Crea logos temporales estilizados para usar durante el desarrollo y diseño.",
+  "categories": "design",
+  "tags": ["logos", "placeholder", "mockups", "prototyping", "branding", "temporary"],
+  "documentation": "https://logoipsum.com/",
+  "price": "free"
+}

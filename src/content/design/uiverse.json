@@ -1,0 +1,9 @@
+{
+  "id": "uiverse",
+  "name": "Uiverse",
+  "description": "Plataforma comunitaria para crear y compartir elementos de UI. Miles de componentes CSS y HTML creativos hechos por desarrolladores de todo el mundo.",
+  "categories": "design",
+  "tags": ["ui-elements", "community", "css", "html", "creative", "components"],
+  "documentation": "https://uiverse.io/",
+  "price": "free"
+}

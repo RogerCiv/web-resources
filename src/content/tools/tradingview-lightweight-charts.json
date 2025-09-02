@@ -1,0 +1,10 @@
+{
+  "id": "tradingview-lightweight-charts",
+  "name": "TradingView Lightweight Charts",
+  "description": "Biblioteca de gráficos financieros ligera y personalizable. Perfecta para mostrar datos de trading, precios y análisis técnico en aplicaciones web.",
+  "categories": "tools",
+  "tags": ["charts", "financial", "trading", "data-visualization", "lightweight", "customizable"],
+  "github": "https://github.com/tradingview/lightweight-charts",
+  "documentation": "https://www.tradingview.com/lightweight-charts/",
+  "price": "free"
+}

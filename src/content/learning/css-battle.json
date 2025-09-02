@@ -1,0 +1,9 @@
+{
+  "id": "css-battle",
+  "name": "CSS Battle",
+  "description": "Competencia online de CSS donde replicas diseños usando el menor código posible. Desafíos diarios y competencias globales para mejorar tus habilidades CSS.",
+  "categories": "learning",
+  "tags": ["css", "competencia", "desafio", "codegolf", "community", "practice"],
+  "documentation": "https://cssbattle.dev/",
+  "price": "freemium"
+}

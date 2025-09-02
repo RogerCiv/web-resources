@@ -1,0 +1,11 @@
+{
+  "id": "bootswatch",
+  "name": "Bootswatch",
+  "description": "Temas gratuitos para Bootstrap. Colección de temas listos para usar que personalizan completamente la apariencia de Bootstrap sin JavaScript adicional.",
+  "categories": "css-frameworks",
+  "tags": ["bootstrap", "themes", "ready-to-use", "customization", "css", "styling"],
+  "image": "https://bootswatch.com/_assets/img/logo.svg",
+  "github": "https://github.com/thomaspark/bootswatch",
+  "documentation": "https://bootswatch.com/",
+  "price": "free"
+}

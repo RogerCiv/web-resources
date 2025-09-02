@@ -1,0 +1,10 @@
+{
+  "id": "echarts",
+  "name": "Apache ECharts",
+  "description": "Biblioteca de gráficos JavaScript potente y flexible. Ofrece una amplia variedad de tipos de gráficos con excelente rendimiento y interactividad.",
+  "categories": "tools",
+  "tags": ["charts", "data-visualization", "javascript", "interactive", "apache", "flexible"],
+  "github": "https://github.com/apache/echarts",
+  "documentation": "https://echarts.apache.org/en/index.html",
+  "price": "free"
+}

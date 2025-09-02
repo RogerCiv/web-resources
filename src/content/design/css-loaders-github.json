@@ -1,0 +1,10 @@
+{
+  "id": "css-loaders-github",
+  "name": "CSS Loaders",
+  "description": "Colección de loaders y spinners animados hechos puramente con CSS. Código copy-paste listo para usar en cualquier proyecto web.",
+  "categories": "design",
+  "tags": ["css", "loaders", "spinners", "animations", "copy-paste", "ui-elements"],
+  "github": "https://github.com/vineethtrv/css-loaders",
+  "documentation": "https://cssloaders.github.io/",
+  "price": "free"
+}

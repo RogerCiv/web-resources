@@ -1,0 +1,11 @@
+{
+  "id": "d3js",
+  "name": "D3.js",
+  "description": "Biblioteca JavaScript para manipular documentos basados en datos. Permite crear visualizaciones de datos complejas y altamente personalizadas en SVG, HTML y CSS.",
+  "categories": "tools",
+  "tags": ["data-visualization", "javascript", "svg", "dom-manipulation", "custom", "powerful"],
+  "image": "https://d3js.org/logo.svg",
+  "github": "https://github.com/d3/d3",
+  "documentation": "https://d3js.org/",
+  "price": "free"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "shadow-palette-generator",
+  "name": "Shadow Palette Generator",
+  "description": "Herramienta de Josh W. Comeau para crear paletas de sombras realistas y naturales. Genera sombras con múltiples capas para efectos más convincentes.",
+  "categories": "design",
+  "tags": ["shadows", "css", "design-system", "palette", "realistic", "layered"],
+  "documentation": "https://www.joshwcomeau.com/shadow-palette/",
+  "price": "free"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "super-color-palette",
+  "name": "Super Color Palette",
+  "description": "Generador avanzado de paletas de colores con control preciso sobre matiz, saturación y luminosidad. Ideal para crear sistemas de color consistentes.",
+  "categories": "design",
+  "tags": ["color-palette", "hsl", "design-system", "colors", "generator", "advanced"],
+  "image": "https://supercolorpalette.com/superColorPaletteLogoSquare.svg",
+  "documentation": "https://supercolorpalette.com/",
+  "price": "free"
+}
