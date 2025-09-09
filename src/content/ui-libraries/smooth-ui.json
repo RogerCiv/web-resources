@@ -1,0 +1,9 @@
+{
+  "id": "smooth-ui",
+  "name": "Smooth UI",
+  "description": "Biblioteca de componentes React con animaciones suaves y transiciones elegantes. Diseñada para crear experiencias de usuario fluidas y profesionales.",
+  "categories": "ui-libraries",
+  "tags": ["react", "animations", "smooth", "transitions", "fluid", "professional"],
+  "documentation": "https://smoothui.dev/",
+  "price": "free"
+}

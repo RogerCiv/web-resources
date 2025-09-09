@@ -1,0 +1,9 @@
+{
+  "id": "kokonut-ui",
+  "name": "Kokonut UI",
+  "description": "Biblioteca de componentes React con diseño tropical y vibrante. Componentes únicos y creativos que aportan personalidad y diversión a las aplicaciones web.",
+  "categories": "ui-libraries",
+  "tags": ["react", "tropical", "creative", "vibrant", "unique", "fun"],
+  "documentation": "https://kokonutui.com/",
+  "price": "free"
+}

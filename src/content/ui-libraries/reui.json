@@ -1,0 +1,9 @@
+{
+  "id": "reui",
+  "name": "ReUI",
+  "description": "Biblioteca de componentes React moderna y elegante con diseño minimalista. Enfocada en la simplicidad, accesibilidad y experiencia de desarrollador excepcional.",
+  "categories": "ui-libraries",
+  "tags": ["react", "components", "modern", "minimalist", "accessible", "developer-experience"],
+  "documentation": "https://reui.io/",
+  "price": "free"
+}
