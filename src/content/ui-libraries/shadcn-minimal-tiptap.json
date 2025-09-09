@@ -1,0 +1,9 @@
+{
+  "id": "shadcn-minimal-tiptap",
+  "name": "Shadcn Minimal Tiptap",
+  "description": "Editor de texto rico minimalista construido con Tiptap y shadcn/ui. Proporciona una interfaz limpia y moderna para edición de contenido con markdown.",
+  "categories": "ui-libraries",
+  "tags": ["shadcn-ui", "tiptap", "editor", "rich-text", "markdown", "minimal"],
+  "documentation": "https://shadcn-minimal-tiptap.vercel.app/",
+  "price": "free"
+}

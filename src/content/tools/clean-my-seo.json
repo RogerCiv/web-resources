@@ -1,0 +1,9 @@
+{
+  "id": "clean-my-seo",
+  "name": "Clean My SEO",
+  "description": "Herramienta para analizar y optimizar el SEO de sitios web. Identifica problemas técnicos, sugiere mejoras y ayuda a limpiar factores que afectan el posicionamiento en buscadores.",
+  "categories": "tools",
+  "tags": ["seo", "optimization", "analysis", "website", "search-engine", "performance"],
+  "documentation": "https://www.cleanmyseo.com/",
+  "price": "freemium"
+}

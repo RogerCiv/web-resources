@@ -1,0 +1,9 @@
+{
+  "id": "lina-ui",
+  "name": "Lina UI",
+  "description": "Biblioteca de componentes UI moderna y elegante con diseño minimalista. Enfocada en la simplicidad y la experiencia de usuario fluida.",
+  "categories": "ui-libraries",
+  "tags": ["ui-components", "modern", "elegant", "minimalist", "ux", "simple"],
+  "documentation": "https://lina.sameer.sh/",
+  "price": "free"
+}

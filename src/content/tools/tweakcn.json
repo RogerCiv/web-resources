@@ -1,0 +1,9 @@
+{
+  "id": "tweakcn",
+  "name": "TweakCN",
+  "description": "Herramienta para personalizar y optimizar componentes de shadcn/ui. Permite ajustar estilos, variantes y configuraciones de manera visual e interactiva.",
+  "categories": "tools",
+  "tags": ["shadcn-ui", "customization", "components", "tailwind", "ui-tools", "optimization"],
+  "documentation": "https://tweakcn.com/",
+  "price": "free"
+}

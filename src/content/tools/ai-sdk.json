@@ -1,0 +1,10 @@
+{
+  "id": "ai-sdk",
+  "name": "AI SDK",
+  "description": "SDK completo para integrar capacidades de IA en aplicaciones web. Proporciona hooks de React, utilidades y abstracciones para trabajar con diferentes modelos de IA.",
+  "categories": "tools",
+  "tags": ["ai", "sdk", "react", "hooks", "integration", "api"],
+  "github": "https://github.com/vercel/ai",
+  "documentation": "https://ai-sdk.dev/",
+  "price": "free"
+}

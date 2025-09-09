@@ -1,0 +1,9 @@
+{
+  "id": "patterncraft",
+  "name": "PatternCraft",
+  "description": "Herramienta interactiva para crear patrones y texturas personalizadas para fondos web. Genera CSS y SVG de patrones únicos con controles visuales en tiempo real.",
+  "categories": "ui-libraries",
+  "tags": ["patterns", "textures", "backgrounds", "css", "svg", "interactive"],
+  "documentation": "https://patterncraft.fun/",
+  "price": "free"
+}

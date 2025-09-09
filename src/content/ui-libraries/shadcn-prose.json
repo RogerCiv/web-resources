@@ -1,0 +1,9 @@
+{
+  "id": "shadcn-prose",
+  "name": "Shadcn Prose",
+  "description": "Componente de prosa optimizado para shadcn/ui que proporciona estilos tipográficos elegantes para contenido markdown y texto largo con excelente legibilidad.",
+  "categories": "ui-libraries",
+  "tags": ["shadcn-ui", "prose", "typography", "markdown", "content", "text"],
+  "documentation": "https://shadcn-prose.vercel.app/",
+  "price": "free"
+}

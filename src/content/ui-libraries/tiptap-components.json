@@ -1,0 +1,9 @@
+{
+  "id": "tiptap-components",
+  "name": "Tiptap Components",
+  "description": "Colección de componentes y extensiones para Tiptap editor. Incluye herramientas avanzadas de edición, plugins personalizados y configuraciones pre-construidas.",
+  "categories": "ui-libraries",
+  "tags": ["tiptap", "editor", "components", "extensions", "rich-text", "plugins"],
+  "documentation": "https://tiptap.niazmorshed.dev/",
+  "price": "free"
+}

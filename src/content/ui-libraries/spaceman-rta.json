@@ -1,0 +1,9 @@
+{
+  "id": "spaceman-rta",
+  "name": "Spaceman RTA",
+  "description": "Biblioteca de componentes React para crear interfaces espaciales y astronómicas. Incluye elementos UI temáticos y animaciones relacionadas con el espacio.",
+  "categories": "ui-libraries",
+  "tags": ["react", "space", "astronomy", "themed", "animations", "components"],
+  "documentation": "https://spaceman-rta-vite.netlify.app/",
+  "price": "free"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "awesome-shadcn-ui",
+  "name": "Awesome Shadcn UI",
+  "description": "Curated collection of awesome shadcn/ui components, examples, and resources. A comprehensive directory of community-built components and extensions.",
+  "categories": "ui-libraries",
+  "tags": ["shadcn-ui", "collection", "community", "components", "examples", "curated"],
+  "documentation": "https://awesome-shadcn-ui.vercel.app/",
+  "price": "free"
+}

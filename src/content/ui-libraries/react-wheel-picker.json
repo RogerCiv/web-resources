@@ -1,0 +1,9 @@
+{
+  "id": "react-wheel-picker",
+  "name": "React Wheel Picker",
+  "description": "Componente de selector de rueda para React inspirado en iOS. Permite selección suave de valores con gestos táctiles y animaciones fluidas.",
+  "categories": "ui-libraries",
+  "tags": ["react", "wheel-picker", "ios", "mobile", "touch", "animations"],
+  "documentation": "https://react-wheel-picker.chanhdai.com/",
+  "price": "free"
+}

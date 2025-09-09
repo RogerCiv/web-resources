@@ -1,0 +1,9 @@
+{
+  "id": "emblor",
+  "name": "Emblor",
+  "description": "Componente de input de tags altamente personalizable para React. Construido con TypeScript y diseñado para ser accesible, flexible y fácil de integrar.",
+  "categories": "ui-libraries",
+  "tags": ["react", "tags", "input", "typescript", "accessible", "customizable"],
+  "documentation": "https://emblor.jaleelbennett.com/introduction",
+  "price": "free"
+}

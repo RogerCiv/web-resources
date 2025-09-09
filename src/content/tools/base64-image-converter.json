@@ -1,0 +1,9 @@
+{
+  "id": "base64-image-converter",
+  "name": "Base64 Image Converter",
+  "description": "Herramienta online para convertir imágenes a formato Base64 y viceversa. Útil para embebido de imágenes en CSS, HTML o para transmisión de datos.",
+  "categories": "tools",
+  "tags": ["base64", "image", "converter", "encoding", "css", "html"],
+  "documentation": "https://www.base64-image.de/",
+  "price": "free"
+}

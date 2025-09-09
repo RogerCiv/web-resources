@@ -1,0 +1,10 @@
+{
+  "id": "shadcn-ui",
+  "name": "shadcn/ui",
+  "description": "Biblioteca de componentes accesibles y personalizables construida sobre Radix UI y Tailwind CSS. Componentes copy-paste que puedes poseer y personalizar completamente.",
+  "categories": "ui-libraries",
+  "tags": ["react", "radix-ui", "tailwind-css", "accessible", "customizable", "copy-paste"],
+  "github": "https://github.com/shadcn-ui/ui",
+  "documentation": "https://www.shadcn.io/",
+  "price": "free"
+}
