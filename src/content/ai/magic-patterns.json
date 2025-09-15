@@ -1,0 +1,16 @@
+{
+  "id": "magic-patterns",
+  "name": "Magic Patterns",
+  "description": "Generador de patrones de diseño usando inteligencia artificial. Crea patterns únicos y personalizables para fondos, texturas y elementos visuales con prompts de texto.",
+  "categories": "ai",
+  "tags": [
+    "ai-patterns",
+    "generative-design",
+    "backgrounds",
+    "textures",
+    "ai-powered",
+    "visual-elements"
+  ],
+  "documentation": "https://www.magicpatterns.com/",
+  "price": "freemium"
+}

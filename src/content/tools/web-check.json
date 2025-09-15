@@ -1,0 +1,16 @@
+{
+  "id": "web-check",
+  "name": "Web Check",
+  "description": "Herramienta completa para analizar sitios web y obtener información detallada sobre rendimiento, SEO, seguridad, tecnologías usadas y configuraciones del servidor.",
+  "categories": "tools",
+  "tags": [
+    "website-analysis",
+    "seo",
+    "performance",
+    "security",
+    "technologies",
+    "server-info"
+  ],
+  "documentation": "https://web-check.xyz/",
+  "price": "free"
+}

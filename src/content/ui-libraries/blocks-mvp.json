@@ -1,0 +1,16 @@
+{
+  "id": "blocks-mvp",
+  "name": "Blocks MVP",
+  "description": "Colección de bloques y secciones de UI pre-diseñadas para construir MVPs rápidamente. Componentes copy-paste listos para usar en proyectos web modernos.",
+  "categories": "ui-libraries",
+  "tags": [
+    "blocks",
+    "sections",
+    "mvp",
+    "copy-paste",
+    "pre-designed",
+    "rapid-development"
+  ],
+  "documentation": "https://blocks.mvp-subha.me/",
+  "price": "free"
+}

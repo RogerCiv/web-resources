@@ -1,0 +1,16 @@
+{
+  "id": "8bitcn",
+  "name": "8BitCN",
+  "description": "Biblioteca de componentes React con estética retro y pixel art. Inspirada en la era de 8-bits, perfecta para proyectos con temática vintage y nostálgica.",
+  "categories": "ui-libraries",
+  "tags": [
+    "react",
+    "retro",
+    "pixel-art",
+    "8-bit",
+    "vintage",
+    "nostalgic"
+  ],
+  "documentation": "https://www.8bitcn.com/",
+  "price": "free"
+}

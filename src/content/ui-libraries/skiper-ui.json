@@ -1,0 +1,16 @@
+{
+  "id": "skiper-ui",
+  "name": "Skiper UI",
+  "description": "Biblioteca de componentes React optimizada para velocidad y rendimiento. Componentes ligeros y rápidos diseñados para aplicaciones de alta performance.",
+  "categories": "ui-libraries",
+  "tags": [
+    "react",
+    "performance",
+    "speed",
+    "lightweight",
+    "optimized",
+    "fast"
+  ],
+  "documentation": "https://skiper-ui.com/",
+  "price": "free"
+}

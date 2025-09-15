@@ -1,0 +1,16 @@
+{
+  "id": "testsprite",
+  "name": "TestSprite",
+  "description": "Plataforma de testing automatizado que simplifica las pruebas de aplicaciones web. Ofrece herramientas intuitivas para crear, ejecutar y gestionar tests sin conocimientos técnicos profundos.",
+  "categories": "testing",
+  "tags": [
+    "automated-testing",
+    "web-testing",
+    "no-code",
+    "intuitive",
+    "test-management",
+    "qa"
+  ],
+  "documentation": "https://www.testsprite.com/",
+  "price": "freemium"
+}

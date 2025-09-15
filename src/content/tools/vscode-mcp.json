@@ -1,0 +1,16 @@
+{
+  "id": "vscode-mcp",
+  "name": "VS Code Model Context Protocol",
+  "description": "Protocolo estándar para conectar modelos de IA con herramientas de desarrollo. Permite que asistentes de IA accedan a contexto local, archivos y recursos del proyecto en VS Code.",
+  "categories": "tools",
+  "tags": [
+    "vscode",
+    "ai-integration",
+    "protocol",
+    "development",
+    "context",
+    "local-resources"
+  ],
+  "documentation": "https://code.visualstudio.com/mcp",
+  "price": "free"
+}

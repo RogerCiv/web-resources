@@ -1,0 +1,16 @@
+{
+  "id": "web-design-inspiration",
+  "name": "Web Design Inspiration",
+  "description": "Galería curada de diseños web excepcionales para inspirar creatividad. Showcase de sitios web modernos organizados por categorías, estilos y tendencias de diseño.",
+  "categories": "design",
+  "tags": [
+    "inspiration",
+    "showcase",
+    "web-design",
+    "gallery",
+    "trends",
+    "creativity"
+  ],
+  "documentation": "https://webdesigninspiration.io/",
+  "price": "free"
+}

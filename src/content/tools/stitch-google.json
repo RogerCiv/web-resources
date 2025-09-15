@@ -1,0 +1,16 @@
+{
+  "id": "stitch-google",
+  "name": "Stitch by Google",
+  "description": "Herramienta de Google para crear experiencias web inmersivas y narrativas interactivas. Permite combinar texto, imágenes, video y audio en presentaciones dinámicas.",
+  "categories": "tools",
+  "tags": [
+    "google",
+    "storytelling",
+    "interactive",
+    "immersive",
+    "presentations",
+    "multimedia"
+  ],
+  "documentation": "https://stitch.withgoogle.com/",
+  "price": "free"
+}

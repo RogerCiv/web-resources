@@ -1,0 +1,16 @@
+{
+  "id": "rest-countries",
+  "name": "REST Countries",
+  "description": "API gratuita con información completa sobre todos los países del mundo. Incluye datos como población, idiomas, monedas, banderas y fronteras geográficas.",
+  "categories": "apis",
+  "tags": [
+    "countries",
+    "geography",
+    "population",
+    "currencies",
+    "languages",
+    "flags"
+  ],
+  "documentation": "https://restcountries.com/",
+  "price": "free"
+}

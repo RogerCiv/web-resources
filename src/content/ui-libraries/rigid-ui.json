@@ -1,0 +1,16 @@
+{
+  "id": "rigid-ui",
+  "name": "Rigid UI",
+  "description": "Biblioteca de componentes React con enfoque en estructura sólida y consistencia de diseño. Proporciona componentes robustos y bien estructurados para aplicaciones empresariales.",
+  "categories": "ui-libraries",
+  "tags": [
+    "react",
+    "enterprise",
+    "solid-structure",
+    "consistent",
+    "robust",
+    "well-structured"
+  ],
+  "documentation": "https://www.rigidui.com/",
+  "price": "free"
+}

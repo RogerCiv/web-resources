@@ -1,0 +1,16 @@
+{
+  "id": "rocket-new",
+  "name": "Rocket",
+  "description": "Asistente de IA para desarrollo que genera código, componentes y proyectos completos. Acelera la creación de aplicaciones web modernas con templates inteligentes y automatización.",
+  "categories": "ai",
+  "tags": [
+    "ai-assistant",
+    "code-generation",
+    "development-platform",
+    "templates",
+    "automation",
+    "productivity"
+  ],
+  "documentation": "https://www.rocket.new/",
+  "price": "freemium"
+}

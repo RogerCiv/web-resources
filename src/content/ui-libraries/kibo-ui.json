@@ -1,0 +1,16 @@
+{
+  "id": "kibo-ui",
+  "name": "Kibo UI",
+  "description": "Biblioteca de componentes React moderna con enfoque en performance y accesibilidad. Ofrece componentes altamente optimizados con diseño limpio y APIs intuitivas.",
+  "categories": "ui-libraries",
+  "tags": [
+    "react",
+    "performance",
+    "accessibility",
+    "optimized",
+    "clean-design",
+    "modern"
+  ],
+  "documentation": "https://www.kibo-ui.com/",
+  "price": "free"
+}

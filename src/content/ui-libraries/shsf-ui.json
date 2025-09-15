@@ -1,0 +1,16 @@
+{
+  "id": "shsf-ui",
+  "name": "SHSF UI",
+  "description": "Biblioteca de componentes React con diseño moderno y elegante. Enfocada en proporcionar componentes de alta calidad con excelente experiencia de desarrollador.",
+  "categories": "ui-libraries",
+  "tags": [
+    "react",
+    "modern",
+    "elegant",
+    "high-quality",
+    "developer-experience",
+    "components"
+  ],
+  "documentation": "https://www.shsfui.com/",
+  "price": "free"
+}
