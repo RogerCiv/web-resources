@@ -1,0 +1,16 @@
+{
+  "id": "squoosh",
+  "name": "Squoosh",
+  "description": "Herramienta de optimización de imágenes desarrollada por Google. Permite comprimir, convertir y comparar diferentes formatos de imagen directamente en el navegador con control avanzado sobre la calidad.",
+  "categories": "tools",
+  "tags": [
+    "image-optimization",
+    "compression",
+    "google",
+    "browser-based",
+    "format-conversion",
+    "quality-control"
+  ],
+  "documentation": "https://squoosh.app/",
+  "price": "free"
+}
