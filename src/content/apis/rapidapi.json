@@ -1,0 +1,16 @@
+{
+  "id": "rapidapi",
+  "name": "RapidAPI",
+  "description": "Marketplace mundial de APIs que conecta desarrolladores con miles de APIs. Simplifica la integración, gestión y monetización de APIs con herramientas unificadas de desarrollo.",
+  "categories": "apis",
+  "tags": [
+    "api-marketplace",
+    "integration",
+    "development",
+    "monetization",
+    "unified-tools",
+    "thousands-apis"
+  ],
+  "documentation": "https://rapidapi.com/",
+  "price": "freemium"
+}

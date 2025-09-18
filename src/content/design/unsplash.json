@@ -1,0 +1,16 @@
+{
+  "id": "unsplash",
+  "name": "Unsplash",
+  "description": "Biblioteca de fotografías de alta calidad gratuitas para uso comercial y personal. Miles de imágenes profesionales aportadas por fotógrafos de todo el mundo, con API disponible.",
+  "categories": "design",
+  "tags": [
+    "photography",
+    "stock-photos",
+    "free-images",
+    "commercial-use",
+    "high-quality",
+    "api"
+  ],
+  "documentation": "https://unsplash.com/es",
+  "price": "free"
+}

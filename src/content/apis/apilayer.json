@@ -1,0 +1,16 @@
+{
+  "id": "apilayer",
+  "name": "APILayer",
+  "description": "Plataforma que ofrece múltiples APIs de alta calidad para desarrolladores. Incluye APIs para geolocalización, validación de emails, conversión de monedas, detección de idiomas y más.",
+  "categories": "apis",
+  "tags": [
+    "api-platform",
+    "geolocation",
+    "email-validation",
+    "currency",
+    "language-detection",
+    "multiple-apis"
+  ],
+  "documentation": "https://apilayer.com/",
+  "price": "freemium"
+}

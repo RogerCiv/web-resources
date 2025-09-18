@@ -1,0 +1,16 @@
+{
+  "id": "shots-so",
+  "name": "Shots",
+  "description": "Herramienta para crear mockups de dispositivos y capturas de pantalla hermosas. Genera imágenes profesionales de aplicaciones y sitios web en diferentes dispositivos con fondos personalizables.",
+  "categories": "design",
+  "tags": [
+    "mockups",
+    "screenshots",
+    "device-frames",
+    "presentation",
+    "professional",
+    "customizable"
+  ],
+  "documentation": "https://shots.so/",
+  "price": "freemium"
+}

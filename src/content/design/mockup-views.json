@@ -1,0 +1,16 @@
+{
+  "id": "mockup-views",
+  "name": "Mockup Views",
+  "description": "Generador de mockups para presentar diseños web y aplicaciones móviles. Crea vistas realistas en diferentes dispositivos con opciones de personalización y exportación de alta calidad.",
+  "categories": "design",
+  "tags": [
+    "mockups",
+    "web-design",
+    "mobile-apps",
+    "presentation",
+    "realistic",
+    "high-quality"
+  ],
+  "documentation": "https://mockupviews.web.app/",
+  "price": "free"
+}

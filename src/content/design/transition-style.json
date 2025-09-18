@@ -1,0 +1,16 @@
+{
+  "id": "transition-style",
+  "name": "Transition.style",
+  "description": "Biblioteca de transiciones CSS copy-paste para crear animaciones suaves entre páginas y componentes. Efectos profesionales listos para implementar en cualquier proyecto web.",
+  "categories": "design",
+  "tags": [
+    "css-transitions",
+    "animations",
+    "copy-paste",
+    "smooth",
+    "page-transitions",
+    "effects"
+  ],
+  "documentation": "https://www.transition.style/",
+  "price": "free"
+}

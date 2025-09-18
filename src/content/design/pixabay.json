@@ -1,0 +1,16 @@
+{
+  "id": "pixabay",
+  "name": "Pixabay",
+  "description": "Plataforma con millones de imágenes, vectores, ilustraciones y videos gratuitos. Recursos visuales de alta calidad para proyectos comerciales y personales sin necesidad de atribución.",
+  "categories": "design",
+  "tags": [
+    "stock-images",
+    "vectors",
+    "illustrations",
+    "videos",
+    "free-resources",
+    "commercial-use"
+  ],
+  "documentation": "https://pixabay.com/es/",
+  "price": "freemium"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "awwwards",
+  "name": "Awwwards",
+  "description": "Plataforma que reconoce y premia el mejor diseño web, creatividad e innovación. Galería curada de sitios web excepcionales con análisis de tendencias y técnicas de diseño.",
+  "categories": "design",
+  "tags": [
+    "awards",
+    "web-design",
+    "inspiration",
+    "innovation",
+    "creativity",
+    "trends"
+  ],
+  "documentation": "https://www.awwwards.com/",
+  "price": "freemium"
+}

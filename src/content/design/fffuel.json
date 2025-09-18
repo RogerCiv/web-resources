@@ -1,0 +1,16 @@
+{
+  "id": "fffuel",
+  "name": "FFFuel",
+  "description": "Colección de herramientas gratuitas para generar fondos, patrones, texturas y elementos visuales únicos. Perfecta para crear recursos gráficos personalizados para proyectos web.",
+  "categories": "design",
+  "tags": [
+    "backgrounds",
+    "patterns",
+    "textures",
+    "visual-elements",
+    "generators",
+    "free-resources"
+  ],
+  "documentation": "https://www.fffuel.co/",
+  "price": "free"
+}

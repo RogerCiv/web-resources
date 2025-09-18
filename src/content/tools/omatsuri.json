@@ -1,0 +1,16 @@
+{
+  "id": "omatsuri",
+  "name": "Omatsuri",
+  "description": "Colección de herramientas útiles para desarrolladores web en una sola aplicación. Incluye generadores de gradientes, paletas de colores, compresores de SVG y muchas utilidades más.",
+  "categories": "tools",
+  "tags": [
+    "developer-tools",
+    "utilities",
+    "gradients",
+    "colors",
+    "svg",
+    "all-in-one"
+  ],
+  "documentation": "https://omatsuri.app/",
+  "price": "free"
+}
