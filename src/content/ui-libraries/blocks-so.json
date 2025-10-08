@@ -1,0 +1,16 @@
+{
+  "id": "blocks-so",
+  "name": "Blocks.so",
+  "description": "Colección de bloques y componentes UI reutilizables para construir páginas rápidamente. Se centra en la simplicidad y la velocidad de desarrollo con secciones prediseñadas.",
+  "categories": "ui-libraries",
+  "tags": [
+    "blocks",
+    "sections",
+    "components",
+    "copy-paste",
+    "landing-pages",
+    "mvp"
+  ],
+  "documentation": "https://blocks.so/",
+  "price": "free"
+}

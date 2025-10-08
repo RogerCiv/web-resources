@@ -1,0 +1,16 @@
+{
+  "id": "cockroachdb",
+  "name": "CockroachDB",
+  "description": "Base de datos SQL distribuida, tolerante a fallos y transaccional compatible con PostgreSQL. Diseñada para aplicaciones globales y escalables con alta disponibilidad.",
+  "categories": "databases",
+  "tags": [
+    "sql",
+    "distributed",
+    "postgresql-compatible",
+    "scalable",
+    "high-availability",
+    "cloud"
+  ],
+  "documentation": "https://www.cockroachlabs.com/",
+  "price": "freemium"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "github-mcp",
+  "name": "GitHub MCP Registry",
+  "description": "Registro y herramientas relacionadas con el Model Context Protocol (MCP) para integrar asistentes de IA con VS Code y otros IDEs. Incluye ejemplos y servidores de referencia.",
+  "categories": "tools",
+  "tags": [
+    "mcp",
+    "vscode",
+    "ai-integration",
+    "registry",
+    "servers",
+    "examples"
+  ],
+  "documentation": "https://github.com/mcp?utm_source=vscode-website&utm_campaign=mcp-registry-server-launch-2025",
+  "price": "free"
+}

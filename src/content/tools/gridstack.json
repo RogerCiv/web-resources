@@ -1,0 +1,17 @@
+{
+  "id": "gridstackjs",
+  "name": "GridStack.js",
+  "description": "GridStack.js es una biblioteca para crear layouts en cuadrícula arrastrables y responsivos. Ideal para dashboards y paneles que requieren reordenamiento por parte del usuario.",
+  "categories": "tools",
+  "tags": [
+    "grid",
+    "drag-and-drop",
+    "dashboard",
+    "responsive",
+    "layout",
+    "widgets"
+  ],
+  "github": "https://github.com/gridstack/gridstack.js",
+  "documentation": "https://gridstackjs.com/",
+  "price": "free"
+}
