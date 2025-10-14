@@ -1,0 +1,16 @@
+{
+  "id": "nextjs-es",
+  "name": "Next.js (Documentación en Español)",
+  "description": "Documentación de Next.js en español con guías, ejemplos y recursos para desarrollar aplicaciones usando Next.js en entornos modernos.",
+  "categories": "frameworks",
+  "tags": [
+    "nextjs",
+    "documentation",
+    "spanish",
+    "framework",
+    "react",
+    "ssr"
+  ],
+  "documentation": "https://es.nextjs.im/",
+  "price": "free"
+}
