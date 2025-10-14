@@ -1,0 +1,16 @@
+{
+  "id": "tanstack",
+  "name": "TanStack",
+  "description": "Conjunto de librerías modernas para UI y datos (React Table, React Query, Router, Virtual) centradas en rendimiento y flexibilidad.",
+  "categories": "frameworks",
+  "tags": [
+    "react",
+    "libraries",
+    "performance",
+    "data",
+    "table",
+    "query"
+  ],
+  "documentation": "https://tanstack.com/",
+  "price": "free"
+}

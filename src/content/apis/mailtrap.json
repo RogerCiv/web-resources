@@ -1,0 +1,16 @@
+{
+  "id": "mailtrap",
+  "name": "Mailtrap",
+  "description": "Sandbox de emails para desarrollo: capturar, probar y depurar emails sin enviarlos a usuarios reales. Soporta testing, integraciones y análisis de entregabilidad.",
+  "categories": "apis",
+  "tags": [
+    "email-testing",
+    "sandbox",
+    "deliverability",
+    "integration",
+    "development",
+    "testing"
+  ],
+  "documentation": "https://mailtrap.io/",
+  "price": "freemium"
+}

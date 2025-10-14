@@ -1,0 +1,16 @@
+{
+  "id": "apidog",
+  "name": "Apidog",
+  "description": "Plataforma para probar, documentar y monitorear APIs con una interfaz sencilla. Ofrece herramientas de testing, mocks y colaboración para equipos.",
+  "categories": "tools",
+  "tags": [
+    "api-testing",
+    "documentation",
+    "mocks",
+    "monitoring",
+    "collaboration",
+    "tools"
+  ],
+  "documentation": "https://apidog.com/es/",
+  "price": "freemium"
+}

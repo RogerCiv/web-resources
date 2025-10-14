@@ -1,0 +1,16 @@
+{
+  "id": "requestly",
+  "name": "Requestly",
+  "description": "Herramienta para interceptar, modificar y depurar peticiones HTTP en el navegador. Útil para testing, debugging y modificar responses en tiempo real.",
+  "categories": "tools",
+  "tags": [
+    "http",
+    "intercept",
+    "debugging",
+    "testing",
+    "modify-requests",
+    "proxy"
+  ],
+  "documentation": "https://requestly.com/",
+  "price": "freemium"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "drizzle-orm",
+  "name": "Drizzle ORM",
+  "description": "ORM moderno para TypeScript y JavaScript con enfoque en tipos y migraciones. Ideal para trabajar con bases de datos SQL en aplicaciones modernas.",
+  "categories": "databases",
+  "tags": [
+    "orm",
+    "typescript",
+    "javascript",
+    "migrations",
+    "sql",
+    "typed"
+  ],
+  "documentation": "https://orm.drizzle.team/",
+  "price": "free"
+}

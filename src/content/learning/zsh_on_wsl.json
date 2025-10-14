@@ -1,0 +1,16 @@
+{
+  "id": "zsh-on-wsl",
+  "name": "Zsh on WSL",
+  "description": "Guía para configurar Zsh en Windows Subsystem for Linux (WSL). Explica instalación, configuración de Oh My Zsh y optimizaciones para un entorno de desarrollo en Windows.",
+  "categories": "learning",
+  "tags": [
+    "zsh",
+    "wsl",
+    "shell",
+    "setup",
+    "oh-my-zsh",
+    "guide"
+  ],
+  "documentation": "https://rugo.es/blog/zsh_on_wsl.md/",
+  "price": "free"
+}
