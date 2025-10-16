@@ -1,0 +1,16 @@
+{
+  "id": "shadcn-studio",
+  "name": "ShadCN Studio",
+  "description": "Entorno para diseñar, probar y publicar componentes basados en shadcn/ui con integraciones y previews en tiempo real.",
+  "categories": "tools",
+  "tags": [
+    "shadcn",
+    "studio",
+    "components",
+    "preview",
+    "design-system",
+    "integration"
+  ],
+  "documentation": "https://shadcnstudio.com/",
+  "price": "freemium"
+}

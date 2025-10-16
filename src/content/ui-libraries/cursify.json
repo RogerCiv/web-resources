@@ -1,0 +1,16 @@
+{
+  "id": "cursify",
+  "name": "Cursify",
+  "description": "Plataforma para crear y gestionar cursos online con componentes UI y plantillas para páginas educativas.",
+  "categories": "ui-libraries",
+  "tags": [
+    "courses",
+    "education",
+    "templates",
+    "ui-kits",
+    "elearning",
+    "platform"
+  ],
+  "documentation": "https://cursify.vercel.app/",
+  "price": "freemium"
+}

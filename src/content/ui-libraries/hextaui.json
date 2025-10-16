@@ -1,0 +1,16 @@
+{
+  "id": "hextaui",
+  "name": "Hexta UI",
+  "description": "Biblioteca de componentes y herramientas para interfaces modulares, con enfoque en estilo y composición por hexágonos.",
+  "categories": "ui-libraries",
+  "tags": [
+    "components",
+    "modular",
+    "hexagon",
+    "composition",
+    "ui-kits",
+    "design"
+  ],
+  "documentation": "https://www.hextaui.com/",
+  "price": "free"
+}

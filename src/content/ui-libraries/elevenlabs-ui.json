@@ -1,0 +1,16 @@
+{
+  "id": "elevenlabs-ui",
+  "name": "ElevenLabs UI",
+  "description": "UI y componentes relacionados con la plataforma de ElevenLabs para integración de voz y audio en aplicaciones.",
+  "categories": "ui-libraries",
+  "tags": [
+    "audio",
+    "voice",
+    "components",
+    "elevenlabs",
+    "ui-kits",
+    "integration"
+  ],
+  "documentation": "https://ui.elevenlabs.io/",
+  "price": "freemium"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "shadcnuikit",
+  "name": "ShadCN UIKit",
+  "description": "Colección de componentes y utilidades basadas en shadcn/ui para acelerar el desarrollo de interfaces con estilo y consistencia.",
+  "categories": "ui-libraries",
+  "tags": [
+    "shadcn-ui",
+    "components",
+    "ui-kit",
+    "tailwind",
+    "radix-ui",
+    "consistency"
+  ],
+  "documentation": "https://shadcnuikit.com/",
+  "price": "free"
+}

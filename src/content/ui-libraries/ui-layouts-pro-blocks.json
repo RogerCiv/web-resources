@@ -1,0 +1,16 @@
+{
+  "id": "ui-layouts-pro-blocks",
+  "name": "UI Layouts Pro - Blocks",
+  "description": "Versión Pro de UI Layouts con bloques avanzados y plantillas premium para proyectos comerciales y agencias.",
+  "categories": "ui-libraries",
+  "tags": [
+    "ui-layouts",
+    "pro",
+    "blocks",
+    "premium",
+    "templates",
+    "agency"
+  ],
+  "documentation": "https://pro.ui-layouts.com/blocks",
+  "price": "paid"
+}

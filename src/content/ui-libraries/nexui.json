@@ -1,0 +1,16 @@
+{
+  "id": "nexui",
+  "name": "NexUI",
+  "description": "Biblioteca de UI moderna con componentes listos para producción y enfoque en accesibilidad y performance.",
+  "categories": "ui-libraries",
+  "tags": [
+    "components",
+    "modern",
+    "accessible",
+    "performance",
+    "production",
+    "ui-kits"
+  ],
+  "documentation": "https://www.nexui.xyz/",
+  "price": "free"
+}

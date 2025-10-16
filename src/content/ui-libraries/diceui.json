@@ -1,0 +1,16 @@
+{
+  "id": "diceui",
+  "name": "DiceUI",
+  "description": "Biblioteca de componentes con un enfoque en microinteracciones y diseño lúdico. Ideal para interfaces con personalidad y animaciones divertidas.",
+  "categories": "ui-libraries",
+  "tags": [
+    "components",
+    "microinteractions",
+    "animation",
+    "playful",
+    "ui-kits",
+    "interactive"
+  ],
+  "documentation": "https://www.diceui.com/",
+  "price": "free"
+}

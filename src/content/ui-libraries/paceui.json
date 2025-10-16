@@ -1,0 +1,16 @@
+{
+  "id": "paceui",
+  "name": "PaceUI",
+  "description": "Conjunto de componentes y herramientas UI para construir experiencias de usuario rápidas y fluidas, con enfoque en performance y accesibilidad.",
+  "categories": "ui-libraries",
+  "tags": [
+    "performance",
+    "accessibility",
+    "components",
+    "fast",
+    "ui-kits",
+    "design"
+  ],
+  "documentation": "https://ui.paceui.com/",
+  "price": "free"
+}

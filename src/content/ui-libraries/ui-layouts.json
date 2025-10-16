@@ -1,0 +1,16 @@
+{
+  "id": "ui-layouts",
+  "name": "UI Layouts",
+  "description": "Colección de layouts y bloques UI pre-diseñados para crear páginas y secciones rápidamente. Incluye plantillas, componentes y herramientas visuales.",
+  "categories": "ui-libraries",
+  "tags": [
+    "layouts",
+    "blocks",
+    "templates",
+    "ui-kits",
+    "landing-pages",
+    "mvp"
+  ],
+  "documentation": "https://www.ui-layouts.com/",
+  "price": "free"
+}

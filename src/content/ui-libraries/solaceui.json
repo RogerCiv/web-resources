@@ -1,0 +1,16 @@
+{
+  "id": "solaceui",
+  "name": "Solace UI",
+  "description": "Conjunto de componentes UI enfocados en experiencia de usuario calmada y minimalista. Diseñados para interfaces limpias y relajantes.",
+  "categories": "ui-libraries",
+  "tags": [
+    "minimal",
+    "calm",
+    "ux",
+    "components",
+    "design",
+    "ui-kits"
+  ],
+  "documentation": "https://www.solaceui.com/",
+  "price": "free"
+}

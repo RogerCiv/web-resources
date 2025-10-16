@@ -1,0 +1,16 @@
+{
+  "id": "tailark-pro",
+  "name": "TailArk Pro",
+  "description": "Versión Pro de TailArk con componentes avanzados y soporte para equipos y usos comerciales.",
+  "categories": "ui-libraries",
+  "tags": [
+    "tailwind-css",
+    "components",
+    "premium",
+    "pro",
+    "team",
+    "commercial"
+  ],
+  "documentation": "https://pro.tailark.com/",
+  "price": "paid"
+}

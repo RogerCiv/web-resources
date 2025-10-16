@@ -1,0 +1,16 @@
+{
+  "id": "supabase-ui",
+  "name": "Supabase UI",
+  "description": "Componentes y patrones UI creados por Supabase para acelerar la construcción de dashboards y paneles con estilo coherente.",
+  "categories": "ui-libraries",
+  "tags": [
+    "supabase",
+    "components",
+    "dashboard",
+    "patterns",
+    "ui-kits",
+    "backend"
+  ],
+  "documentation": "https://supabase.com/ui",
+  "price": "free"
+}

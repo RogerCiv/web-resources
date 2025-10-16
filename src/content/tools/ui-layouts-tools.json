@@ -1,0 +1,16 @@
+{
+  "id": "ui-layouts-tools",
+  "name": "UI Layouts Tools",
+  "description": "Herramientas complementarias de UI Layouts para generar, personalizar y exportar bloques y secciones de forma rápida.",
+  "categories": "tools",
+  "tags": [
+    "ui-layouts",
+    "tools",
+    "generators",
+    "export",
+    "customization",
+    "blocks"
+  ],
+  "documentation": "https://tools.ui-layouts.com/",
+  "price": "freemium"
+}

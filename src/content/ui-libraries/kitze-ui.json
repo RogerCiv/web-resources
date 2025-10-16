@@ -1,0 +1,16 @@
+{
+  "id": "kitze-ui",
+  "name": "Kitze UI",
+  "description": "Conjunto de componentes UI cuidadosamente diseñados para crear aplicaciones limpias y rápidas. Enfocado en ergonomía del desarrollador y consistencia visual.",
+  "categories": "ui-libraries",
+  "tags": [
+    "components",
+    "design",
+    "clean",
+    "developer-experience",
+    "ui-kits",
+    "fast"
+  ],
+  "documentation": "https://ui.kitze.io/",
+  "price": "free"
+}

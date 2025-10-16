@@ -1,0 +1,16 @@
+{
+  "id": "tremor",
+  "name": "Tremor",
+  "description": "Conjunto de componentes de UI para dashboards y aplicaciones con enfoque en visualización de datos y rendimiento.",
+  "categories": "ui-libraries",
+  "tags": [
+    "dashboards",
+    "components",
+    "data-visualization",
+    "performance",
+    "analytics",
+    "ui-kits"
+  ],
+  "documentation": "https://www.tremor.so/",
+  "price": "free"
+}
