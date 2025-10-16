@@ -1,9 +1,0 @@
-{
-  "id": "cook-components",
-  "name": "Cook Components",
-  "description": "Biblioteca de componentes React para aplicaciones culinarias y gastronómicas. Incluye elementos especializados para recetas, ingredientes y experiencias de cocina.",
-  "categories": "ui-libraries",
-  "tags": ["react", "cooking", "recipes", "culinary", "food", "specialized"],
-  "documentation": "https://cook.engage-dev.com/",
-  "price": "free"
-}
