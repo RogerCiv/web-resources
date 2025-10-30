@@ -1,0 +1,10 @@
+{
+  "id": "chartdb",
+  "name": "ChartDB",
+  "description": "Servicio enfocado en almacenamiento y visualización de series de datos y métricas; facilita crear dashboards y consultas rápidas para análisis de datos.",
+  "categories": "databases",
+  "tags": ["timeseries", "charts", "analytics", "dashboard", "database"],
+  "image": "https://app.chartdb.io/favicon.ico",
+  "documentation": "https://app.chartdb.io/",
+  "price": "freemium"
+}

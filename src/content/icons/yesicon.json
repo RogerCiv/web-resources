@@ -1,0 +1,10 @@
+{
+  "id": "yesicon",
+  "name": "YesIcon",
+  "description": "Generador y conjunto de iconos online para proyectos web. Permite descargar en varios formatos y tamaños rápidamente.",
+  "categories": "icons",
+  "tags": ["icons", "svg", "generator", "assets", "design"],
+  "image": "https://yesicon.app/favicon.ico",
+  "documentation": "https://yesicon.app/",
+  "price": "free"
+}

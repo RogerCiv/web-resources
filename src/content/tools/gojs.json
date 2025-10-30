@@ -1,0 +1,10 @@
+{
+  "id": "gojs",
+  "name": "GoJS",
+  "description": "A modern JavaScript/TypeScript playground.",
+  "categories": "tools",
+  "tags": ["playground", "javascript", "typescript", "editor", "repl"],
+  "image": "https://gojs.app/favicon.ico",
+  "documentation": "https://gojs.app/",
+  "price": "free"
+}

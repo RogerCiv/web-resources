@@ -1,0 +1,10 @@
+{
+  "id": "react-email",
+  "name": "React Email",
+  "description": "Biblioteca y framework para construir correos electrónicos con React y JSX, con soporte para plantillas, renderizado y componentes reusables.",
+  "categories": "ui-libraries",
+  "tags": ["email", "react", "templates", "components", "jsx"],
+  "image": "https://react.email/favicon.ico",
+  "documentation": "https://react.email/",
+  "price": "freemium"
+}
