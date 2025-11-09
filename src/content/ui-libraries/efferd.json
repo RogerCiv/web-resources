@@ -1,0 +1,10 @@
+{
+  "id": "efferd",
+  "name": "Efferd",
+  "description": "UI library moderna con componentes accesibles y estilizados para construir interfaces rápidamente.",
+  "categories": "ui-libraries",
+  "tags": ["ui", "components", "design", "library"],
+  "image": "https://efferd.com/favicon.ico",
+  "documentation": "https://efferd.com/",
+  "price": "free"
+}

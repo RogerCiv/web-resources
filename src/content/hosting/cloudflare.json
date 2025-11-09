@@ -1,0 +1,10 @@
+{
+  "id": "cloudflare",
+  "name": "Cloudflare",
+  "description": "Proveedor de CDN, seguridad y servicios edge: DNS, firewall, Workers y hosting con capacidades globales.",
+  "categories": "hosting",
+  "tags": ["cdn", "security", "hosting", "edge", "dns"],
+  "image": "https://www.cloudflare.com/favicon.ico",
+  "documentation": "https://www.cloudflare.com/es-es/",
+  "price": "freemium"
+}

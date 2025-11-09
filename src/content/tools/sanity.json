@@ -1,0 +1,10 @@
+{
+  "id": "sanity",
+  "name": "Sanity",
+  "description": "Headless CMS y plataforma de contenido en tiempo real para sitios y aplicaciones; incluye estudio, APIs y hosting.",
+  "categories": "tools",
+  "tags": ["cms", "headless", "content", "api", "graphql"],
+  "image": "https://www.sanity.io/favicon.ico",
+  "documentation": "https://www.sanity.io/",
+  "price": "freemium"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "strapi",
+  "name": "Strapi",
+  "description": "Headless CMS open-source para construir APIs con facilidad; ofrece versión cloud y autoalojada.",
+  "categories": "tools",
+  "tags": ["cms", "headless", "nodejs", "api", "open-source"],
+  "image": "https://strapi.io/favicon.ico",
+  "documentation": "https://strapi.io/",
+  "price": "freemium"
+}

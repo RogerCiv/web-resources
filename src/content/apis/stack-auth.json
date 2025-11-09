@@ -1,0 +1,10 @@
+{
+  "id": "stack-auth",
+  "name": "Stack Auth",
+  "description": "Servicio de autenticación y gestión de identidades para aplicaciones (Auth as a Service).",
+  "categories": "apis",
+  "tags": ["auth", "authentication", "oauth", "jwt", "identity"],
+  "image": "https://stack-auth.com/favicon.ico",
+  "documentation": "https://stack-auth.com/",
+  "price": "paid"
+}
