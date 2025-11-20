@@ -1,0 +1,10 @@
+{
+  "id": "tailkits",
+  "name": "TailKits Tools",
+  "description": "Conjunto de herramientas y utilidades para Tailwind CSS: generadores, componentes, templates y recursos para acelerar desarrollo.",
+  "categories": "tools",
+  "tags": ["tailwind", "tools", "generators", "components", "templates", "utilities"],
+  "image": "https://tailkits.com/favicon.ico",
+  "documentation": "https://tailkits.com/tools",
+  "price": "free"
+}

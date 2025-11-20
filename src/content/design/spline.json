@@ -1,0 +1,10 @@
+{
+  "id": "spline",
+  "name": "Spline",
+  "description": "Herramienta de diseño 3D colaborativa para crear escenas, animaciones e interacciones 3D para web. Exporta a React, Three.js.",
+  "categories": "design",
+  "tags": ["3d", "design", "animation", "collaborative", "web3d", "threejs"],
+  "image": "https://spline.design/favicon.ico",
+  "documentation": "https://spline.design/",
+  "price": "freemium"
+}

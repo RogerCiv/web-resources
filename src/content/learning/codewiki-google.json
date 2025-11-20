@@ -1,0 +1,10 @@
+{
+  "id": "codewiki-google",
+  "name": "CodeWiki by Google",
+  "description": "Wiki oficial de Google con guías, mejores prácticas y documentación técnica para desarrolladores sobre tecnologías y APIs de Google.",
+  "categories": "learning",
+  "tags": ["documentation", "google", "guides", "best-practices", "apis", "reference"],
+  "image": "https://codewiki.google/favicon.ico",
+  "documentation": "https://codewiki.google/",
+  "price": "free"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "flipt",
+  "name": "Flipt",
+  "description": "Plataforma open-source de feature flags y A/B testing para gestionar releases graduales y experimentación en aplicaciones.",
+  "categories": "tools",
+  "tags": ["feature-flags", "ab-testing", "experimentation", "open-source", "deployment"],
+  "github": "https://github.com/flipt-io/flipt",
+  "documentation": "https://www.flipt.io/",
+  "price": "free"
+}

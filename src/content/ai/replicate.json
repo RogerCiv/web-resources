@@ -1,0 +1,10 @@
+{
+  "id": "replicate",
+  "name": "Replicate",
+  "description": "Plataforma para ejecutar modelos de machine learning en la nube con API sencilla. Acceso a modelos de imagen, texto, audio y video.",
+  "categories": "ai",
+  "tags": ["machine-learning", "models", "api", "cloud", "image-generation", "text-generation"],
+  "image": "https://replicate.com/favicon.ico",
+  "documentation": "https://replicate.com/",
+  "price": "paid"
+}

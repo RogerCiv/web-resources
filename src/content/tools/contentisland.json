@@ -1,0 +1,10 @@
+{
+  "id": "contentisland",
+  "name": "ContentIsland",
+  "description": "Plataforma de gestión de contenido y CMS headless para crear y administrar contenido estructurado de forma eficiente.",
+  "categories": "tools",
+  "tags": ["cms", "headless", "content", "management", "api"],
+  "image": "https://contentisland.net/favicon.ico",
+  "documentation": "https://contentisland.net/es/",
+  "price": "freemium"
+}

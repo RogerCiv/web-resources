@@ -1,0 +1,10 @@
+{
+  "id": "magic-patterns-site",
+  "name": "Magic Patterns",
+  "description": "Generador de componentes UI con IA que crea código React, Vue o HTML a partir de descripciones en lenguaje natural.",
+  "categories": "ai",
+  "tags": ["ai", "code-generation", "ui-components", "react", "vue", "html"],
+  "image": "https://www.magicpatterns.com/favicon.ico",
+  "documentation": "https://www.magicpatterns.com/",
+  "price": "freemium"
+}

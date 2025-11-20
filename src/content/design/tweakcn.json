@@ -1,0 +1,10 @@
+{
+  "id": "tweakcn",
+  "name": "TweakCN",
+  "description": "Herramienta de diseño y personalización para ajustar colores, estilos y configuraciones de componentes UI de manera visual.",
+  "categories": "design",
+  "tags": ["design", "customization", "colors", "ui", "components", "visual-editor"],
+  "image": "https://tweakcn.com/favicon.ico",
+  "documentation": "https://tweakcn.com/",
+  "price": "free"
+}

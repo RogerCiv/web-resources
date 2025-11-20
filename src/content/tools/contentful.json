@@ -1,0 +1,10 @@
+{
+  "id": "contentful",
+  "name": "Contentful",
+  "description": "Headless CMS líder en la industria con APIs flexibles, gestión de contenido estructurado y escalabilidad empresarial.",
+  "categories": "tools",
+  "tags": ["cms", "headless", "api", "content", "enterprise", "graphql"],
+  "image": "https://www.contentful.com/favicon.ico",
+  "documentation": "https://www.contentful.com/",
+  "price": "freemium"
+}

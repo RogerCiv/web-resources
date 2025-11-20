@@ -1,0 +1,10 @@
+{
+  "id": "30-days-of-javascript",
+  "name": "30 Days Of JavaScript",
+  "description": "Curso gratuito de 30 días para aprender JavaScript desde cero con ejercicios prácticos, proyectos y conceptos fundamentales.",
+  "categories": "learning",
+  "tags": ["javascript", "course", "free", "beginner", "exercises", "projects"],
+  "github": "https://github.com/Asabeneh/30-Days-Of-JavaScript",
+  "documentation": "https://github.com/Asabeneh/30-Days-Of-JavaScript",
+  "price": "free"
+}

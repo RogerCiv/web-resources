@@ -1,0 +1,10 @@
+{
+  "id": "biome",
+  "name": "Biome",
+  "description": "Toolchain rápido para web: linter, formatter y más. Alternativa moderna a ESLint y Prettier con mejor rendimiento.",
+  "categories": "tools",
+  "tags": ["linter", "formatter", "toolchain", "performance", "javascript", "typescript"],
+  "github": "https://github.com/biomejs/biome",
+  "documentation": "https://biomejs.dev",
+  "price": "free"
+}

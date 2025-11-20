@@ -1,0 +1,10 @@
+{
+  "id": "lazyvim",
+  "name": "LazyVim",
+  "description": "Configuración de Neovim lista para usar con LSP, autocompletado, syntax highlighting y plugins pre-configurados para productividad.",
+  "categories": "tools",
+  "tags": ["neovim", "editor", "ide", "lsp", "vim", "productivity"],
+  "github": "https://github.com/LazyVim/LazyVim",
+  "documentation": "https://www.lazyvim.org/",
+  "price": "free"
+}

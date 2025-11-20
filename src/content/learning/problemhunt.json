@@ -1,0 +1,10 @@
+{
+  "id": "problemhunt",
+  "name": "ProblemHunt",
+  "description": "Plataforma para practicar algoritmos y estructuras de datos con problemas de coding challenges y preparación para entrevistas técnicas.",
+  "categories": "learning",
+  "tags": ["algorithms", "coding-challenges", "interview-prep", "data-structures", "practice"],
+  "image": "https://problemhunt.pro/favicon.ico",
+  "documentation": "https://problemhunt.pro/",
+  "price": "free"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "mixpanel",
+  "name": "Mixpanel",
+  "description": "Plataforma de análisis de producto que rastrea comportamiento de usuarios, funnels, retención y métricas de engagement en tiempo real.",
+  "categories": "analytics",
+  "tags": ["product-analytics", "user-behavior", "funnels", "retention", "engagement", "tracking"],
+  "image": "https://mixpanel.com/favicon.ico",
+  "documentation": "https://mixpanel.com/home/",
+  "price": "freemium"
+}
