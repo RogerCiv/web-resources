@@ -1,0 +1,10 @@
+{
+  "id": "css-grid-generator",
+  "name": "CSS Grid Generator",
+  "description": "Herramienta visual para generar layouts de CSS Grid de forma interactiva y obtener el código listo para usar.",
+  "categories": "tools",
+  "tags": ["css", "grid", "layout", "generator", "frontend"],
+  "image": "https://cssgridgenerator.io/favicon.ico",
+  "documentation": "https://cssgridgenerator.io/",
+  "price": "free"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "lenis",
+  "name": "Lenis",
+  "description": "Librería de smooth scroll ligera y de alto rendimiento para crear experiencias de desplazamiento fluidas en la web.",
+  "categories": "ui-libraries",
+  "tags": ["smooth-scroll", "animation", "ux", "performance", "library"],
+  "image": "https://lenis.darkroom.engineering/favicon.ico",
+  "documentation": "https://lenis.darkroom.engineering/",
+  "github": "https://github.com/darkroomengineering/lenis",
+  "price": "free"
+}

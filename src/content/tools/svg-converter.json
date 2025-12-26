@@ -1,0 +1,10 @@
+{
+  "id": "svg-converter",
+  "name": "SVG Converter",
+  "description": "Convertidor online gratuito para transformar imágenes a formato SVG y optimizar archivos vectoriales.",
+  "categories": "tools",
+  "tags": ["svg", "converter", "images", "vector", "optimization"],
+  "image": "https://svgconverter.online/favicon.ico",
+  "documentation": "https://svgconverter.online/",
+  "price": "free"
+}
