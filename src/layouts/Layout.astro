@@ -15,14 +15,14 @@ export interface Props {
 
 const { 
   title, 
-  description = "Directorio completo de recursos para desarrolladores web: frameworks, librerías UI, herramientas y más.",
+  description = "Web Recursos: El directorio más completo para desarrolladores web. Encuentra frameworks, librerías UI, herramientas de diseño, APIs y mucho más para potenciar tu flujo de trabajo.",
   image = "/og-image.png",
   url,
   type = "website"
 } = Astro.props;
 
 // Manejo seguro de URL canónica
-const baseURL = Astro.site || new URL('http://localhost:4321');
+const baseURL = Astro.site || new URL('https://web-recursos.vercel.app');
 const canonicalURL = new URL(url || Astro.url.pathname, baseURL);
 ---
 
@@ -31,9 +31,12 @@ const canonicalURL = new URL(url || Astro.url.pathname, baseURL);
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
+    <meta name="keywords" content="web recursos, recursos desarrolladores, herramientas web, frameworks, librerías UI, diseño web, APIs gratuitas, aprendizaje programación" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="author" content="RogerCiv" />
+    <meta name="robots" content="index, follow" />
     
     <!-- SEO Meta Tags -->
     <title>{title}</title>
@@ -45,6 +48,8 @@ const canonicalURL = new URL(url || Astro.url.pathname, baseURL);
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL(image, baseURL)} />
+    <meta property="og:site_name" content="Web Recursos" />
+    <meta property="og:locale" content="es_ES" />
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -63,14 +68,15 @@ const canonicalURL = new URL(url || Astro.url.pathname, baseURL);
       {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "DevResources",
+        "name": "Web Recursos",
+        "alternateName": "DevResources",
         "description": "Directorio de recursos para desarrolladores web",
-        "url": canonicalURL.toString(),
+        "url": "https://web-recursos.vercel.app",
         "potentialAction": {
           "@type": "SearchAction",
           "target": {
             "@type": "EntryPoint",
-            "urlTemplate": `${canonicalURL.origin}/search?q={search_term_string}`
+            "urlTemplate": "https://web-recursos.vercel.app/search?q={search_term_string}"
           },
           "query-input": "required name=search_term_string"
         }
