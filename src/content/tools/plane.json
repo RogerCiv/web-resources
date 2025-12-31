@@ -1,0 +1,11 @@
+{
+  "id": "plane",
+  "name": "Plane",
+  "description": "Herramienta de gestión de proyectos open-source y alternativa a Jira, diseñada para equipos que buscan simplicidad y potencia.",
+  "categories": "tools",
+  "tags": ["project-management", "jira-alternative", "open-source", "agile", "tasks"],
+  "image": "https://plane.so/favicon.ico",
+  "github": "https://github.com/makeplane/plane",
+  "documentation": "https://docs.plane.so/",
+  "price": "freemium"
+}

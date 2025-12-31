@@ -1,0 +1,11 @@
+{
+  "id": "bruno",
+  "name": "Bruno",
+  "description": "Cliente de API open-source y ligero que utiliza Git para el almacenamiento de colecciones, permitiendo colaboración sin nubes propietarias.",
+  "categories": "tools",
+  "tags": ["api-client", "testing", "git", "open-source", "rest", "graphql"],
+  "image": "https://www.usebruno.com/favicon.png",
+  "github": "https://github.com/usebruno/bruno",
+  "documentation": "https://docs.usebruno.com/",
+  "price": "free"
+}

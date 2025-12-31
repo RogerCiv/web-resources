@@ -1,0 +1,11 @@
+{
+  "id": "erpnext",
+  "name": "ERPNext",
+  "description": "ERP open-source completo para gestionar inventario, contabilidad, ventas, recursos humanos y más, construido sobre Frappe Framework.",
+  "categories": "tools",
+  "tags": ["erp", "business", "open-source", "python", "frappe"],
+  "image": "https://frappe.io/favicon.ico",
+  "github": "https://github.com/frappe/erpnext",
+  "documentation": "https://docs.erpnext.com/",
+  "price": "free"
+}

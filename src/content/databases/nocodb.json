@@ -1,0 +1,11 @@
+{
+  "id": "nocodb",
+  "name": "NocoDB",
+  "description": "Plataforma open-source que convierte cualquier base de datos (MySQL, PostgreSQL, etc.) en una hoja de cálculo inteligente similar a Airtable.",
+  "categories": "databases",
+  "tags": ["database", "airtable-alternative", "no-code", "spreadsheet", "open-source"],
+  "image": "https://nocodb.com/favicon.ico",
+  "github": "https://github.com/nocodb/nocodb",
+  "documentation": "https://docs.nocodb.com/",
+  "price": "free"
+}

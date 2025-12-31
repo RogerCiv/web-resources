@@ -1,0 +1,10 @@
+{
+  "id": "grafbase",
+  "name": "Grafbase",
+  "description": "Plataforma para acelerar el desarrollo de APIs GraphQL con despliegue instantáneo y base de datos integrada.",
+  "categories": "apis",
+  "tags": ["graphql", "api", "backend", "serverless", "database"],
+  "image": "https://grafbase.com/favicon.ico",
+  "documentation": "https://grafbase.com/docs",
+  "price": "freemium"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "baserow",
+  "name": "Baserow",
+  "description": "Herramienta de base de datos online open-source y alternativa a Airtable que permite crear bases de datos sin programar.",
+  "categories": "databases",
+  "tags": ["database", "no-code", "airtable-alternative", "spreadsheet", "open-source"],
+  "image": "https://baserow.io/favicon.ico",
+  "github": "https://gitlab.com/baserow/baserow",
+  "documentation": "https://baserow.io/docs/",
+  "price": "freemium"
+}

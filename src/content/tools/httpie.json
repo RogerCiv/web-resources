@@ -1,0 +1,11 @@
+{
+  "id": "httpie",
+  "name": "HTTPie",
+  "description": "Herramienta de línea de comandos y cliente de escritorio para interactuar con APIs HTTP de forma intuitiva y amigable.",
+  "categories": "tools",
+  "tags": ["api-client", "cli", "http", "testing", "rest"],
+  "image": "https://httpie.io/favicon.ico",
+  "github": "https://github.com/httpie/httpie",
+  "documentation": "https://httpie.io/docs",
+  "price": "free"
+}

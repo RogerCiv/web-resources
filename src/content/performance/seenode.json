@@ -1,0 +1,10 @@
+{
+  "id": "seenode",
+  "name": "Seenode",
+  "description": "Plataforma de monitoreo y observabilidad para aplicaciones Node.js, enfocada en rendimiento y detección de errores.",
+  "categories": "performance",
+  "tags": ["monitoring", "nodejs", "observability", "performance", "errors"],
+  "image": "https://seenode.com/favicon.ico",
+  "documentation": "https://seenode.com/",
+  "price": "freemium"
+}

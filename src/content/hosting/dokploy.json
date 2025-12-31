@@ -1,0 +1,11 @@
+{
+  "id": "dokploy",
+  "name": "Dokploy",
+  "description": "Alternativa open-source a Heroku/Vercel para desplegar aplicaciones en tus propios servidores de forma sencilla.",
+  "categories": "hosting",
+  "tags": ["deployment", "paas", "self-hosted", "docker", "hosting"],
+  "image": "https://dokploy.com/favicon.ico",
+  "github": "https://github.com/Dokploy/dokploy",
+  "documentation": "https://docs.dokploy.com/",
+  "price": "free"
+}

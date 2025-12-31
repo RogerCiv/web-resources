@@ -1,0 +1,11 @@
+{
+  "id": "appflowy",
+  "name": "AppFlowy",
+  "description": "Alternativa open-source a Notion construida con Rust y Flutter, enfocada en la privacidad y el control de datos.",
+  "categories": "tools",
+  "tags": ["productivity", "notion-alternative", "open-source", "rust", "flutter"],
+  "image": "https://appflowy.com/favicon.ico",
+  "github": "https://github.com/AppFlowy-IO/AppFlowy",
+  "documentation": "https://docs.appflowy.io/",
+  "price": "free"
+}

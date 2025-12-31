@@ -1,0 +1,11 @@
+{
+  "id": "pocketbase",
+  "name": "PocketBase",
+  "description": "Backend open-source en un solo archivo con base de datos embebida, autenticación, almacenamiento de archivos y administración en tiempo real.",
+  "categories": "databases",
+  "tags": ["backend", "database", "auth", "realtime", "sqlite", "go"],
+  "image": "https://pocketbase.io/images/favicon.png",
+  "github": "https://github.com/pocketbase/pocketbase",
+  "documentation": "https://pocketbase.io/docs/",
+  "price": "free"
+}
