@@ -1,0 +1,9 @@
+{
+  "id": "groq",
+  "name": "Groq",
+  "description": "Groq delivers fast, low cost inference that doesn't flake when things get real. High-performance LPU technology for LLMs.",
+  "categories": "ai",
+  "tags": ["inference", "ai", "llm", "fast", "lpu"],
+  "documentation": "https://groq.com/",
+  "price": "freemium"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "nager-date",
+  "name": "Public Holiday API",
+  "description": "The API provides a simple way to query the holidays of over 100 countries, including long weekends. Perfect for IoT devices and software integration.",
+  "categories": "apis",
+  "tags": ["holidays", "api", "calendar", "open-source"],
+  "documentation": "https://date.nager.at/",
+  "github": "https://github.com/nager/Nager.Date",
+  "price": "free"
+}

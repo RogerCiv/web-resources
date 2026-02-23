@@ -1,0 +1,9 @@
+{
+  "id": "sileo",
+  "name": "Sileo",
+  "description": "An opinionated toast component for React. Gooey SVG morphing, spring physics, and a minimal API — beautiful by default.",
+  "categories": "ui-libraries",
+  "tags": ["toast", "notifications", "react", "animation", "svg"],
+  "documentation": "https://sileo.aaryan.design/",
+  "price": "free"
+}

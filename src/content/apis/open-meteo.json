@@ -1,0 +1,9 @@
+{
+  "id": "open-meteo",
+  "name": "Open-Meteo",
+  "description": "Open-Meteo is an open-source weather API and offers free access for non-commercial use. No API key required. Start using it now!",
+  "categories": "apis",
+  "tags": ["weather", "api", "open-source", "forecast"],
+  "documentation": "https://open-meteo.com/",
+  "price": "free"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "simpleparallax",
+  "name": "simpleParallax.js",
+  "description": "Easy Parallax Effect for React & JavaScript. simpleParallax.js is a lightweight and easy-to-use JS & React library that adds parallax animations to any image.",
+  "categories": "ui-libraries",
+  "tags": ["parallax", "animation", "react", "vanilla-js", "performance"],
+  "documentation": "https://simpleparallax.com/",
+  "github": "https://github.com/geosignis/simpleParallax.js",
+  "price": "free"
+}

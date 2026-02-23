@@ -1,0 +1,9 @@
+{
+  "id": "bcrypt-generator",
+  "name": "Bcrypt Hash Generator",
+  "description": "A simple tool to generate and verify bcrypt hashes. All processing happens in your browser for security. No data is sent to any server.",
+  "categories": "tools",
+  "tags": ["security", "bcrypt", "hashing", "generator", "crypto"],
+  "documentation": "https://bcrypt-generator.com/",
+  "price": "free"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "tailwind-animations",
+  "name": "Tailwind Animations",
+  "description": "The easiest way to add stunning animations to your Tailwind CSS projects. Zero configuration, pure performance. A library of ready-to-use animations.",
+  "categories": "ui-libraries",
+  "tags": ["animations", "tailwind", "css", "web-design"],
+  "documentation": "https://tailwind-animations.com/",
+  "price": "free"
+}

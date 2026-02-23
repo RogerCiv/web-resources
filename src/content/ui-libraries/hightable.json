@@ -1,0 +1,10 @@
+{
+  "id": "hightable",
+  "name": "HighTable",
+  "description": "HighTable is a virtualized table component for React, designed to efficiently display large datasets. It renders only the necessary rows for the current viewport, enabling smooth scrolling with millions of rows.",
+  "categories": "ui-libraries",
+  "tags": ["table", "react", "virtualization", "performance", "datasets"],
+  "documentation": "https://github.com/hyparam/hightable",
+  "github": "https://github.com/hyparam/hightable",
+  "price": "free"
+}

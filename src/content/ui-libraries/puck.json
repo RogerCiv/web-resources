@@ -1,0 +1,10 @@
+{
+  "id": "puck",
+  "name": "Puck",
+  "description": "The self-hosted visual editor for React. Create your own AI page builder. Let end users build pages, constrained to your components. Open-source under MIT.",
+  "categories": "ui-libraries",
+  "tags": ["editor", "visual-builder", "react", "open-source", "cms"],
+  "documentation": "https://puckeditor.com/",
+  "github": "https://github.com/measuredco/puck",
+  "price": "free"
+}

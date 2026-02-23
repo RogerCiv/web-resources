@@ -1,0 +1,10 @@
+{
+  "id": "goey-toast",
+  "name": "goey-toast",
+  "description": "Morphing toast notifications for React. Organic blob animations, promise tracking, and full customization out of the box with gooey effects.",
+  "categories": "ui-libraries",
+  "tags": ["toast", "notifications", "react", "animation", "ui-component"],
+  "documentation": "https://goey-toast.vercel.app/",
+  "github": "https://github.com/vj-faiman/goey-toast",
+  "price": "free"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "sher",
+  "name": "Sher",
+  "description": "Get a live preview URL for your web projects in seconds, no Vercel or GitHub repo needed. Your AI agent builds it, sher links it and provides a shareable URL.",
+  "categories": "hosting",
+  "tags": ["hosting", "preview", "ai", "deployment", "tools"],
+  "documentation": "https://sher.sh/",
+  "price": "free"
+}

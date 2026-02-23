@@ -1,0 +1,9 @@
+{
+  "id": "cerebras",
+  "name": "Cerebras",
+  "description": "The Fastest AI Infrastructure. Industry-leading speed, scale, and quality. High-performance computing for AI training and inference at scale.",
+  "categories": "ai",
+  "tags": ["ai", "infrastructure", "inference", "training", "hpc"],
+  "documentation": "https://www.cerebras.ai/",
+  "price": "paid"
+}

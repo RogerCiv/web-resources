@@ -1,0 +1,9 @@
+{
+  "id": "koyeb",
+  "name": "Koyeb",
+  "description": "High-performance Infrastructure for Microservices. Deploy intensive applications across GPUs, CPUs, and Accelerators in minutes. Scale in 50+ locations globally.",
+  "categories": "hosting",
+  "tags": ["hosting", "serverless", "microservices", "gpu", "paas"],
+  "documentation": "https://www.koyeb.com/",
+  "price": "freemium"
+}
