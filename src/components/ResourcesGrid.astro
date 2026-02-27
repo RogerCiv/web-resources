@@ -1,123 +1,91 @@
 ---
-import type { RecursoCompleto } from '../lib/resources';
+import { categoriaLabels } from "../lib/resources";
+import type { RecursoCompleto } from "../lib/resources";
 
-export interface Props {
-  categoriaLabels: Record<string, string>;
+interface Props {
   allResources: RecursoCompleto[];
 }
 
-const { categoriaLabels, allResources } = Astro.props;
+const { allResources } = Astro.props;
+
+const priceConfig: Record<string, { label: string; class: string }> = {
+  free: { label: "Gratis", class: "text-free bg-free/10 border-free/20" },
+  freemium: { label: "Freemium", class: "text-freemium bg-freemium/10 border-freemium/20" },
+  paid: { label: "Pago", class: "text-paid bg-paid/10 border-paid/20" },
+};
 ---
 
-<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<section class="mx-auto max-w-7xl px-6 py-8">
+  <!-- Grid -->
   <div
-    id="resource-list"
-    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+    id="resources-grid"
+    class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
   >
     {
-      allResources.map((resource) => (
-        <article
-          class="resource-card group bg-card rounded-xl border border-border hover:border-primary/30 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden h-full flex flex-col"
-          data-category={resource.categoria}
-          data-tags={resource.data.tags.join(",")}
-          data-name={resource.data.name.toLowerCase()}
-          data-description={resource.data.description.toLowerCase()}
-        >
-          <div class="relative p-6 pb-4">
-            <div class="flex items-start justify-between mb-4">
-              <div class="flex items-center space-x-4">
-                {resource.data.image ? (
-                  <div class="relative">
-                    <img
-                      src={resource.data.image || "/placeholder.svg"}
-                      alt={resource.data.name}
-                      class="w-12 h-12 rounded-xl object-cover ring-2 ring-border group-hover:ring-primary/30 transition-all duration-300"
-                      loading="lazy"
-                    />
-                  </div>
-                ) : (
-                  <div
-                    class={`w-12 h-12 rounded-xl flex items-center justify-center text-white font-bold text-sm shadow-lg group-hover:scale-105 transition-transform duration-300 ${
-                      resource.categoria === "frameworks"
-                        ? "bg-gradient-to-br from-primary to-primary/80"
-                        : resource.categoria === "ui-libraries"
-                          ? "bg-gradient-to-br from-secondary to-secondary/80"
-                          : resource.categoria === "tools"
-                            ? "bg-gradient-to-br from-accent to-accent/80"
-                            : "bg-gradient-to-br from-muted-foreground to-muted-foreground/80"
-                    }`}
-                  >
-                    {(() => {
-                      const words = resource.data.name.split(" ");
-                      const firstWord = words[0] || "";
-                      const secondWord = words[1] || "";
-
-                      if (secondWord) {
-                        return (
-                          firstWord.slice(0, 2) + secondWord.charAt(0)
-                        ).toUpperCase();
-                      } else {
-                        return firstWord.slice(0, 2).toUpperCase();
-                      }
-                    })()}
-                  </div>
-                )}
-                <div class="flex-1">
-                  <h3 class="text-xl font-bold text-card-foreground mb-2 group-hover:text-primary transition-colors duration-300 text-balance">
-                    {resource.data.name}
-                  </h3>
-                  <span class="inline-flex items-center px-3 py-1 text-xs font-semibold bg-primary/10 text-primary rounded-full border border-primary/20 group-hover:bg-primary/20 transition-colors duration-300">
-                    {categoriaLabels[resource.categoria]}
-                  </span>
-                </div>
-              </div>
-              
-              <div class="flex-shrink-0">
-                <span
-                  class={`inline-flex items-center px-3 py-1.5 text-xs font-bold rounded-full shadow-sm transition-all duration-300 group-hover:scale-105 ${
-                    resource.data.price === "free" 
-                      ? "text-emerald-700 bg-emerald-50 border border-emerald-200" 
-                      : resource.data.price === "freemium" 
-                        ? "text-amber-700 bg-amber-50 border border-amber-200" 
-                        : "text-rose-700 bg-rose-50 border border-rose-200"
-                  }`}
-                >
-                  {resource.data.price === "free"
-                    ? "Gratis"
-                    : resource.data.price === "freemium"
-                      ? "Freemium"
-                      : "Pago"}
+      allResources.map((resource) => {
+        const price = priceConfig[resource.data.price] || priceConfig.free;
+        return (
+          <article
+            class="resource-card group relative flex flex-col rounded-xl border border-border bg-bg-card p-5 transition-all duration-200 hover:border-border-hover hover:bg-bg-card-hover hover:shadow-lg hover:shadow-accent/5"
+            data-name={resource.data.name.toLowerCase()}
+            data-description={resource.data.description.toLowerCase()}
+            data-tags={resource.data.tags.join(" ").toLowerCase()}
+            data-category={resource.categoria}
+          >
+            {/* Header */}
+            <div class="flex items-start justify-between gap-3 mb-3">
+              <div class="flex-1 min-w-0">
+                <h3 class="text-base font-semibold text-text truncate group-hover:text-accent transition-colors">
+                  {resource.data.name}
+                </h3>
+                <span class="mt-1 inline-block text-xs text-text-dimmed">
+                  {categoriaLabels[resource.categoria] || resource.categoria}
                 </span>
               </div>
+              <span
+                class:list={[
+                  "shrink-0 rounded-md border px-2 py-0.5 text-xs font-medium",
+                  price.class,
+                ]}
+              >
+                {price.label}
+              </span>
             </div>
-          </div>
 
-          <div class="px-6 pb-4 flex-1 flex flex-col">
-            <div class="h-20 mb-4">
-              <p class="text-foreground text-sm leading-relaxed text-pretty line-clamp-4">
-                {resource.data.description}
-              </p>
-            </div>
-            
-            <div class="flex flex-wrap gap-2 min-h-[2.5rem] mt-auto">
-              {resource.data.tags.map((tag) => (
-                <span class="inline-flex items-center px-2.5 py-1 text-xs font-medium bg-muted text-foreground/80 rounded-md border border-border hover:bg-primary hover:text-white transition-all duration-200">
+            {/* Description */}
+            <p class="mb-4 flex-1 text-sm leading-relaxed text-text-muted line-clamp-3">
+              {resource.data.description}
+            </p>
+
+            {/* Tags */}
+            <div class="mb-4 flex flex-wrap gap-1.5">
+              {resource.data.tags.slice(0, 4).map((tag) => (
+                <span class="rounded-md bg-bg-surface px-2 py-0.5 text-xs text-text-dimmed">
                   {tag}
                 </span>
               ))}
+              {resource.data.tags.length > 4 && (
+                <span class="rounded-md bg-bg-surface px-2 py-0.5 text-xs text-text-dimmed">
+                  +{resource.data.tags.length - 4}
+                </span>
+              )}
             </div>
-          </div>
 
-          <div class="p-6 pt-0 mt-auto">
-            <div class="flex gap-3">
+            {/* Actions */}
+            <div class="flex items-center gap-2 mt-auto pt-3 border-t border-border">
               {resource.data.documentation && (
                 <a
                   href={resource.data.documentation}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex-1 bg-primary text-primary-foreground text-center py-2.5 px-4 rounded-lg text-sm font-semibold hover:bg-primary/90 hover:shadow-lg hover:scale-[1.02] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+                  class="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg bg-accent/10 border border-accent-border px-3 py-2 text-xs font-medium text-accent transition-colors hover:bg-accent/20"
                 >
-                  Ver Docs
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Docs
                 </a>
               )}
               {resource.data.github && (
@@ -125,39 +93,111 @@ const { categoriaLabels, allResources } = Astro.props;
                   href={resource.data.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="flex-1 bg-card-foreground text-background text-center py-2.5 px-4 rounded-lg text-sm font-semibold hover:bg-card-foreground/90 hover:shadow-lg hover:scale-[1.02] transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
+                  class="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-border px-3 py-2 text-xs font-medium text-text-muted transition-colors hover:border-border-hover hover:text-text hover:bg-bg-surface"
                 >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                  </svg>
                   GitHub
                 </a>
               )}
             </div>
-          </div>
-        </article>
-      ))
+          </article>
+        );
+      })
     }
   </div>
 
-  <div id="no-results" class="text-center py-16 hidden">
-    <div class="text-muted-foreground mb-6">
-      <svg
-        class="mx-auto h-16 w-16 opacity-50"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="1.5"
-          d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6-4h6m2 5.291A7.962 7.962 0 0112 15c-2.34 0-4.47-.881-6.071-2.33"
-        ></path>
+  <!-- Empty state -->
+  <div id="empty-state" class="hidden py-20 text-center">
+    <div class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-bg-surface">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-text-dimmed">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
       </svg>
     </div>
-    <h3 class="text-xl font-semibold text-card-foreground mb-2">
-      No se encontraron recursos
-    </h3>
-    <p class="text-muted-foreground max-w-md mx-auto text-pretty">
-      No se encontraron recursos que coincidan con tu búsqueda. Intenta con otros términos o filtros.
+    <h3 class="text-lg font-medium text-text mb-1">Sin resultados</h3>
+    <p class="text-sm text-text-muted">
+      No se encontraron recursos. Prueba con otro término o categoría.
     </p>
   </div>
 </section>
+
+<script>
+  function initFilters() {
+    const searchInput = document.getElementById("search-input") as HTMLInputElement;
+    const cards = document.querySelectorAll<HTMLElement>(".resource-card");
+    const buttons = document.querySelectorAll<HTMLButtonElement>(".category-btn");
+    const grid = document.getElementById("resources-grid")!;
+    const emptyState = document.getElementById("empty-state")!;
+    const resultsCount = document.getElementById("results-count");
+
+    let activeCategory = "all";
+
+    function filterResources() {
+      const query = searchInput?.value.toLowerCase().trim() || "";
+      let visibleCount = 0;
+
+      cards.forEach((card) => {
+        const name = card.dataset.name || "";
+        const description = card.dataset.description || "";
+        const tags = card.dataset.tags || "";
+        const category = card.dataset.category || "";
+
+        const matchesSearch =
+          !query ||
+          name.includes(query) ||
+          description.includes(query) ||
+          tags.includes(query);
+
+        const matchesCategory =
+          activeCategory === "all" || category === activeCategory;
+
+        if (matchesSearch && matchesCategory) {
+          card.style.display = "";
+          visibleCount++;
+        } else {
+          card.style.display = "none";
+        }
+      });
+
+      grid.classList.toggle("hidden", visibleCount === 0);
+      emptyState.classList.toggle("hidden", visibleCount > 0);
+
+      if (resultsCount) {
+        resultsCount.textContent = String(visibleCount);
+      }
+    }
+
+    // Search listener (debounced)
+    let timeout: ReturnType<typeof setTimeout>;
+    searchInput?.addEventListener("input", () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(filterResources, 150);
+    });
+
+    // Category buttons
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        activeCategory = btn.dataset.category || "all";
+
+        buttons.forEach((b) => {
+          const isActive = b === btn;
+          b.setAttribute("aria-selected", String(isActive));
+          if (isActive) {
+            b.classList.add("border-accent", "bg-accent-dimmed", "text-accent");
+            b.classList.remove("border-border", "text-text-muted", "hover:border-border-hover", "hover:text-text", "hover:bg-bg-surface");
+          } else {
+            b.classList.remove("border-accent", "bg-accent-dimmed", "text-accent");
+            b.classList.add("border-border", "text-text-muted", "hover:border-border-hover", "hover:text-text", "hover:bg-bg-surface");
+          }
+        });
+
+        filterResources();
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", initFilters);
+  document.addEventListener("astro:page-load", initFilters);
+</script>

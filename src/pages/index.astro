@@ -1,33 +1,19 @@
 ---
-import FilterSection from "../components/FilterSection.astro";
-import HeroSection from "../components/HeroSection.astro";
-import ResourcesGrid from "../components/ResourcesGrid.astro";
 import Layout from "../layouts/Layout.astro";
-import { getTodosLosRecursos, categoriaLabels } from "../lib/resources";
+import HeroSection from "../components/HeroSection.astro";
+import FilterSection from "../components/FilterSection.astro";
+import ResourcesGrid from "../components/ResourcesGrid.astro";
+import { getTodosLosRecursos, categoriaLabels, type CollectionName } from "../lib/resources";
 
 const allResources = await getTodosLosRecursos();
-const categories = Object.keys(categoriaLabels);
+const categories = Object.keys(categoriaLabels) as CollectionName[];
 ---
 
 <Layout
-  title="Web Recursos - El mejor directorio para desarrolladores web"
+  title="Recursos Web - El mejor directorio para desarrolladores web"
   description="Explora una colección curada de los mejores recursos para desarrollo web: frameworks, librerías UI, herramientas de diseño, APIs y más. Todo lo que necesitas en un solo lugar."
 >
-  <!-- Hero Section -->
-  <HeroSection />
-
-  <!-- Filters Section -->
-  <FilterSection
-    categories={categories}
-    categoriaLabels={categoriaLabels}
-    allResources={allResources}
-  />
-
-  <!-- Resources Grid -->
-  <ResourcesGrid
-    categoriaLabels={categoriaLabels}
-    allResources={allResources}
-  />
+  <HeroSection totalResources={allResources.length} />
+  <FilterSection categories={categories} allResources={allResources} />
+  <ResourcesGrid allResources={allResources} />
 </Layout>
-
-

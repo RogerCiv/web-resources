@@ -2,13 +2,15 @@
 const year = new Date().getFullYear();
 ---
 
-<footer class="bg-card border-t border-border mt-20">
-  <div class="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-    <div class="flex flex-col md:flex-row justify-between items-center">
-      <p class="text-foreground/80 text-sm">
-        &copy; {year} DevResources. Construido con ❤️ con
-        <a href="https://astro.build" class="text-primary">Astro</a> por <a href="https://github.com/RogerCiv" class="text-primary hover:text-blue-500 hover:duration-300">RogerCiv</a>.
-      </p>
-    </div>
+<footer class="border-t border-border mt-auto">
+  <div
+    class="mx-auto max-w-7xl px-6 py-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-between"
+  >
+    <p class="text-sm text-text-muted">
+      &copy; {year} Recursos<span class="text-accent">Web</span>. Hecho con Astro ❤️.
+    </p>
+    <p class="text-sm text-text-dimmed">
+      Directorio curado de recursos para desarrolladores
+    </p>
   </div>
 </footer>
