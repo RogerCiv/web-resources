@@ -1,8 +1,10 @@
 # 🌐 Web Recursos
 
-[![Build Status](https://img.shields.io/badge/actions-view-blue?logo=github-actions)](https://github.com/RogerCiv/web-resources/actions) 
-[![Vercel](https://img.shields.io/badge/deploy-vercel-black?logo=vercel)](https://vercel.com/) 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Astro](https://img.shields.io/badge/Astro-5.0+-BC52EE?logo=astro&logoColor=white)](https://astro.build)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel&logoColor=white)](https://vercel.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 > **Directorio visual, tipado y validado de herramientas para desarrolladores web.**
 
