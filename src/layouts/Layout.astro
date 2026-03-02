@@ -4,6 +4,7 @@ import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 import GlobalScripts from "../components/GlobalScripts.astro";
 import Analytics from '@vercel/analytics/astro'
+import SEO from "../components/SEO.astro";
 
 export interface Props {
   title: string;
@@ -21,7 +22,6 @@ const {
   type = "website"
 } = Astro.props;
 
-// Manejo seguro de URL canónica
 const baseURL = Astro.site || new URL('https://web-recursos.vercel.app');
 const canonicalURL = new URL(url || Astro.url.pathname, baseURL);
 ---
@@ -29,61 +29,23 @@ const canonicalURL = new URL(url || Astro.url.pathname, baseURL);
 <!doctype html>
 <html lang="es" class="scroll-smooth">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content={description} />
+    <SEO 
+      title={title}
+      description={description}
+      image={image}
+      canonicalURL={canonicalURL}
+      type={type}
+    />
+    
     <meta name="google-site-verification" content="gwlgeNsfdspJp4JwbujAZa0njIROX9-9cubbziLc-Ow" />
     <meta name="keywords" content="web recursos, recursos desarrolladores, herramientas web, frameworks, librerías UI, diseño web, APIs gratuitas, aprendizaje programación" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-    <meta name="author" content="RogerCiv" />
-    <meta name="robots" content="index, follow" />
-    
-    <!-- SEO Meta Tags -->
-    <title>{title}</title>
-    <link rel="canonical" href={canonicalURL} />
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content={type} />
-    <meta property="og:url" content={canonicalURL} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content={new URL(image, baseURL)} />
-    <meta property="og:site_name" content="Web Recursos" />
-    <meta property="og:locale" content="es_ES" />
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalURL} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={new URL(image, baseURL)} />
     
     <!-- Preload critical fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Web Recursos",
-        "alternateName": "DevResources",
-        "description": "Directorio de recursos para desarrolladores web",
-        "url": "https://web-recursos.vercel.app",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": "https://web-recursos.vercel.app/search?q={search_term_string}"
-          },
-          "query-input": "required name=search_term_string"
-        }
-      }
-    </script>
-      <script is:inline>
+    <script is:inline>
     (function() {
       const savedTheme = localStorage.getItem('darkMode');
       if (savedTheme === 'true') {
