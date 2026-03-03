@@ -1,0 +1,10 @@
+{
+  "id": "glitchcn-ui",
+  "name": "GlitchCN UI",
+  "description": "Biblioteca de componentes estilo cyberpunk con efectos scanline, bordes luminosos y tipografía monospace para Next.js.",
+  "categories": "ui-libraries",
+  "tags": ["cyberpunk", "components", "nextjs", "ui", "theme"],
+  "image": "https://glitchcn-ui.vercel.app/favicon.ico",
+  "documentation": "https://glitchcn-ui.vercel.app/",
+  "price": "free"
+}

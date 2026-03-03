@@ -1,0 +1,10 @@
+{
+  "id": "screenshot-studio",
+  "name": "Screenshot Studio",
+  "description": "Crea imágenes profesionales de tus capturas sin esfuerzo — editor gratuito en el navegador para mejorar screenshots.",
+  "categories": "design",
+  "tags": ["screenshots", "images", "editor", "design", "marketing"],
+  "image": "https://www.screenshot-studio.com/favicon.ico",
+  "documentation": "https://www.screenshot-studio.com/",
+  "price": "free"
+}

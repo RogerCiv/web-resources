@@ -1,0 +1,10 @@
+{
+  "id": "badtz-ui",
+  "name": "Badtz UI",
+  "description": "Librería UI para React con animaciones listas para producción, construida con React, Tailwind y TypeScript.",
+  "categories": "ui-libraries",
+  "tags": ["react", "ui", "animations", "tailwind", "typescript"],
+  "image": "https://www.badtz-ui.com/favicon.ico",
+  "documentation": "https://www.badtz-ui.com/",
+  "price": "free"
+}

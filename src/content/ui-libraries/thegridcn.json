@@ -1,0 +1,10 @@
+{
+  "id": "thegridcn",
+  "name": "THE GRIDCN (Tron Theme)",
+  "description": "TRON theme system for shadcn/ui: tema inspirado en Tron con esquemas de color, componentes UI y efectos 3D inmersivos.",
+  "categories": "ui-libraries",
+  "tags": ["theme", "shadcn", "ui", "tronic", "design-system"],
+  "image": "https://thegridcn.com/favicon.ico",
+  "documentation": "https://thegridcn.com/",
+  "price": "free"
+}

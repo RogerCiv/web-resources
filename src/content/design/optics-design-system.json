@@ -1,0 +1,10 @@
+{
+  "id": "optics-design-system",
+  "name": "Optics Design System",
+  "description": "Más que un sistema de diseño: herramientas y recursos para construir aplicaciones web accesibles, intuitivas y estéticas.",
+  "categories": "design",
+  "tags": ["design-system", "accessibility", "components", "ui", "tools"],
+  "image": "https://optics.agusmayol.com.ar/favicon.ico",
+  "documentation": "https://optics.agusmayol.com.ar/",
+  "price": "free"
+}

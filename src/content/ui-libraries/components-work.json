@@ -1,0 +1,10 @@
+{
+  "id": "components-work",
+  "name": "Components.work",
+  "description": "Catálogo de componentes listos para copiar y pegar: documentación en GitHub y ejemplos prácticos para integrar en tu app.",
+  "categories": "ui-libraries",
+  "tags": ["components", "catalog", "copy-paste", "documentation", "ui"],
+  "image": "https://components.work/favicon.ico",
+  "documentation": "https://components.work/",
+  "price": "free"
+}

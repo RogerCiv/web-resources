@@ -1,0 +1,10 @@
+{
+  "id": "ui-tripled",
+  "name": "UI Tripled",
+  "description": "Colección de bloques UI, componentes y páginas listas para usar — acelera el desarrollo front-end con ejemplos y patrones.",
+  "categories": "ui-libraries",
+  "tags": ["ui-blocks", "components", "templates", "pages", "frontend"],
+  "image": "https://ui.tripled.work/favicon.ico",
+  "documentation": "https://ui.tripled.work/",
+  "price": "free"
+}

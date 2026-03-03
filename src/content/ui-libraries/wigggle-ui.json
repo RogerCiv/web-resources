@@ -1,0 +1,10 @@
+{
+  "id": "wigggle-ui",
+  "name": "Wigggle UI",
+  "description": "Colección open-source de widgets para la web: copy-paste widgets listos para tu próximo proyecto.",
+  "categories": "ui-libraries",
+  "tags": ["widgets", "ui", "components", "copy-paste", "open-source"],
+  "image": "https://wigggle-ui.vercel.app/favicon.ico",
+  "documentation": "https://wigggle-ui.vercel.app/",
+  "price": "free"
+}

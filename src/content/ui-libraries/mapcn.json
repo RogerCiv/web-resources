@@ -1,0 +1,10 @@
+{
+  "id": "mapcn",
+  "name": "MapCN",
+  "description": "Mapas hermosos y simples: componentes de mapas listos para React, personalizables y construidos sobre MapLibre y Tailwind.",
+  "categories": "ui-libraries",
+  "tags": ["maps", "react", "maplibre", "tailwind", "components"],
+  "image": "https://www.mapcn.dev/favicon.ico",
+  "documentation": "https://www.mapcn.dev/",
+  "price": "free"
+}

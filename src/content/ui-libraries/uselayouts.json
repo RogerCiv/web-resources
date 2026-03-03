@@ -1,0 +1,10 @@
+{
+  "id": "uselayouts",
+  "name": "UseLayouts",
+  "description": "Micro-interaction UI library enfocada en microinteracciones y sensaciones para mejorar cómo se siente la interfaz.",
+  "categories": "ui-libraries",
+  "tags": ["micro-interactions", "ui", "components", "ux", "animations"],
+  "image": "https://uselayouts.com/favicon.ico",
+  "documentation": "https://uselayouts.com/",
+  "price": "free"
+}
