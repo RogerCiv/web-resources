@@ -1,0 +1,10 @@
+{
+  "id": "react-bits",
+  "name": "React Bits",
+  "description": "Colección de componentes y utilidades para construir interfaces de usuario con React.",
+  "categories": "tools",
+  "tags": ["react", "components", "utilities", "ui"],
+  "github": "https://github.com/DavidHDev/react-bits",
+  "documentation": "https://reactbits.dev/tools",
+  "price": "freemium"
+}

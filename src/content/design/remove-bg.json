@@ -1,0 +1,14 @@
+{
+  "id": "remove-bg",
+  "name": "Remove.bg",
+  "description": "Quita el fondo a las imágenes 100 % automático y gratis",
+  "categories": "design",
+  "tags": [
+    "photo-editor",
+    "online",
+    "browser-based",
+    "free"
+  ],
+  "documentation": "https://www.remove.bg/es",
+  "price": "free"
+}
