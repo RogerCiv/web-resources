@@ -39,7 +39,11 @@ export async function getTodosLosRecursos(): Promise<RecursoCompleto[]> {
       console.warn(`No se pudo cargar la colección: ${categoria}`);
     }
   }
-  
+
+  todosLosRecursos.sort((a, b) =>
+    a.data.name.localeCompare(b.data.name, "es", { sensitivity: "base" })
+  );
+
   return todosLosRecursos;
 }
 
