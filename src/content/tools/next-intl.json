@@ -1,0 +1,9 @@
+{
+  "id": "next-intl",
+  "name": "next-intl",
+  "description": "Internacionalización para Next.js con una API simple que facilita manejar múltiples idiomas sin complicar el código.",
+  "categories": "tools",
+  "tags": ["nextjs", "i18n", "localization", "intl", "routing", "typescript"],
+  "documentation": "https://next-intl.dev/",
+  "price": "free"
+}

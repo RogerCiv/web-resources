@@ -1,0 +1,9 @@
+{
+  "id": "awesome-github-copilot",
+  "name": "Awesome GitHub Copilot",
+  "description": "Colección curada de agentes, instrucciones y skills creados por la comunidad para potenciar GitHub Copilot.",
+  "categories": "ai",
+  "tags": ["github-copilot", "agents", "instructions", "skills", "community", "curation"],
+  "documentation": "https://awesome-copilot.github.com/",
+  "price": "free"
+}

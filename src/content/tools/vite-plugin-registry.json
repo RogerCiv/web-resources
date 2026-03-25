@@ -1,0 +1,9 @@
+{
+  "id": "vite-plugin-registry",
+  "name": "Vite Plugin Registry",
+  "description": "Registro para descubrir y comparar plugins de Vite, Rolldown y Rollup en un solo lugar.",
+  "categories": "tools",
+  "tags": ["vite", "plugins", "rolldown", "rollup", "registry", "tooling"],
+  "documentation": "https://registry.vite.dev/",
+  "price": "free"
+}

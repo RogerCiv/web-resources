@@ -1,0 +1,9 @@
+{
+  "id": "void-cloud",
+  "name": "Void",
+  "description": "Plataforma de despliegue pensada para apps con Vite, con un backend SDK para convertir proyectos en full-stack.",
+  "categories": "hosting",
+  "tags": ["hosting", "deployment", "vite", "full-stack", "backend-sdk", "platform"],
+  "documentation": "https://void.cloud/",
+  "price": "freemium"
+}

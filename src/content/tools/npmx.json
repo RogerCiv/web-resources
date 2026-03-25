@@ -1,0 +1,9 @@
+{
+  "id": "npmx",
+  "name": "npmx",
+  "description": "Navegador rápido y moderno (alpha) para el registro de npm con búsqueda de paquetes.",
+  "categories": "tools",
+  "tags": ["npm", "registry", "packages", "search", "browser", "javascript"],
+  "documentation": "https://npmx.dev/",
+  "price": "free"
+}
