@@ -31,9 +31,19 @@ const activeCategories: CollectionName[] = categories.filter(
       Categorías
     </h2>
     <div class="h-px flex-1 bg-border"></div>
-    <div class="text-sm text-text-muted">
+    <div class="flex items-center gap-3 text-sm text-text-muted">
       <span id="results-count" class="font-semibold text-accent tabular-nums">{allResources.length}</span>
       <span>recursos</span>
+    </div>
+    <div class="flex items-center gap-2 text-sm text-text-muted">
+      <label for="sort-select" class="hidden sm:inline">Orden</label>
+      <select
+        id="sort-select"
+        class="rounded-lg border border-border bg-bg-card px-3 py-2 text-sm text-text-muted transition-all focus:border-accent focus:outline-none cursor-pointer"
+      >
+        <option value="alpha" selected>Alfabético</option>
+        <option value="newest">Más nuevos</option>
+      </select>
     </div>
   </div>
 

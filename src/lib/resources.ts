@@ -40,10 +40,6 @@ export async function getTodosLosRecursos(): Promise<RecursoCompleto[]> {
     }
   }
 
-  todosLosRecursos.sort((a, b) =>
-    a.data.name.localeCompare(b.data.name, "es", { sensitivity: "base" })
-  );
-
   return todosLosRecursos;
 }
 

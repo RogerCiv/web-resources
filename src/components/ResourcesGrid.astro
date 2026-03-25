@@ -22,7 +22,7 @@ const priceConfig: Record<string, { label: string; class: string }> = {
     class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
   >
     {
-      allResources.map((resource) => {
+      allResources.map((resource, index) => {
         const price = priceConfig[resource.data.price] || priceConfig.free;
         return (
           <article
@@ -31,6 +31,7 @@ const priceConfig: Record<string, { label: string; class: string }> = {
             data-description={resource.data.description.toLowerCase()}
             data-tags={resource.data.tags.join(" ").toLowerCase()}
             data-category={resource.categoria}
+            data-added={index}
           >
             {/* Header */}
             <div class="flex items-start justify-between gap-3 mb-3">
@@ -126,13 +127,31 @@ const priceConfig: Record<string, { label: string; class: string }> = {
 <script>
   function initFilters() {
     const searchInput = document.getElementById("search-input") as HTMLInputElement;
-    const cards = document.querySelectorAll<HTMLElement>(".resource-card");
     const buttons = document.querySelectorAll<HTMLButtonElement>(".category-btn");
     const grid = document.getElementById("resources-grid")!;
+    const cards = Array.from(grid.querySelectorAll<HTMLElement>(".resource-card"));
+    const sortSelect = document.getElementById("sort-select") as HTMLSelectElement;
     const emptyState = document.getElementById("empty-state")!;
     const resultsCount = document.getElementById("results-count");
 
     let activeCategory = "all";
+    let activeSort = sortSelect?.value || "alpha";
+
+    function sortCards(order: string) {
+      const sorted = [...cards].sort((a, b) => {
+        if (order === "newest") {
+          const aIndex = Number(a.dataset.added || 0);
+          const bIndex = Number(b.dataset.added || 0);
+          return bIndex - aIndex;
+        }
+
+        const nameA = a.dataset.name || "";
+        const nameB = b.dataset.name || "";
+        return nameA.localeCompare(nameB, "es", { sensitivity: "base" });
+      });
+
+      sorted.forEach((card) => grid.appendChild(card));
+    }
 
     function filterResources() {
       const query = searchInput?.value.toLowerCase().trim() || "";
@@ -169,6 +188,9 @@ const priceConfig: Record<string, { label: string; class: string }> = {
       }
     }
 
+    // Initial sort
+    sortCards(activeSort);
+
     // Search listener (debounced)
     let timeout: ReturnType<typeof setTimeout>;
     searchInput?.addEventListener("input", () => {
@@ -195,6 +217,13 @@ const priceConfig: Record<string, { label: string; class: string }> = {
 
         filterResources();
       });
+    });
+
+    // Sort selector
+    sortSelect?.addEventListener("change", () => {
+      activeSort = sortSelect.value || "alpha";
+      sortCards(activeSort);
+      filterResources();
     });
   }
 
