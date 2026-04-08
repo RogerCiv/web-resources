@@ -57,13 +57,5 @@ const twitterHandle = "@RogerCiv"; // Opcional: podrías hacerlo prop si tienes 
   "@type": "WebSite",
   "name": siteName,
   "url": Astro.site?.href,
-  "description": description,
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": `${Astro.site?.href}search?q={search_term_string}`
-    },
-    "query-input": "required name=search_term_string"
-  }
+  "description": description
 })} />
