@@ -1,0 +1,9 @@
+{
+  "id": "pagespeed-web-dev",
+  "name": "PageSpeed Insights",
+  "description": "Analiza y mejora la velocidad de tus páginas web en todos los dispositivos con métricas de rendimiento y recomendaciones.",
+  "categories": "performance",
+  "tags": ["performance", "pagespeed", "lighthouse", "web-vitals", "seo", "analysis"],
+  "documentation": "https://pagespeed.web.dev/",
+  "price": "free"
+}

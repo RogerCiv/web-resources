@@ -1,0 +1,9 @@
+{
+  "id": "ezgif",
+  "name": "Ezgif",
+  "description": "Editor online gratuito para crear, convertir y optimizar GIFs y animaciones (APNG, WebP, MNG, AVIF).",
+  "categories": "tools",
+  "tags": ["gif", "image-editor", "animation", "converter", "optimizer", "webp"],
+  "documentation": "https://ezgif.com/",
+  "price": "free"
+}
