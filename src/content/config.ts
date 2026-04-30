@@ -4,6 +4,7 @@ const resourceSchema = z.object({
   id: z.string(),
   name: z.string(),
   description: z.string(),
+  createdAt: z.string().optional(),
   categories: z.enum([
     'frameworks',
     'ui-libraries',

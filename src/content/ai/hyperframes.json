@@ -1,0 +1,10 @@
+{
+  "id": "hyperframes",
+  "name": "HyperFrames",
+  "description": "Plataforma para que agentes de IA compongan videos escribiendo HTML, CSS y JavaScript.",
+  "createdAt": "2026-04-30",
+  "categories": "ai",
+  "tags": ["ai", "video-generation", "agents", "html", "css", "javascript"],
+  "documentation": "https://hyperframes.heygen.com/",
+  "price": "free"
+}

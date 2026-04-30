@@ -31,6 +31,7 @@ const priceConfig: Record<string, { label: string; class: string }> = {
             data-description={resource.data.description.toLowerCase()}
             data-tags={resource.data.tags.join(" ").toLowerCase()}
             data-category={resource.categoria}
+            data-created-at={resource.data.createdAt || ""}
             data-added={index}
           >
             {/* Header */}
@@ -140,6 +141,16 @@ const priceConfig: Record<string, { label: string; class: string }> = {
     function sortCards(order: string) {
       const sorted = [...cards].sort((a, b) => {
         if (order === "newest") {
+          const aDate = Date.parse(a.dataset.createdAt || "");
+          const bDate = Date.parse(b.dataset.createdAt || "");
+
+          const aValid = Number.isFinite(aDate);
+          const bValid = Number.isFinite(bDate);
+
+          if (aValid && bValid) return bDate - aDate;
+          if (bValid) return 1;
+          if (aValid) return -1;
+
           const aIndex = Number(a.dataset.added || 0);
           const bIndex = Number(b.dataset.added || 0);
           return bIndex - aIndex;

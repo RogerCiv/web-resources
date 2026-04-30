@@ -1,0 +1,10 @@
+{
+  "id": "flipbook-page",
+  "name": "Flipbook",
+  "description": "Navegador visual infinito generado en tiempo real bajo demanda, donde cada página es una imagen interactiva para explorar conceptos en profundidad.",
+  "createdAt": "2026-04-30",
+  "categories": "design",
+  "tags": ["visual-browser", "generative", "interactive", "design", "experimentation"],
+  "documentation": "https://flipbook.page/",
+  "price": "free"
+}

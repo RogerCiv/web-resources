@@ -1,0 +1,10 @@
+{
+  "id": "autoskills",
+  "name": "AutoSkills",
+  "description": "Detecta automáticamente tu stack tecnológico e instala las mejores skills de agentes de IA para tu proyecto.",
+  "createdAt": "2026-04-30",
+  "categories": "ai",
+  "tags": ["ai", "agent-skills", "automation", "developer-tools", "stack-detection"],
+  "documentation": "https://www.autoskills.sh/",
+  "price": "free"
+}
