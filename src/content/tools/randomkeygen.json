@@ -1,0 +1,9 @@
+{
+  "id": "randomkeygen",
+  "name": "RandomKeygen",
+  "description": "Generador gratuito de contraseñas seguras, claves aleatorias, tokens de acceso y códigos de verificación. Compatible con múltiples plataformas como WordPress, WooCommerce y bases de datos. 100% client-side.",
+  "categories": "tools",
+  "tags": ["password-generator", "security", "keys", "tokens", "crypto", "random"],
+  "documentation": "https://randomkeygen.com/",
+  "price": "free"
+}
