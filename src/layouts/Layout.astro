@@ -2,7 +2,6 @@
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
-import GlobalScripts from "../components/GlobalScripts.astro";
 import Analytics from '@vercel/analytics/astro'
 import SEO from "../components/SEO.astro";
 
@@ -27,7 +26,7 @@ const canonicalURL = new URL(url || Astro.url.pathname, baseURL);
 ---
 
 <!doctype html>
-<html lang="es" class="scroll-smooth">
+<html lang="es" class="scroll-smooth" style="color-scheme: dark">
   <head>
     <SEO 
       title={title}
@@ -39,36 +38,32 @@ const canonicalURL = new URL(url || Astro.url.pathname, baseURL);
     
     <meta name="google-site-verification" content="gwlgeNsfdspJp4JwbujAZa0njIROX9-9cubbziLc-Ow" />
     <meta name="keywords" content="web recursos, recursos desarrolladores, herramientas web, frameworks, librerías UI, diseño web, APIs gratuitas, aprendizaje programación" />
+    <meta name="theme-color" content="#0b0d14" />
     
     <!-- Preload critical fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     
-    <script is:inline>
-    (function() {
-      const savedTheme = localStorage.getItem('darkMode');
-      if (savedTheme === 'true') {
-        document.documentElement.classList.add('dark');
-      }
-    })();
-  </script>
   </head>
   <!-- Updated body background to match design system -->
   <body class="bg-background font-sans antialiased">
     <Analytics />
+    
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:rounded-lg focus:bg-accent focus:text-white focus:outline-none">
+      Saltar al contenido principal
+    </a>
+
     <!-- Navigation -->
     <Navbar />
 
     <!-- Main Content -->
-    <main class="min-h-screen">
+    <main id="main-content" class="min-h-screen">
       <slot />
     </main>
 
     <!-- Footer -->
     <Footer />
-
-    <GlobalScripts />
 
     <style>
       /* Updated font family reference */
