@@ -26,7 +26,7 @@ const priceConfig: Record<string, { label: string; class: string }> = {
         const price = priceConfig[resource.data.price] || priceConfig.free;
         return (
           <article
-            class="resource-card group relative flex flex-col rounded-xl border border-border bg-bg-card p-5 transition-all duration-200 hover:border-border-hover hover:bg-bg-card-hover hover:shadow-lg hover:shadow-accent/5"
+         class="resource-card group relative flex flex-col rounded-xl border border-border bg-bg-card p-5 transition-all duration-200 hover:border-border-hover hover:bg-bg-card-hover hover:shadow-lg hover:shadow-accent/5 min-w-0 w-full overflow-hidden"
             data-name={resource.data.name.toLowerCase()}
             data-description={resource.data.description.toLowerCase()}
             data-tags={resource.data.tags.join(" ").toLowerCase()}
@@ -80,7 +80,7 @@ const priceConfig: Record<string, { label: string; class: string }> = {
                   href={resource.data.documentation}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg bg-accent/10 border border-accent-border px-3 py-2 text-xs font-medium text-accent transition-colors hover:bg-accent/20"
+                  class="inline-flex flex-1 min-w-0 items-center justify-center gap-1.5 rounded-lg bg-accent/10 border border-accent-border px-3 py-2 text-xs font-medium text-accent transition-colors hover:bg-accent/20"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
