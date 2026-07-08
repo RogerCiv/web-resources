@@ -1,0 +1,10 @@
+{
+  "id": "openwiki",
+  "name": "OpenWiki",
+  "description": "CLI de código abierto que escribe y mantiene documentación para tu base de código automáticamente. Construido específicamente para agentes de IA y compatible con múltiples proveedores de LLM como OpenAI, Anthropic y OpenRouter.",
+  "categories": "tools",
+  "tags": ["documentation", "cli", "ai", "developer-tools", "open-source", "langchain"],
+  "documentation": "https://github.com/langchain-ai/openwiki",
+  "github": "https://github.com/langchain-ai/openwiki",
+  "price": "free"
+}
