@@ -1,0 +1,9 @@
+{
+  "id": "free-for-dev",
+  "name": "Free for Dev",
+  "description": "Lista curada de servicios cloud y herramientas con capa gratuita para desarrolladores. Incluye hosting, bases de datos, monitorización, APIs y cientos de recursos para proyectos personales y profesionales.",
+  "categories": "tools",
+  "tags": ["free-tier", "developer-resources", "devtools", "cloud-services", "saas"],
+  "documentation": "https://free-for.dev/",
+  "price": "free"
+}

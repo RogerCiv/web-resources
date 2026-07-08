@@ -1,0 +1,9 @@
+{
+  "id": "ats-killer-cv",
+  "name": "ATS Killer CV",
+  "description": "Analiza tu currículum con IA para detectar si está optimizado para filtros ATS. Obtén recomendaciones concretas para mejorar tu CV y superar los sistemas de selección automatizados.",
+  "categories": "tools",
+  "tags": ["resume-analysis", "ats-optimization", "ai-analysis", "job-search", "cv-review"],
+  "documentation": "https://cv.nan.builders/",
+  "price": "free"
+}

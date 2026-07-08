@@ -1,0 +1,9 @@
+{
+  "id": "fontpair",
+  "name": "FontPair",
+  "description": "Plataforma para descubrir combinaciones tipográficas armoniosas. Permite probar pares de fuentes, paletas de color e iconos, y generar kits de marca completos para sistemas de diseño.",
+  "categories": "typography",
+  "tags": ["font-pairing", "typography", "brand-kit", "design-system", "web-fonts"],
+  "documentation": "https://fontpair.co/",
+  "price": "free"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "htmlrev",
+  "name": "HTMLRev",
+  "description": "Repositorio con más de 2200 plantillas HTML y CSS gratuitas. Compatible con frameworks como Bootstrap, Tailwind CSS, React, Astro y más. Ideal para landing pages, portafolios y sitios corporativos.",
+  "categories": "design",
+  "tags": ["html-templates", "css-templates", "free-templates", "landing-pages", "ui-kits"],
+  "documentation": "https://htmlrev.com/",
+  "price": "free"
+}

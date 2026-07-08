@@ -1,0 +1,9 @@
+{
+  "id": "ipquery",
+  "name": "IPQuery",
+  "description": "API gratuita de inteligencia de direcciones IP que proporciona datos de geolocalización, ISP, tipo de conexión y puntuación de riesgo. No requiere clave API para consultas básicas.",
+  "categories": "apis",
+  "tags": ["ip", "geolocation", "api", "security", "vpn-detection", "free-api"],
+  "documentation": "https://ipquery.io/",
+  "price": "free"
+}
