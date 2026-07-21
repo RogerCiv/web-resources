@@ -1,0 +1,9 @@
+{
+  "id": "namethatui",
+  "name": "NameThatUI",
+  "description": "Diccionario visual de elementos de interfaz. Describe un componente de UI con tus propias palabras y descubre su nombre real, el símbolo de API que usa y un prompt listo para tu agente de código. Ideal para aprender terminología de diseño.",
+  "categories": "learning",
+  "tags": ["ui-elements", "terminology", "reference", "design", "vocabulary"],
+  "documentation": "https://namethatui.com/",
+  "price": "free"
+}

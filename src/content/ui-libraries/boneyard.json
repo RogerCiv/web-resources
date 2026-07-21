@@ -1,0 +1,10 @@
+{
+  "id": "boneyard",
+  "name": "Boneyard",
+  "description": "Genera automáticamente skeleton screens perfectos a partir de tu UI real. Captura la estructura de tus componentes y crea placeholders sin necesidad de mediciones manuales. Compatible con React, Vue, Svelte y Angular.",
+  "categories": "ui-libraries",
+  "tags": ["skeleton-screens", "loading", "ui-components", "react", "vue", "svelte"],
+  "documentation": "https://boneyard.vercel.app/",
+  "github": "https://github.com/0xGF/boneyard",
+  "price": "free"
+}

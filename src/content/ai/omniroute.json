@@ -1,0 +1,10 @@
+{
+  "id": "omniroute",
+  "name": "OmniRoute",
+  "description": "Gateway de IA gratuito y open source que unifica más de 268 proveedores de LLM en un solo endpoint. Compatible con Claude Code, Cursor, Cline, Copilot y otros agentes. Incluye auto-fallback, compresión de tokens (hasta 95%), enrutamiento inteligente y panel de control en tiempo real. Más de 90 proveedores con capa gratuita.",
+  "categories": "ai",
+  "tags": ["ai-gateway", "llm", "open-source", "multi-provider", "token-compression"],
+  "documentation": "https://github.com/diegosouzapw/OmniRoute",
+  "github": "https://github.com/diegosouzapw/OmniRoute",
+  "price": "free"
+}
