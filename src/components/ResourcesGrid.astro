@@ -9,85 +9,96 @@ interface Props {
 const { allResources } = Astro.props;
 
 const priceConfig: Record<string, { label: string; class: string }> = {
-  free: { label: "Gratis", class: "text-free bg-free/10 border-free/20" },
-  freemium: { label: "Freemium", class: "text-freemium bg-freemium/10 border-freemium/20" },
-  paid: { label: "Pago", class: "text-paid bg-paid/10 border-paid/20" },
+  free: { label: "Gratis", class: "text-free border-free/30" },
+  freemium: { label: "Freemium", class: "text-freemium border-freemium/30" },
+  paid: { label: "Pago", class: "text-paid border-paid/30" },
 };
 ---
 
-<section class="mx-auto max-w-7xl px-6 py-8">
+<section id="explorar" class="min-w-0 flex-1">
+  <!-- Toolbar -->
+  <div class="mb-7 flex flex-wrap items-end justify-between gap-4">
+    <div>
+      <h2 class="font-display text-4xl font-extrabold leading-none tracking-tight sm:text-5xl">Explora todo</h2>
+      <p class="mt-2.5 text-text-muted">
+        <span id="results-count" class="font-semibold tabular-nums text-accent">{allResources.length}</span> recursos
+      </p>
+    </div>
+    <div class="flex flex-wrap items-center gap-2">
+      {
+        [["all", "Todos"], ["free", "Gratis"], ["freemium", "Freemium"], ["paid", "Pago"]].map(([value, label]) => (
+          <button
+            data-price={value}
+            aria-pressed={value === "all"}
+            class="price-btn min-h-11 cursor-pointer rounded-full border border-border-hover px-4 text-sm font-medium text-text-muted transition-colors hover:border-accent hover:text-text aria-pressed:border-accent aria-pressed:bg-accent-dimmed aria-pressed:text-accent"
+          >
+            {label}
+          </button>
+        ))
+      }
+      <label for="sort-select" class="sr-only">Orden</label>
+      <select
+        id="sort-select"
+        class="min-h-11 cursor-pointer rounded-full border border-border-hover bg-bg px-4 font-mono text-sm text-text-muted transition-colors hover:border-accent focus:border-accent focus:outline-none"
+      >
+        <option value="alpha" selected>A → Z</option>
+        <option value="reverse">Z → A</option>
+      </select>
+    </div>
+  </div>
+
   <!-- Grid -->
-  <div
-    id="resources-grid"
-    class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"
-  >
+  <div id="resources-grid" class="grid grid-flow-dense gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {
       allResources.map((resource, index) => {
         const price = priceConfig[resource.data.price] || priceConfig.free;
         return (
           <article
-         class="resource-card group relative flex flex-col rounded-xl border border-border bg-bg-card p-5 transition-all duration-200 hover:border-border-hover hover:bg-bg-card-hover hover:shadow-lg hover:shadow-accent/5 min-w-0 w-full overflow-hidden"
+            class="resource-card group relative flex min-h-64 w-full min-w-0 flex-col overflow-hidden rounded-[22px] border border-border bg-bg-card p-6 transition-all duration-250 hover:-translate-y-1.5 hover:border-accent hover:bg-bg-card-hover"
             data-name={resource.data.name.toLowerCase()}
             data-description={resource.data.description.toLowerCase()}
             data-tags={resource.data.tags.join(" ").toLowerCase()}
             data-category={resource.categoria}
+            data-price={resource.data.price}
             data-created-at={resource.data.createdAt || ""}
             data-added={index}
           >
-            {/* Header */}
-            <div class="flex items-start justify-between gap-3 mb-3">
-              <div class="flex-1 min-w-0">
-                <h3 class="text-base font-semibold text-text truncate group-hover:text-accent transition-colors">
-                  {resource.data.name}
-                </h3>
-                <span class="mt-1 inline-block text-xs text-text-dimmed">
-                  {categoriaLabels[resource.categoria] || resource.categoria}
-                </span>
-              </div>
-              <span
-                class:list={[
-                  "shrink-0 rounded-md border px-2 py-0.5 text-xs font-medium",
-                  price.class,
-                ]}
-              >
+            <div class="mb-5 flex items-center justify-between gap-3">
+              <span class="truncate font-mono text-xs tracking-wide text-text-dimmed">
+                {categoriaLabels[resource.categoria] || resource.categoria}
+              </span>
+              <span class:list={["shrink-0 rounded-full border px-3 py-1 text-xs font-semibold", price.class]}>
                 {price.label}
               </span>
             </div>
 
-            {/* Description */}
-            <p class="mb-4 flex-1 text-sm leading-relaxed text-text-muted line-clamp-3">
+            <h3 class="font-display text-3xl font-extrabold leading-none tracking-tight text-text">
+              {resource.data.name}
+            </h3>
+
+            <p class="mt-3.5 mb-4 flex-1 text-[15px] leading-relaxed text-text-muted line-clamp-3">
               {resource.data.description}
             </p>
 
-            {/* Tags */}
-            <div class="mb-4 flex flex-wrap gap-1.5">
-              {resource.data.tags.slice(0, 4).map((tag) => (
-                <span class="rounded-md bg-bg-surface px-2 py-0.5 text-xs text-text-dimmed">
-                  {tag}
-                </span>
+            <div class="mb-5 flex flex-wrap gap-1.5">
+              {resource.data.tags.slice(0, 3).map((tag) => (
+                <span class="rounded-lg bg-bg-surface px-2.5 py-1 text-xs text-text-muted">{tag}</span>
               ))}
-              {resource.data.tags.length > 4 && (
-                <span class="rounded-md bg-bg-surface px-2 py-0.5 text-xs text-text-dimmed">
-                  +{resource.data.tags.length - 4}
-                </span>
+              {resource.data.tags.length > 3 && (
+                <span class="rounded-lg bg-bg-surface px-2.5 py-1 text-xs text-text-muted">+{resource.data.tags.length - 3}</span>
               )}
             </div>
 
-            {/* Actions */}
-            <div class="flex items-center gap-2 mt-auto pt-3 border-t border-border">
+            <div class="mt-auto flex items-center justify-between gap-2 border-t border-border pt-4">
               {resource.data.documentation && (
                 <a
                   href={resource.data.documentation}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="inline-flex flex-1 min-w-0 items-center justify-center gap-1.5 rounded-lg bg-accent/10 border border-accent-border px-3 py-2 text-xs font-medium text-accent transition-colors hover:bg-accent/20"
+                  class="inline-flex min-h-11 items-center gap-2 text-[15px] font-semibold text-accent transition-colors hover:text-accent-hover"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-                    <polyline points="15 3 21 3 21 9" />
-                    <line x1="10" y1="14" x2="21" y2="3" />
-                  </svg>
                   Visitar web
+                  <span class="transition-transform duration-250 group-hover:translate-x-1 group-hover:-translate-y-1" aria-hidden="true">↗</span>
                 </a>
               )}
               {resource.data.github && (
@@ -95,12 +106,12 @@ const priceConfig: Record<string, { label: string; class: string }> = {
                   href={resource.data.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-border px-3 py-2 text-xs font-medium text-text-muted transition-colors hover:border-border-hover hover:text-text hover:bg-bg-surface"
+                  aria-label={`${resource.data.name} en GitHub`}
+                  class="ml-auto flex h-11 w-11 items-center justify-center rounded-xl text-text-muted transition-colors hover:bg-bg-surface hover:text-text"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                     <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
                   </svg>
-                  GitHub
                 </a>
               )}
             </div>
@@ -112,16 +123,8 @@ const priceConfig: Record<string, { label: string; class: string }> = {
 
   <!-- Empty state -->
   <div id="empty-state" class="hidden py-20 text-center">
-    <div class="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-bg-surface">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-text-dimmed">
-        <circle cx="11" cy="11" r="8"></circle>
-        <path d="m21 21-4.3-4.3"></path>
-      </svg>
-    </div>
-    <h3 class="text-lg font-medium text-text mb-1">Sin resultados</h3>
-    <p class="text-sm text-text-muted">
-      No se encontraron recursos. Prueba con otro término o categoría.
-    </p>
+    <p class="font-display text-6xl font-extrabold tracking-tighter">Nada por aquí.</p>
+    <p class="mt-3 text-text-muted">Prueba con otro término o cambia de categoría.</p>
   </div>
 </section>
 
@@ -129,6 +132,7 @@ const priceConfig: Record<string, { label: string; class: string }> = {
   function initFilters() {
     const searchInput = document.getElementById("search-input") as HTMLInputElement;
     const buttons = document.querySelectorAll<HTMLButtonElement>(".category-btn");
+    const priceButtons = document.querySelectorAll<HTMLButtonElement>(".price-btn");
     const grid = document.getElementById("resources-grid")!;
     const cards = Array.from(grid.querySelectorAll<HTMLElement>(".resource-card"));
     const sortSelect = document.getElementById("sort-select") as HTMLSelectElement;
@@ -136,22 +140,13 @@ const priceConfig: Record<string, { label: string; class: string }> = {
     const resultsCount = document.getElementById("results-count");
 
     let activeCategory = "all";
-    let activeSort = sortSelect?.value || "alpha";
+    let activePrice = "all";
 
-    function sortCards(order: string) {
-      const sorted = [...cards].sort((a, b) => {
-        if (order === "reverse") {
-          const nameA = a.dataset.name || "";
-          const nameB = b.dataset.name || "";
-          return nameB.localeCompare(nameA, "es", { sensitivity: "base" });
-        }
-
-        const nameA = a.dataset.name || "";
-        const nameB = b.dataset.name || "";
-        return nameA.localeCompare(nameB, "es", { sensitivity: "base" });
-      });
-
-      sorted.forEach((card) => grid.appendChild(card));
+    function sortCards() {
+      const dir = sortSelect?.value === "reverse" ? -1 : 1;
+      [...cards]
+        .sort((a, b) => dir * (a.dataset.name || "").localeCompare(b.dataset.name || "", "es", { sensitivity: "base" }))
+        .forEach((card) => grid.appendChild(card));
     }
 
     function filterResources() {
@@ -159,71 +154,51 @@ const priceConfig: Record<string, { label: string; class: string }> = {
       let visibleCount = 0;
 
       cards.forEach((card) => {
-        const name = card.dataset.name || "";
-        const description = card.dataset.description || "";
-        const tags = card.dataset.tags || "";
-        const category = card.dataset.category || "";
+        const { name = "", description = "", tags = "", category = "", price = "" } = card.dataset;
+        const visible =
+          (!query || name.includes(query) || description.includes(query) || tags.includes(query)) &&
+          (activeCategory === "all" || category === activeCategory) &&
+          (activePrice === "all" || price === activePrice);
 
-        const matchesSearch =
-          !query ||
-          name.includes(query) ||
-          description.includes(query) ||
-          tags.includes(query);
-
-        const matchesCategory =
-          activeCategory === "all" || category === activeCategory;
-
-        if (matchesSearch && matchesCategory) {
-          card.style.display = "";
-          visibleCount++;
-        } else {
-          card.style.display = "none";
-        }
+        card.style.display = visible ? "" : "none";
+        // Una tarjeta destacada (doble ancho) cada 7 visibles
+        card.classList.toggle("is-featured", visible && visibleCount % 7 === 0);
+        card.classList.toggle("lg:col-span-2", visible && visibleCount % 7 === 0);
+        if (visible) visibleCount++;
       });
 
       grid.classList.toggle("hidden", visibleCount === 0);
       emptyState.classList.toggle("hidden", visibleCount > 0);
-
-      if (resultsCount) {
-        resultsCount.textContent = String(visibleCount);
-      }
+      if (resultsCount) resultsCount.textContent = String(visibleCount);
     }
 
-    // Initial sort
-    sortCards(activeSort);
+    sortCards();
+    filterResources();
 
-    // Search listener (debounced)
     let timeout: ReturnType<typeof setTimeout>;
     searchInput?.addEventListener("input", () => {
       clearTimeout(timeout);
       timeout = setTimeout(filterResources, 150);
     });
 
-    // Category buttons
     buttons.forEach((btn) => {
       btn.addEventListener("click", () => {
         activeCategory = btn.dataset.category || "all";
-
-        buttons.forEach((b) => {
-          const isActive = b === btn;
-          b.setAttribute("aria-selected", String(isActive));
-          if (isActive) {
-            b.classList.add("border-accent", "bg-accent-dimmed", "text-accent");
-            b.classList.remove("border-border", "text-text-muted", "hover:border-border-hover", "hover:text-text", "hover:bg-bg-surface");
-          } else {
-            b.classList.remove("border-accent", "bg-accent-dimmed", "text-accent");
-            b.classList.add("border-border", "text-text-muted", "hover:border-border-hover", "hover:text-text", "hover:bg-bg-surface");
-          }
-        });
-
+        buttons.forEach((b) => b.setAttribute("aria-selected", String(b === btn)));
         filterResources();
       });
     });
 
-    // Sort selector
+    priceButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        activePrice = btn.dataset.price || "all";
+        priceButtons.forEach((b) => b.setAttribute("aria-pressed", String(b === btn)));
+        filterResources();
+      });
+    });
+
     sortSelect?.addEventListener("change", () => {
-      activeSort = sortSelect.value || "alpha";
-      sortCards(activeSort);
+      sortCards();
       filterResources();
     });
   }

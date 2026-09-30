@@ -13,7 +13,9 @@ const categories = Object.keys(categoriaLabels) as CollectionName[];
   title="Recursos Web - El mejor directorio para desarrolladores web"
   description="Explora una colección curada de los mejores recursos para desarrollo web: frameworks, librerías UI, herramientas de diseño, APIs y más. Todo lo que necesitas en un solo lugar."
 >
-  <HeroSection totalResources={allResources.length} />
-  <FilterSection categories={categories} allResources={allResources} />
-  <ResourcesGrid allResources={allResources} />
+  <HeroSection totalResources={allResources.length} names={allResources.slice(0, 16).map((r) => r.data.name)} />
+  <div class="mx-auto flex max-w-7xl flex-col gap-8 px-6 pt-16 pb-20 lg:flex-row lg:items-start lg:gap-12">
+    <FilterSection categories={categories} allResources={allResources} />
+    <ResourcesGrid allResources={allResources} />
+  </div>
 </Layout>

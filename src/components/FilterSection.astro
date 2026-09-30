@@ -1,5 +1,5 @@
 ---
-import { categoriaLabels, categoriaIcons, type CollectionName, } from "../lib/resources";
+import { categoriaLabels, type CollectionName } from "../lib/resources";
 import type { RecursoCompleto } from "../lib/resources";
 
 interface Props {
@@ -9,76 +9,27 @@ interface Props {
 
 const { categories, allResources } = Astro.props;
 
-// Count resources per category
-const categoryCounts: Record<CollectionName, number> = {} as Record<
-  CollectionName,
-  number
->;
-for (const cat of categories) {
-  categoryCounts[cat] = allResources.filter(
-    (r) => r.categoria === cat
-  ).length;
-}
+const counts = (cat: CollectionName) => allResources.filter((r) => r.categoria === cat).length;
+const activeCategories = categories.filter((c) => counts(c) > 0);
 
-const activeCategories: CollectionName[] = categories.filter(
-  (c) => categoryCounts[c] > 0
-);
+const btn =
+  "category-btn flex min-h-11 shrink-0 cursor-pointer items-center justify-between gap-3 whitespace-nowrap rounded-full border border-border px-4 text-left text-base font-medium text-text-muted transition-all hover:border-border-hover hover:text-text aria-selected:border-accent aria-selected:bg-accent-dimmed aria-selected:text-accent lg:w-full lg:rounded-l-none lg:rounded-r-xl lg:border-0 lg:border-l-[3px] lg:border-l-transparent lg:hover:bg-bg-card aria-selected:lg:border-l-accent";
 ---
 
-<section class="mx-auto max-w-7xl px-6 pb-4">
-<div class="flex flex-wrap items-center gap-x-3 gap-y-2 mb-4">
-  <h2 class="text-sm font-medium text-text-muted uppercase tracking-wider">
-    Categorías
-  </h2>
-  <div class="h-px flex-1 bg-border min-w-5"></div>
-  <div class="flex items-center gap-3 text-sm text-text-muted">
-    <span id="results-count" class="font-semibold text-accent tabular-nums">{allResources.length}</span>
-    <span>recursos</span>
-  </div>
-  <div class="flex items-center gap-2 text-sm text-text-muted">
-    <label for="sort-select" class="hidden sm:inline">Orden</label>
-    <select
-      id="sort-select"
-      class="rounded-lg border border-border bg-bg-card px-3 py-2 text-sm text-text-muted transition-all focus:border-accent focus:outline-none cursor-pointer"
-    >
-      <option value="alpha" selected>Alfabético</option>
-      <option value="reverse">Orden inverso</option>
-    </select>
-  </div>
-</div>
-
-  <div id="category-filters" class="flex flex-wrap gap-2" role="tablist">
-    <button
-      data-category="all"
-      role="tab"
-      aria-selected="true"
-      class="category-btn active inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm font-medium transition-all cursor-pointer border-accent bg-accent-dimmed text-accent"
-    >
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <rect x="3" y="3" width="7" height="7"></rect>
-        <rect x="14" y="3" width="7" height="7"></rect>
-        <rect x="14" y="14" width="7" height="7"></rect>
-        <rect x="3" y="14" width="7" height="7"></rect>
-      </svg>
+<aside id="categorias" aria-label="Categorías" class="lg:sticky lg:top-24 lg:w-60 lg:shrink-0">
+  <h2 class="mb-4 hidden font-mono text-xs uppercase tracking-[0.12em] text-text-dimmed lg:block">Categorías</h2>
+  <div id="category-filters" class="-mx-6 flex gap-2 overflow-x-auto px-6 pb-2 lg:mx-0 lg:flex-col lg:gap-0.5 lg:overflow-visible lg:px-0 lg:pb-0" role="tablist">
+    <button data-category="all" role="tab" aria-selected="true" class={btn}>
       Todos
-      <span class="rounded-md bg-accent/20 px-1.5 py-0.5 text-xs font-semibold tabular-nums">{allResources.length}</span>
+      <span class="font-mono text-xs tabular-nums">{allResources.length}</span>
     </button>
-
     {
       activeCategories.map((cat) => (
-        <button
-          data-category={cat}
-          role="tab"
-          aria-selected="false"
-          class="category-btn inline-flex items-center gap-2 rounded-lg border px-3 py-2 text-sm font-medium transition-all cursor-pointer border-border text-text-muted hover:border-border-hover hover:text-text hover:bg-bg-surface"
-        >
-          <span set:html={categoriaIcons[cat] || ""} />
+        <button data-category={cat} role="tab" aria-selected="false" class={btn}>
           {categoriaLabels[cat] || cat}
-          <span class="rounded-md bg-bg-surface px-1.5 py-0.5 text-xs tabular-nums">
-            {categoryCounts[cat]}
-          </span>
+          <span class="font-mono text-xs tabular-nums">{counts(cat)}</span>
         </button>
       ))
     }
   </div>
-</section>
+</aside>

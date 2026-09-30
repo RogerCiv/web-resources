@@ -1,80 +1,69 @@
 ---
 interface Props {
   totalResources: number;
+  names: string[];
 }
-const { totalResources } = Astro.props;
+const { totalResources, names } = Astro.props;
 ---
 
-<section class="relative overflow-hidden">
-  <!-- Subtle glow -->
+<section class="relative mx-auto max-w-7xl px-6 pt-16 pb-20">
   <div
-    class="pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 h-[300px] w-[600px] rounded-full bg-accent/5 blur-[120px]"
+    class="spin-slow absolute right-6 top-10 hidden h-44 w-44 rotate-[-12deg] items-center justify-center rounded-full bg-accent text-center text-bg lg:flex"
+    aria-hidden="true"
   >
-  </div>
-
-  <div
-    class="relative mx-auto max-w-7xl px-6 pt-20 pb-12 text-center"
-  >
-    <div
-      class="mb-6 inline-flex items-center gap-2 rounded-full border border-accent-border bg-accent-dimmed px-4 py-1.5"
-    >
-      <span class="h-1.5 w-1.5 rounded-full bg-accent animate-pulse"></span>
-      <span class="text-sm font-medium text-accent"
-        >{totalResources} recursos disponibles</span
-      >
+    <div class="font-display font-extrabold leading-[0.9]">
+      <div class="text-6xl tracking-tighter">{totalResources}</div>
+      <div class="mt-1 text-sm">recursos curados</div>
     </div>
-
-    <h1
-      class="mx-auto max-w-3xl text-4xl font-bold leading-tight tracking-tight text-text sm:text-5xl lg:text-6xl text-balance"
-    >
-      Todo lo que necesitas para
-      <span
-        class="bg-linear-to-r from-accent to-accent-hover bg-clip-text text-transparent"
-        >{" "}desarrollar la web</span
-      >
-    </h1>
-
-    <p
-      class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-text-muted text-pretty"
-    >
-      Directorio curado de frameworks, herramientas, APIs y recursos esenciales
-      para potenciar tu flujo de trabajo como desarrollador.
-    </p>
-
-    <!-- Search -->
-    <search class="mx-auto mt-10 max-w-xl">
-      <div class="relative group">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="absolute left-4 top-1/2 -translate-y-1/2 text-text-dimmed transition-colors group-focus-within:text-accent"
-          aria-hidden="true"
-        >
-          <circle cx="11" cy="11" r="8"></circle>
-          <path d="m21 21-4.3-4.3"></path>
-        </svg>
-        <input
-          type="search"
-          id="search-input"
-          placeholder="Buscar recursos, frameworks, herramientas\u2026"
-          autocomplete="off"
-          class="w-full rounded-xl border border-border bg-bg-card py-3.5 pl-12 pr-4 text-text placeholder:text-text-dimmed transition-all focus:border-accent focus:bg-bg-card-hover focus:outline-none focus:ring-1 focus:ring-accent/30"
-        />
-        <kbd
-          class="absolute right-4 top-1/2 -translate-y-1/2 hidden rounded-md border border-border bg-bg-surface px-2 py-0.5 text-xs text-text-dimmed sm:inline-block"
-          >/</kbd
-        >
-      </div>
-    </search>
   </div>
+
+  <p class="inline-flex items-center gap-2.5 rounded-full border border-accent-border bg-accent-dimmed px-4 py-1.5 text-sm font-medium text-accent">
+    <span class="h-1.5 w-1.5 rounded-full bg-accent"></span>
+    Directorio para desarrolladores
+  </p>
+
+  <h1 class="mt-7 max-w-5xl font-display text-[clamp(3rem,9.5vw,8.5rem)] font-extrabold leading-[0.88] tracking-[-0.045em] text-text text-balance">
+    Todo lo que necesitas para
+    <span class="text-accent">desarrollar</span>
+    <span class="text-transparent [-webkit-text-stroke:2px_var(--color-text)]">la web.</span>
+  </h1>
+
+  <p class="mt-8 max-w-xl text-lg leading-relaxed text-text-muted text-pretty sm:text-xl">
+    Frameworks, herramientas, APIs y librerías elegidos a mano. Sin ruido, sin relleno: encuentra lo que buscas en segundos.
+  </p>
+
+  <search class="mt-10 max-w-3xl">
+    <label
+      for="search-input"
+      class="group flex cursor-text items-center gap-4 rounded-[20px] border border-border-hover bg-bg-card py-2.5 pr-3 pl-6 transition-all focus-within:border-accent focus-within:ring-[6px] focus-within:ring-accent/10"
+    >
+      <span class="sr-only">Buscar recursos</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0 text-accent" aria-hidden="true">
+        <circle cx="11" cy="11" r="8"></circle>
+        <path d="m21 21-4.3-4.3"></path>
+      </svg>
+      <input
+        type="search"
+        id="search-input"
+        placeholder="Busca Astro, Tailwind, Supabase…"
+        autocomplete="off"
+        class="min-w-0 flex-1 bg-transparent py-3.5 text-lg text-text placeholder:text-text-dimmed focus:outline-none sm:text-xl"
+      />
+      <kbd class="hidden rounded-lg border border-border-hover bg-bg-surface px-3 py-1.5 font-mono text-sm text-text-muted sm:inline-block">/</kbd>
+    </label>
+  </search>
 </section>
+
+<div
+  class="-mx-5 mb-4 -rotate-[1.2deg] overflow-hidden border-y border-border bg-accent text-bg"
+  aria-hidden="true"
+>
+  <div class="marquee-track flex whitespace-nowrap py-4 font-display text-3xl font-extrabold tracking-tight">
+    {[0, 1].map(() => names.map((n) => (
+      <span class="px-7">{n} <span class="pl-7 opacity-45">✦</span></span>
+    )))}
+  </div>
+</div>
 
 <script>
   // Focus search on "/" key
