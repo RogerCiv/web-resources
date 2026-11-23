@@ -1,0 +1,16 @@
+{
+  "id": "basklee",
+  "name": "Basklee",
+  "description": "CMS headless con API documentada para tiendas en línea, marketplaces con varios vendedores y blogs. Incluye un panel para gestionar catálogo, stock y pedidos.",
+  "categories": "tools",
+  "tags": [
+    "cms",
+    "headless",
+    "api",
+    "ecommerce",
+    "marketplace"
+  ],
+  "image": "https://basklee.com/favicon.ico",
+  "documentation": "https://basklee.com/es",
+  "price": "paid"
+}
