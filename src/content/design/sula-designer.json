@@ -1,0 +1,16 @@
+{
+  "id": "sula-designer",
+  "name": "Sula Designer",
+  "description": "Editor gratuito en el navegador para crear fondos animados con WebGL. Elige uno de los 33 shaders, cambia colores y movimiento con vista previa en vivo y copia un snippet para Webflow, Framer, React, Vue, Svelte o HTML. No necesita cuenta.",
+  "categories": "design",
+  "tags": [
+    "backgrounds",
+    "webgl",
+    "shaders",
+    "gradients",
+    "animation",
+    "generators"
+  ],
+  "documentation": "https://sula.ink/designer",
+  "price": "free"
+}
